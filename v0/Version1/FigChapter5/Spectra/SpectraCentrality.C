@@ -1,0 +1,381 @@
+{
+//=========Macro generated from canvas: c1/c1
+//=========  (Fri Jul 24 12:27:13 2015) by ROOT version5.34/30
+   TCanvas *c1 = new TCanvas("c1", "c1",10,45,700,500);
+   c1->Range(-1.275,-6.000867,11.475,-1.220981);
+   c1->SetFillColor(0);
+   c1->SetBorderMode(0);
+   c1->SetBorderSize(2);
+   c1->SetLogy();
+   c1->SetFrameBorderMode(0);
+   c1->SetFrameBorderMode(0);
+    c1->SetTickx(1);
+    c1->SetTicky(1);
+    gStyle->SetLineWidth(2);
+    
+    c1->SetBottomMargin(0.12);
+     c1->SetLeftMargin(0.12);
+
+    
+   Double_t xAxis1[12] = {0, 0.8, 1.4, 1.8, 2.2, 2.6, 3, 3.4, 3.8, 4.8, 5.8, 8}; 
+   
+   TH1D *hC_Xispectrum = new TH1D("hC_Xispectrum","",11, xAxis1);
+    hC_Xispectrum->SetBinContent(2,0.01253211);
+    hC_Xispectrum->SetBinContent(3,0.009928633);
+    hC_Xispectrum->SetBinContent(4,0.008334498);
+    hC_Xispectrum->SetBinContent(5,0.006140774);
+    hC_Xispectrum->SetBinContent(6,0.00395623);
+    hC_Xispectrum->SetBinContent(7,0.00239412);
+    hC_Xispectrum->SetBinContent(8,0.001440145);
+    hC_Xispectrum->SetBinContent(9,0.0007071219);
+    hC_Xispectrum->SetBinContent(10,0.0002151763);
+    hC_Xispectrum->SetBinContent(11,2.475319e-05);
+    hC_Xispectrum->SetBinError(2,0.0007261429);
+    hC_Xispectrum->SetBinError(3,0.0004813895);
+    hC_Xispectrum->SetBinError(4,0.000402127);
+    hC_Xispectrum->SetBinError(5,0.0003248545);
+    hC_Xispectrum->SetBinError(6,0.0002423506);
+    hC_Xispectrum->SetBinError(7,0.0001814209);
+    hC_Xispectrum->SetBinError(8,0.0001331553);
+    hC_Xispectrum->SetBinError(9,6.007868e-05);
+    hC_Xispectrum->SetBinError(10,3.031778e-05);
+    hC_Xispectrum->SetBinError(11,4.31673e-06);
+
+   hC_Xispectrum->SetMinimum(1e-08);
+   hC_Xispectrum->SetMaximum(0.3);
+   hC_Xispectrum->SetEntries(10);
+   
+   TPaveStats *ptstats = new TPaveStats(0.9511494,0.7758985,0.9798851,0.9365751,"brNDC");
+   ptstats->SetName("stats");
+   ptstats->SetBorderSize(1);
+   ptstats->SetFillColor(0);
+   ptstats->SetLineColor(0);
+   ptstats->SetTextAlign(12);
+   ptstats->SetTextColor(0);
+   ptstats->SetTextFont(42);
+   TText *text = ptstats->AddText("hC_Xispectrum");
+   text->SetTextSize(0.0369556);
+   text = ptstats->AddText("Entries = 10     ");
+   text = ptstats->AddText("Mean  =  1.927");
+   text = ptstats->AddText("RMS   = 0.8044");
+   ptstats->SetOptStat(1111);
+   ptstats->SetOptFit(0);
+   ptstats->Draw();
+   hC_Xispectrum->GetListOfFunctions()->Add(ptstats);
+   ptstats->SetParent(hC_Xispectrum);
+   hC_Xispectrum->SetLineColor(2);
+   hC_Xispectrum->SetMarkerColor(2);
+   hC_Xispectrum->SetMarkerStyle(20);
+   hC_Xispectrum->GetXaxis()->SetTitle("#it{p}_{T} (GeV/#it{c})");
+   hC_Xispectrum->GetXaxis()->SetRange(1,12);
+   hC_Xispectrum->GetXaxis()->SetLabelFont(42);
+   hC_Xispectrum->GetXaxis()->SetLabelSize(0.05);
+   hC_Xispectrum->GetXaxis()->SetTitleSize(0.05);
+   hC_Xispectrum->GetXaxis()->SetTitleFont(42);
+   hC_Xispectrum->GetYaxis()->SetTitle("1/#it{N}_{evt}d^{2}#it{N}/d#it{y}d#it{p}_{T} (GeV/#it{c})^{-1}");
+   hC_Xispectrum->GetYaxis()->SetLabelFont(42);
+   hC_Xispectrum->GetYaxis()->SetLabelSize(0.05);
+   hC_Xispectrum->GetYaxis()->SetTitleSize(0.05);
+   hC_Xispectrum->GetYaxis()->SetTitleFont(42);
+   hC_Xispectrum->GetZaxis()->SetLabelFont(42);
+   hC_Xispectrum->GetZaxis()->SetLabelSize(0.035);
+   hC_Xispectrum->GetZaxis()->SetTitleSize(0.035);
+   hC_Xispectrum->GetZaxis()->SetTitleFont(42);
+   hC_Xispectrum->Draw("");
+   
+   TPaveText *pt = new TPaveText(0.3513506,0.9315751,0.6486494,0.995,"blNDC");
+   pt->SetName("title");
+   pt->SetBorderSize(0);
+   pt->SetFillColor(0);
+   pt->SetFillStyle(0);
+   pt->SetTextFont(42);
+   text = pt->AddText("pPb #sqrt{s}= 5.02 TeV");
+   pt->Draw();
+   Double_t xAxis2[12] = {0, 0.8, 1.4, 1.8, 2.2, 2.6, 3, 3.4, 3.8, 4.8, 5.8, 8}; 
+   
+   TH1D *hC_Xispectrum1 = new TH1D("hC_Xispectrum1","pPb #sqrt{s}= 5.02 TeV",11, xAxis2);
+    hC_Xispectrum1->SetBinContent(2,0.009126239*0.5);
+    hC_Xispectrum1->SetBinContent(3,0.006598386*0.5);
+    hC_Xispectrum1->SetBinContent(4,0.004601481*0.5);
+    hC_Xispectrum1->SetBinContent(5,0.003187418*0.5);
+    hC_Xispectrum1->SetBinContent(6,0.001927761*0.5);
+    hC_Xispectrum1->SetBinContent(7,0.001181282*0.5);
+    hC_Xispectrum1->SetBinContent(8,0.0007095219*0.5);
+    hC_Xispectrum1->SetBinContent(9,0.0003336634*0.5);
+    hC_Xispectrum1->SetBinContent(10,9.275781e-05*0.5);
+    hC_Xispectrum1->SetBinContent(11,1.740534e-05*0.5);
+    hC_Xispectrum1->SetBinError(2,0.0005201864*0.5);
+    hC_Xispectrum1->SetBinError(3,0.0003445991*0.5);
+    hC_Xispectrum1->SetBinError(4,0.000253546*0.5);
+    hC_Xispectrum1->SetBinError(5,0.0002020476*0.5);
+    hC_Xispectrum1->SetBinError(6,0.0001469614*0.5);
+    hC_Xispectrum1->SetBinError(7,0.0001158002*0.5);
+    hC_Xispectrum1->SetBinError(8,8.315083e-05*0.5);
+    hC_Xispectrum1->SetBinError(9,3.631991e-05*0.5);
+    hC_Xispectrum1->SetBinError(10,1.706294e-05*0.5);
+    hC_Xispectrum1->SetBinError(11,3.831961e-06*0.5);
+
+   hC_Xispectrum1->SetMinimum(3e-06);
+   hC_Xispectrum1->SetMaximum(0.02);
+   hC_Xispectrum1->SetEntries(10);
+
+   Int_t ci;      // for color index setting
+   TColor *color; // for color definition with alpha
+   ci = TColor::GetColor("#ff9900");
+   hC_Xispectrum1->SetLineColor(ci);
+
+   ci = TColor::GetColor("#ff9900");
+   hC_Xispectrum1->SetMarkerColor(ci);
+   hC_Xispectrum1->SetMarkerStyle(21);
+   hC_Xispectrum1->GetXaxis()->SetTitle("p_{T} (GeV/c)");
+   hC_Xispectrum1->GetXaxis()->SetRange(1,12);
+   hC_Xispectrum1->GetXaxis()->SetLabelFont(42);
+   hC_Xispectrum1->GetXaxis()->SetLabelSize(0.035);
+   hC_Xispectrum1->GetXaxis()->SetTitleSize(0.035);
+   hC_Xispectrum1->GetXaxis()->SetTitleFont(42);
+   hC_Xispectrum1->GetYaxis()->SetTitle("1/N_{E}d^{2}N/dydp_{T} (GeV/c)^{-1}");
+   hC_Xispectrum1->GetYaxis()->SetLabelFont(42);
+   hC_Xispectrum1->GetYaxis()->SetLabelSize(0.035);
+   hC_Xispectrum1->GetYaxis()->SetTitleSize(0.035);
+   hC_Xispectrum1->GetYaxis()->SetTitleFont(42);
+   hC_Xispectrum1->GetZaxis()->SetLabelFont(42);
+   hC_Xispectrum1->GetZaxis()->SetLabelSize(0.035);
+   hC_Xispectrum1->GetZaxis()->SetTitleSize(0.035);
+   hC_Xispectrum1->GetZaxis()->SetTitleFont(42);
+   hC_Xispectrum1->Draw("same");
+   Double_t xAxis3[12] = {0, 0.8, 1.4, 1.8, 2.2, 2.6, 3, 3.4, 3.8, 4.8, 5.8, 8}; 
+   
+   TH1D *hC_Xispectrum2 = new TH1D("hC_Xispectrum2","pPb #sqrt{s}= 5.02 TeV",11, xAxis3);
+    hC_Xispectrum2->SetBinContent(2,0.005518025*0.25);
+    hC_Xispectrum2->SetBinContent(3,0.003833978*0.25);
+    hC_Xispectrum2->SetBinContent(4,0.002858396*0.25);
+    hC_Xispectrum2->SetBinContent(5,0.001820201*0.25);
+    hC_Xispectrum2->SetBinContent(6,0.001019743*0.25);
+    hC_Xispectrum2->SetBinContent(7,0.0006812218*0.25);
+    hC_Xispectrum2->SetBinContent(8,0.0003558875*0.25);
+    hC_Xispectrum2->SetBinContent(9,0.000200066*0.25);
+    hC_Xispectrum2->SetBinContent(10,8.614293e-05*0.25);
+    hC_Xispectrum2->SetBinContent(11,1.154892e-05*0.25);
+    hC_Xispectrum2->SetBinError(2,0.0003356478*0.25);
+    hC_Xispectrum2->SetBinError(3,0.0002267033*0.25);
+    hC_Xispectrum2->SetBinError(4,0.0001874616*0.25);
+    hC_Xispectrum2->SetBinError(5,0.0001442026*0.25);
+    hC_Xispectrum2->SetBinError(6,9.811431e-05*0.25);
+    hC_Xispectrum2->SetBinError(7,8.458681e-05*0.25);
+    hC_Xispectrum2->SetBinError(8,5.330984e-05*0.25);
+    hC_Xispectrum2->SetBinError(9,2.721924e-05*0.25);
+    hC_Xispectrum2->SetBinError(10,2.149124e-05*0.25);
+    hC_Xispectrum2->SetBinError(11,3.225137e-06*0.25);
+
+   hC_Xispectrum2->SetMinimum(3e-06);
+   hC_Xispectrum2->SetMaximum(0.02);
+   hC_Xispectrum2->SetEntries(10);
+
+   ci = TColor::GetColor("#009900");
+   hC_Xispectrum2->SetLineColor(ci);
+
+   ci = TColor::GetColor("#009900");
+   hC_Xispectrum2->SetMarkerColor(ci);
+   hC_Xispectrum2->SetMarkerStyle(22);
+    hC_Xispectrum2->SetMarkerSize(1.3);
+
+   hC_Xispectrum2->GetXaxis()->SetTitle("p_{T} (GeV/c)");
+   hC_Xispectrum2->GetXaxis()->SetRange(1,12);
+   hC_Xispectrum2->GetXaxis()->SetLabelFont(42);
+   hC_Xispectrum2->GetXaxis()->SetLabelSize(0.035);
+   hC_Xispectrum2->GetXaxis()->SetTitleSize(0.035);
+   hC_Xispectrum2->GetXaxis()->SetTitleFont(42);
+   hC_Xispectrum2->GetYaxis()->SetTitle("1/N_{E}d^{2}N/dydp_{T} (GeV/c)^{-1}");
+   hC_Xispectrum2->GetYaxis()->SetLabelFont(42);
+   hC_Xispectrum2->GetYaxis()->SetLabelSize(0.035);
+   hC_Xispectrum2->GetYaxis()->SetTitleSize(0.035);
+   hC_Xispectrum2->GetYaxis()->SetTitleFont(42);
+   hC_Xispectrum2->GetZaxis()->SetLabelFont(42);
+   hC_Xispectrum2->GetZaxis()->SetLabelSize(0.035);
+   hC_Xispectrum2->GetZaxis()->SetTitleSize(0.035);
+   hC_Xispectrum2->GetZaxis()->SetTitleFont(42);
+   hC_Xispectrum2->Draw("same");
+   Double_t xAxis4[12] = {0, 0.8, 1.4, 1.8, 2.2, 2.6, 3, 3.4, 3.8, 4.8, 5.8, 8}; 
+   
+   TH1D *hC_Xispectrum3 = new TH1D("hC_Xispectrum3","pPb #sqrt{s}= 5.02 TeV",11, xAxis4);
+    hC_Xispectrum3->SetBinContent(2,0.001888425*0.125);
+    hC_Xispectrum3->SetBinContent(3,0.001381956*0.125);
+    hC_Xispectrum3->SetBinContent(4,0.0009513216*0.125);
+    hC_Xispectrum3->SetBinContent(5,0.0005957982*0.125);
+    hC_Xispectrum3->SetBinContent(6,0.0003204236*0.125);
+    hC_Xispectrum3->SetBinContent(7,0.0001801827*0.125);
+    hC_Xispectrum3->SetBinContent(8,0.000107335*0.125);
+    hC_Xispectrum3->SetBinContent(9,4.777176e-05*0.125);
+    hC_Xispectrum3->SetBinContent(10,1.260632e-05*0.125);
+    hC_Xispectrum3->SetBinContent(11,2.311455e-06*0.125);
+    hC_Xispectrum3->SetBinError(2,0.0001191325*0.125);
+    hC_Xispectrum3->SetBinError(3,8.811934e-05*0.125);
+    hC_Xispectrum3->SetBinError(4,6.961672e-05*0.125);
+    hC_Xispectrum3->SetBinError(5,5.390131e-05*0.125);
+    hC_Xispectrum3->SetBinError(6,3.595601e-05*0.125);
+    hC_Xispectrum3->SetBinError(7,2.506369e-05*0.125);
+    hC_Xispectrum3->SetBinError(8,2.08975e-05*0.125);
+    hC_Xispectrum3->SetBinError(9,8.438185e-06*0.125);
+    hC_Xispectrum3->SetBinError(10,3.555221e-06*0.125);
+    hC_Xispectrum3->SetBinError(11,7.461587e-07*0.125);
+
+   hC_Xispectrum3->SetMinimum(3e-06);
+   hC_Xispectrum3->SetMaximum(0.02);
+   hC_Xispectrum3->SetEntries(10);
+   hC_Xispectrum3->SetLineColor(4);
+   hC_Xispectrum3->SetMarkerColor(4);
+   hC_Xispectrum3->SetMarkerStyle(23);
+    hC_Xispectrum3->SetMarkerSize(1.3);
+
+   hC_Xispectrum3->GetXaxis()->SetTitle("p_{T} (GeV/c)");
+   hC_Xispectrum3->GetXaxis()->SetRange(1,12);
+   hC_Xispectrum3->GetXaxis()->SetLabelFont(42);
+   hC_Xispectrum3->GetXaxis()->SetLabelSize(0.035);
+   hC_Xispectrum3->GetXaxis()->SetTitleSize(0.035);
+   hC_Xispectrum3->GetXaxis()->SetTitleFont(42);
+   hC_Xispectrum3->GetYaxis()->SetTitle("1/N_{E}d^{2}N/dydp_{T} (GeV/c)^{-1}");
+   hC_Xispectrum3->GetYaxis()->SetLabelFont(42);
+   hC_Xispectrum3->GetYaxis()->SetLabelSize(0.035);
+   hC_Xispectrum3->GetYaxis()->SetTitleSize(0.035);
+   hC_Xispectrum3->GetYaxis()->SetTitleFont(42);
+   hC_Xispectrum3->GetZaxis()->SetLabelFont(42);
+   hC_Xispectrum3->GetZaxis()->SetLabelSize(0.035);
+   hC_Xispectrum3->GetZaxis()->SetTitleSize(0.035);
+   hC_Xispectrum3->GetZaxis()->SetTitleFont(42);
+   hC_Xispectrum3->Draw("same");
+    
+    double factormb = 8.;
+    TH1D *h_XiStarSpectrumNSD = new TH1D("h_XiStarSpectrumNSD","",11, xAxis1);
+    h_XiStarSpectrumNSD->SetBinContent(2,0.00621827*factormb);
+    h_XiStarSpectrumNSD->SetBinContent(3,0.004707729*factormb);
+    h_XiStarSpectrumNSD->SetBinContent(4,0.003530267*factormb);
+    h_XiStarSpectrumNSD->SetBinContent(5,0.002466814*factormb);
+    h_XiStarSpectrumNSD->SetBinContent(6,0.001513987*factormb);
+    h_XiStarSpectrumNSD->SetBinContent(7,0.000920372*factormb);
+    h_XiStarSpectrumNSD->SetBinContent(8,0.0005446493*factormb);
+    h_XiStarSpectrumNSD->SetBinContent(9,0.0002699974*factormb);
+    h_XiStarSpectrumNSD->SetBinContent(10,8.227952e-05*factormb);
+    h_XiStarSpectrumNSD->SetBinContent(11,1.192223e-05*factormb);
+    h_XiStarSpectrumNSD->SetBinError(2,0.0003334604*factormb);
+    h_XiStarSpectrumNSD->SetBinError(3,0.0002156559*factormb);
+    h_XiStarSpectrumNSD->SetBinError(4,0.0001614337*factormb);
+    h_XiStarSpectrumNSD->SetBinError(5,0.0001238816*factormb);
+    h_XiStarSpectrumNSD->SetBinError(6,8.788677e-05*factormb);
+    h_XiStarSpectrumNSD->SetBinError(7,6.598878e-05*factormb);
+    h_XiStarSpectrumNSD->SetBinError(8,4.719145e-05*factormb);
+    h_XiStarSpectrumNSD->SetBinError(9,2.153426e-05*factormb);
+    h_XiStarSpectrumNSD->SetBinError(10,1.099169e-05*factormb);
+    h_XiStarSpectrumNSD->SetBinError(11,1.924534e-06*factormb);
+    h_XiStarSpectrumNSD->SetMinimum(1e-06);
+    h_XiStarSpectrumNSD->SetMaximum(0.05);
+    h_XiStarSpectrumNSD->SetEntries(10);
+    
+    Int_t ci;      // for color index setting
+    TColor *color; // for color definition with alpha
+    ci = TColor::GetColor("#000099");
+    h_XiStarSpectrumNSD->SetLineColor(ci);
+    h_XiStarSpectrumNSD->SetMarkerStyle(24);
+    h_XiStarSpectrumNSD->GetXaxis()->SetTitle("#it{p}_{T} (GeV/#it{c})");
+    h_XiStarSpectrumNSD->GetXaxis()->SetRange(1,12);
+    h_XiStarSpectrumNSD->GetXaxis()->SetLabelFont(42);
+    h_XiStarSpectrumNSD->GetXaxis()->SetLabelSize(0.05);
+    h_XiStarSpectrumNSD->GetXaxis()->SetTitleSize(0.05);
+    h_XiStarSpectrumNSD->GetXaxis()->SetTitleOffset(1.1);
+    h_XiStarSpectrumNSD->GetXaxis()->SetTitleFont(42);
+    h_XiStarSpectrumNSD->GetYaxis()->SetTitle("1/#it{N}_{evt}d^{2}#it{N}/(d#it{y}d#it{p}_{T}) [(GeV/#it{c})^{-1}]");
+    h_XiStarSpectrumNSD->GetYaxis()->SetLabelFont(42);
+    h_XiStarSpectrumNSD->GetYaxis()->SetLabelSize(0.05);
+    h_XiStarSpectrumNSD->GetYaxis()->SetTitleSize(0.05);
+    h_XiStarSpectrumNSD->GetYaxis()->SetTitleOffset(1.1);
+    h_XiStarSpectrumNSD->GetYaxis()->SetTitleFont(42);
+    h_XiStarSpectrumNSD->GetZaxis()->SetLabelFont(42);
+    h_XiStarSpectrumNSD->GetZaxis()->SetLabelSize(0.035);
+    h_XiStarSpectrumNSD->GetZaxis()->SetTitleSize(0.035);
+    h_XiStarSpectrumNSD->GetZaxis()->SetTitleFont(42);
+    h_XiStarSpectrumNSD->Draw("same");
+
+    
+    
+    TLegend *leg = new TLegend(0.6,0.6131078,0.88,0.88,NULL,"brNDC");
+    leg->SetBorderSize(1);
+    leg->SetTextSize(0.04);
+    leg->SetLineColor(0);
+    leg->SetLineStyle(1);
+    leg->SetLineWidth(1);
+    leg->SetFillColor(0);
+    leg->SetFillStyle(1001);
+    TLegendEntry *entry=leg->AddEntry("NULL","0-20%","lp");
+    entry->SetLineColor(2);
+    entry->SetLineStyle(1);
+    entry->SetLineWidth(1);
+    entry->SetMarkerColor(2);
+    entry->SetMarkerStyle(20);
+    entry->SetMarkerSize(1);
+    entry->SetTextFont(42);
+    entry=leg->AddEntry("hC_Xispectrum1","20-40% (x1/2)","lp");
+    
+    ci = TColor::GetColor("#ff9900");
+    entry->SetLineColor(ci);
+    entry->SetLineStyle(1);
+    entry->SetLineWidth(1);
+    
+    ci = TColor::GetColor("#ff9900");
+    entry->SetMarkerColor(ci);
+    entry->SetMarkerStyle(20);
+    entry->SetMarkerSize(1);
+    entry->SetTextFont(42);
+    entry=leg->AddEntry("hC_Xispectrum2","40-60% (x1/4)","lp");
+    
+    ci = TColor::GetColor("#009900");
+    entry->SetLineColor(ci);
+    entry->SetLineStyle(1);
+    entry->SetLineWidth(1);
+    
+    ci = TColor::GetColor("#009900");
+    entry->SetMarkerColor(ci);
+    entry->SetMarkerStyle(20);
+    entry->SetMarkerSize(1);
+    entry->SetTextFont(42);
+    entry=leg->AddEntry("hC_Xispectrum3","60-100% (x1/8)","lp");
+    entry->SetLineColor(4);
+    entry->SetLineStyle(1);
+    entry->SetLineWidth(1);
+    entry->SetMarkerColor(4);
+    entry->SetMarkerStyle(20);
+    entry->SetMarkerSize(1);
+    entry->SetTextFont(42);
+    leg->Draw();
+    entry=leg->AddEntry("h_XiStarSpectrumNSD","NSD (x 8)","lp");
+    entry->SetLineColor(4);
+    entry->SetLineStyle(1);
+    entry->SetLineWidth(1);
+    entry->SetMarkerColor(4);
+    entry->SetMarkerStyle(20);
+    entry->SetMarkerSize(1);
+    entry->SetTextFont(42);
+    leg->Draw();
+    tex = new TLatex(0.15,0.29,"ALICE, p-Pb, #sqrt{s_{NN}} = 5.02 TeV");
+    tex->SetNDC();
+    tex->SetTextFont(42);
+    tex->SetTextSize(0.045);
+    tex->SetLineWidth(2);
+    tex->Draw();
+    tex = new TLatex(0.15,0.22,"-0.5 < #it{y}_{CMS} < 0");
+    tex->SetNDC();
+    tex->SetTextAlign(12);
+    tex->SetTextFont(42);
+    tex->SetTextSize(0.045);
+    tex->SetLineWidth(2);
+    tex->Draw();
+    tex = new TLatex(0.15,0.15,"Statistical error only");
+    tex->SetNDC();
+    tex->SetTextAlign(12);
+    tex->SetTextFont(42);
+    tex->SetTextSize(0.045);
+    tex->SetLineWidth(2);
+    tex->Draw();
+
+   c1->Modified();
+   c1->cd();
+   c1->SetSelected(c1);
+}

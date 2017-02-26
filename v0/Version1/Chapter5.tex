@@ -1,0 +1,561 @@
+\section{Measurement of \xis production in p--Pb}\label{sec:pPb}
+The measurement of resonance production in p--Pb collisions helps to disentangle cold nuclear matter effects from genuine hot medium effects and contribute to the study of the system size dependence of re-scattering in the hadronic phase. In order to study the particle production mechanism, the \xis resonance production at mid-rapidity($-0.5<y_{\mathrm{CMS}}<0$) is measured in p--Pb collisions \snn = 5.02  TeV with the ALICE experiment, via the reconstruction of its hadronic decay into $\Xi\pi$.
+
+\subsection{\xis-reconstruction}\label{sec:pPb:Reconstruction}
+The \xiss production in p--Pb collisionsat \snn = 5.02 TeV  at mid-rapidity has been studied in different multiplicity classes, from very central to peripheral collisions. The analysis strategy is based on the invariant mass study of the reconstructed pairs (referred to as the candidates) whose provenance could be the decay of a \xiss baryon into charged particles. The decay products (also called daughters in the text) are identified as oppositely charged $\Xi$ and $\pi$ among the tracks reconstructed in the central barrel. The event selection, track selection and the particle identification strategy is described. The raw signal yield is extracted by fitting the background-subtracted invariant mass distribution in several transverse momentum intervals. In order to extract the \pt-dependent cross section, these yields are corrected for efficiency. The \pt-dependent correction due to the detector acceptance and reconstruction efficiency, (Acc $\times$ $\epsilon_{rec}$)(pt), is computed from a Monte Carlo simulation. The absolute normalisation is then performed, by dividing for the number of the events in each multiplicity classes.
+
+
+\subsubsection{Data sample and event selection}\label{sec:pPb:Selection}
+
+
+A description of the ALICE detector and of its performance during the LHC Run 1 (2010--2013)
+can be found in \cite{cite:ALICE, cite:ALICEPerformance}. The data sample was recorded during the LHC p--Pb run at \snn = 5.02 TeV in 2013. Due to the asymmetric energies of the proton (4 TeV) and lead ion (1.57 A TeV) beams, the centre-of-mass system in the nucleon-nucleon frame is shifted in rapidity by $\Delta y_{\mathrm{NN}}$ = 0.465 towards the 
+direction of the proton beam with respect to the laboratory frame of the ALICE detector \cite{cite:KphipPb}. 
+For the analysed p--Pb data set, the direction of the proton beam was towards the ALICE muon spectrometer,
+the so-called ``C'' side, standing for negative rapidities; conversely, the Pb beam circulated towards 
+positive rapidities, labelled as ``A'' side in the following. The analysis in this paper was carried out at midrapidity, 
+in the rapidity window $-0.5 < y_{\mathrm{CMS}} <$ 0.
+
+The minimum-bias trigger during the p--Pb run was configured to select events by requiring a logical OR 
+of signals in V0A and V0C \cite{cite:ALICEPerformance}, two arrays of 32 scintillator detectors 
+covering the full azimuthal angle in the pseudo-rapidity regions 2.8 $< \eta_{\mathrm{lab}} <$ 5.1 and 
+$-3.7 < \eta_{\mathrm{lab}} < -1.7$, respectively~\cite{cite:rapidity}. In the data analysis it was required to 
+have a coincidence of signals in both V0A and V0C in order to reduce the contamination 
+from single-diffractive and electromagnetic interactions. This left only Non-Single Diffractive (NSD) events, 
+which amount for a total of 109.3 million events, in the Minimum-Bias sample($\sim$ 111.1 million events) corresponding 
+to an integrated luminosity of about 50 $\mu$b$^{-1}$. Out of this sample, 93.9$\times$10$^{6}$ events satisfy the following selection criteria and have been actually used for the analysis:
+
+\begin{itemize}
+\item Events with z-coordinate of primary vertex (Vz) falling within $\pm$ 10 cm from the interaction point  
+\item Rejection of pile-up event 
+\item Requiring primary tracks to have at least one hit in one of the two innermost layers of the ITS (silicon pixel detector, SPD) 
+\item multiplicity ranges in percentile (V0A): 0-20\%, 20-40\%, 40-60\%, 60-100\% and MB 
+\end{itemize}
+
+The distribution of the vertex z position of the accepted events is reported in fig. \ref{fig:VzDistribution}. Events with $|$V$_{z}|<$10 cm have been used to ensure a uniform acceptance in the central pseudo-rapidity region, $|\eta|<$0.8, where the analysis is performed. This cut reduces the total number of events to 97.5$\times$10$^{6}$, that is the $\sim$87.8\% of the initial sample. The number of events before and after the each event selection stages are written in Table \ref{table:NEvent}.  Fig. \ref{fig:Centrality} shows the multiplicity distribution of the accepted events divided in bins of percentile. The each colours on the histogram indicate the multiplicity ranges used in this analysis. Corresponding events for each multiplicity range are in Table \ref{table:NCentralityEvent}. 
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=10.cm]{./Version1/FigChapter5/Selection/VertexZ.eps}
+\caption{Vertex-z coordinate distribution of the accepted events in full multiplicity range 0-100\%. The red dashed line indicates vertex cut }
+\label{fig:VzDistribution}
+\end{center}
+\end{figure}
+
+\begin{table}[htp]
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+Event selection stage & number of events & percentage\\
+\hline
+\hline
+Original number of events &111.1 $\times$ 10 $^{6}$ &100.0\% \\
+\hline
+Number of triggered events (kINT7) &109.3 $\times$ 10 $^{6}$ &98.4\% \\
+\hline
+Events after PV position cut ($|$Vz$|$ $<$ 10 cm) & 97.5 $\times$ 10 $^{6}$ &87.8\% \\
+\hline
+Events after reject pile-up& 94.5 $\times$ 10 $^{6}$& 85.1\%\\
+\hline
+Events after number of SPD cluster cut ($\geq 1$)& 93.9 $\times$ 10 $^{6}$ &84.5\% \\
+\hline
+\end{tabular}
+\caption{Number of events at different selection stages.}\label{table:NEvent}
+\end{center}
+\end{table}
+
+
+
+
+
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=10.cm]{./Version1/FigChapter5/Selection/Centrality.eps}
+\caption{ Multiplicity distribution of accepted events in percentile. The each color and labels define the four intervals in which the analysis in performed.}
+\label{fig:Centrality}
+\end{center}
+\end{figure}
+
+
+
+\begin{table}[htp]
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+multiplicity & number of events\\
+\hline
+\hline
+ 0-20\% &21.82 $\times$ 10 $^{6}$\\
+\hline
+ 20-40\% &21.86 $\times$ 10 $^{6}$\\
+\hline
+ 40-60\% &21.91 $\times$ 10 $^{6}$\\
+\hline
+ 60-100\% &43.68 $\times$ 10 $^{6}$\\
+\hline
+\end{tabular}
+\caption{Number of accepted and analysed events per multicity interval}\label{table:NCentralityEvent}
+\end{center}
+\end{table}
+
+
+\newpage
+\subsubsection{Track and topological selection}\label{sec:pPb:Cut}
+
+In comparison with the $\Xi^{*0}$ analysis carried out in pp collisions 
+at $\sqrt{s}$ = 7 TeV~\cite{cite:Xi_pp}, track and topological selections were revised 
+and adapted to the p--Pb dataset. Pions from strong decays of $\Xi^{*0}$ were selected
+according to the criteria for primary tracks. As summarized in Table~\ref{tab:primary_selections}, 
+all charged tracks were selected with \pt $>$ 0.15~ \gmom~ and $|\eta_{\mathrm{lab}}| <0.8$, as 
+described in Ref.~\cite{cite:ALICEPerformance}. The primary tracks were chosen with the Distance of 
+Closest Approach (DCA) to PV of less than 2 cm along the longitudinal direction (DCA$_z$)  and lower 
+than 7$\sigma_r$ in the transverse plane (DCA$_r$), where $\sigma_r$ is the resolution of DCA$_r$. The 
+$\sigma_r$ is strongly \pt-dependent and lower than 100 $\mu$m for 
+$\pt >$~0.5~\gmom~\cite{cite:ALICEPerformance}. To ensure a good track reconstruction quality, 
+candidate tracks were required to have at least one hit in one of the two innermost layers (SPD) of 
+the ITS and to have at least 70 reconstructed points in the Time Projection Chamber (TPC), out of a 
+maximum of 159. The Particle IDentification (PID) criteria for all decay daughters are based on the requirement 
+that the specific energy loss (d$E$/d$x$) is measured in the TPC within three standard deviations 
+($\sigma_\mathrm{TPC}$) from the expected value (d$E$/d$x_{\rm{exp}}$), computed using a Bethe-Bloch 
+parametrization~\cite{cite:ALICEPerformance}.
+\begin{table}[h!]
+\centering
+\begin{tabular}{lll}
+\hline
+
+Common track &  $|\eta_{\mathrm{lab}}|$ & $<0.8$ \\
+ selections & \pt & $> 0.15$ GeV/$c$ \\
+& PID $|$(d$E/$d$x)-$(d$E/$d$x)_{\rm{exp}}|$ & $<3$~$\sigma_{\rm{TPC}}$ \\
+\hline \noalign{\smallskip}
+
+Primary track& DCA$_z$ to PV         & $<2$ cm \\
+ selections & DCA$_r$ to PV         & $<7\sigma_r$ ($p_\mathrm{T}$) \\
+& number of SPD points & $\geq 1$ \\
+& number of TPC points & $>70$ \\
+& $\chi^{2}$ per cluster & $<4$ \\
+\hline\noalign{\smallskip}
+\noalign{\smallskip}
+\end{tabular}
+\caption{Track selections common to all decay daughters and primary track selections applied 
+to the charged pions from decays of $\Xi^{*0}$.}  
+\label{tab:primary_selections}     \end{table}
+
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=14.cm]{./Version1/FigChapter5/Selection/sketch.eps}
+\caption{ Sketch of the decay modes for $\Xi^{*0}$ (right) and depiction of the track and topological selection criteria.}
+\label{fig:decay}
+\end{center}
+\end{figure}
+
+Since pions and protons from weak decay of $\Lambda$ ($ \cL \tau = 7.89$ cm~\cite{cite:PDG}) and 
+pions from weak decay of $\Xi^{-}$ ($ \cL \tau = 4.91$ cm~\cite{cite:PDG}) are produced away from the PV, 
+specific topological and track selection criteria, as summarized in Table~\ref{tab:selections}, were 
+applied~\cite{ cite:Xi_pPb,cite:Xi_pp,cite:lambda_pp}.
+
+
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{lll}
+\hline\noalign{\smallskip}
+Topological cuts & $\Xi^{*0}$ \\
+\hline
+DCA$_r$ of $\Lambda$ decay products to PV   & $>0.06$ cm\\
+DCA between $\Lambda$ decay products   & $<1.4$ cm\\
+DCA of $\Lambda$ to PV                   & $>0.015$  cm\\
+cos$\theta_\Lambda$ & $>0.875$  \\
+$r(\Lambda)$          & 0.2 $<r(\Lambda)<$ 100 cm      \\
+$|M_{p\pi} - m_\Lambda|$        & $<$ 7 \mmass  \\
+DCA$_r$ of pion (from $\Xi^{-}$) to PV     & $>0.015$ cm \\
+DCA between $\Xi^{-}$ decay products  & $<1.9$ cm\\
+cos$\theta_\Xi$     & $>0.981$    \\
+$r(\Xi^-)$            & 0.2 $<r(\Xi^-)<$ 100 cm         \\
+$|M_{\Lambda\pi} - m_\Xi|$        &  $<$ 7 \mmass     \\
+\hline
+\end{tabular}
+\caption{Topological and track selection criteria.}
+\label{tab:selections}. 
+\end{table}
+
+In the analysis of $\Xi^{*0}$, $\Lambda$ and $\pi$ from $\Xi^{-}$ were 
+selected with a DCA of less than 1.9~cm and with a DCA$_r$ to the PV greater than 0.015 cm. 
+The $\Lambda$ daughter particles ($\pi$ and p) were required to have a DCA$_r$ to the PV greater 
+than 0.06 cm, while the DCA between the two particles was required to be less than 1.4 cm. Cuts on 
+the invariant mass, the cosine of the pointing angle ($\theta_\Lambda$, $\theta_\Xi$) and the radius of 
+the fiducial volume ($r(\Lambda)$, $r(\Xi)$) in Table~\ref{tab:selections} were applied to optimize 
+the balance of purity and efficiency of each particle sample. 
+
+
+\newpage
+\subsubsection{Particle identification}\label{sec:pPb:PID}
+PID selection criteria are applied for
+ 
+ \begin{enumerate}
+\item $\pi^{\pm}$ (last emitted $\pi$) and proton from $\Lambda$
+\item $\pi^{\pm}$ (second emitted $\pi$)   from $\Xi^{\pm}$
+\item $\pi^{\pm}$ (first emitted $\pi$) from  $\Xi$(1530)$^{0}$
+\end{enumerate}
+ by using TPC. On TPC dE/dx versus momentum distribution, 3$\sigma$ cuts are applied to TPC for selecting each of the particles. TheTPC $\mathrm{d}E/\mathrm{d}x$ selection allows to have better signal with $\sim$20\% increase of significance. 
+  
+ 
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=7.0cm]{./Version1/FigChapter5/Selection/TPC3rdPion.eps}
+\hspace{0.5cm}
+\includegraphics[width=7.0cm]{./Version1/FigChapter5/Selection/TPC3rdPionAfter.eps}
+\label{fig:TPCpionFirstEmitted} 
+\caption{ TPC $\mathrm{d}E/\mathrm{d}x$ as function of transverse momentum for total (top) and selected first emitted $\pi$ in 3$\sigma$ (bottom) }
+\end{center}
+\end{figure}
+
+ 
+ \begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=7.0cm]{./Version1/FigChapter5/Selection/TPC2ndPion.eps}
+\hspace{0.5cm}
+\includegraphics[width=7.0cm]{./Version1/FigChapter5/Selection/TPC2ndPionAfter.eps}
+\label{fig:TPCpionSecondEmitted} 
+\caption{ TPC $\mathrm{d}E/\mathrm{d}x$ as function of transverse momentum for total (top) and selected second emitted $\pi$ in 3$\sigma$(bottom) }
+\end{center}
+\end{figure}
+
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=7.0cm]{./Version1/FigChapter5/Selection/TPC1stPion.eps}
+\hspace{0.5cm}
+\includegraphics[width=7.0cm]{./Version1/FigChapter5/Selection/TPC1stPionAfter.eps}
+\label{fig:TPCpionLastEmitted} 
+\caption{ TPC $\mathrm{d}E/\mathrm{d}x$ as function of transverse momentum for total (top) and selected last emitted $\pi$ in 3$\sigma$(bottom) }
+\end{center}
+\end{figure}
+
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=7.0cm]{./Version1/FigChapter5/Selection/TPCp.eps}
+\hspace{0.5cm}
+\includegraphics[width=7.0cm]{./Version1/FigChapter5/Selection/TPCpAfter.eps}
+\label{fig:TPCp} 
+\caption{ TPC $\mathrm{d}E/\mathrm{d}x$ as function of transverse momentum for total (top) and selected proton in 3$\sigma$(bottom) }
+\end{center}
+\end{figure}
+ 
+\newpage
+\subsubsection{Signal extraction}\label{sec:pPb:signal}
+
+The $\Xi^{*0}$ signals were reconstructed by invariant-mass analysis 
+of candidates for the decay products in each transverse momentum interval of the resonance 
+particle, and for each multiplicity class. The  $\Xi^-\pi^+$($\Xi^+\pi^-$) invariant mass distribution is reported in Figure \ref{fig:sigpPbb} for semi-central events (20-40\%) and resonance in the range 1.8$<$\pt$<$2.2 \gmom.
+
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=12.0cm]{./Version1/FigChapter5/Extraction/SigpPb_Before.eps}
+\hspace{0.5cm}
+\label{fig:sigpPbb} 
+\caption{ The $\Xi^{\mp}\pi^{\pm}$ invariant mass distribution (Same-event pairs) in 
+1.8$<$ \pt $<$2.2~\gmom~and for the multiplicity class 20-40\%. The background shape, 
+using pairs from different events (Mixed-event background), is normalised to the counts in 
+1.49~$<$~$M_{\Xi\pi}$~$<$~1.51~\Gmass~and 1.56~$<$~$M_{\Xi\pi}$~$<$~1.58~\Gmass. }
+\end{center}
+\end{figure}
+
+Since the resonance decay products originate from a position which is indistinguishable from the PV,
+a significant combinatorial background is present. In order to extract \xis signal it is necessary to remove or, at least reduce, the combinatorial background. For this analysis, this has been done with the event mixing (EM) technique, by combining uncorrelated decay products  20 different events. The events for the mixing have been selected by applying the similarity criteria to minimise distortions due to different 
+acceptances and to ensure a similar event structure, only tracks from events with similar vertex 
+positions $z$ ($|\Delta z| <$ 1 cm) and track multiplicities $n$ ($|\Delta n|<$ 10) were taken.
+
+The mixed-event background distributions were normalised to two fixed regions, 
+\linebreak 1.49~$<$~$M_{\Xi\pi}$~$<$~1.51~\Gmass~and 1.56$<$~$M_{\Xi\pi}$~$<$~1.58~\Gmass,
+~around the $\Xi^{*0}$ mass peak (Fig.~\ref{fig:sigpPbb}). These regions were used 
+for all \pt intervals and multiplicity classes, because the background shape is reasonably well 
+reproduced in these regions and the invariant-mass resolution of the reconstructed peaks appears stable, 
+independently of \pt. The uncertainty on the normalisation was estimated by varying the normalisation regions and is included in the quoted systematic uncertainty for the signal extraction (Section \ref{sec:pPb:sys}).
+
+After the background subtraction, the resulting distribution is shown in Figure \ref{fig:sigpPba}. In order to obtain raw yields, a combined fit of a first-order polynomial for the residual background and a Voigtian function (a convolution of a Breit-Wigner and a Gaussian function accounting for the detector resolution) for the signal was used. The mathematical form of fit function used in anaysis is: 
+
+\begin{equation}
+f(M_{\Xi\pi})= \frac{Y}{2\pi}  \frac{\Gamma_{0}}{(M_{\Xi\pi}-M_{0})^2+\frac{\Gamma_{0}^{2}}{4}} \frac{e^{-(M_{\Xi\pi}-M_{0})/2\sigma^{2}}}{\sigma\sqrt{2\pi}} + bg(M_{\Xi\pi})
+\end{equation}
+
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=12.0cm]{./Version1/FigChapter5/Extraction/SigpPb_After.eps}
+\hspace{0.5cm}
+\label{fig:sigpPba} 
+\caption{ The invariant mass distribution after subtraction of the mixed-event background. 
+The solid curve represents the combined fit, while the dashed line describes the residual background.}
+\end{center}
+\end{figure}
+
+The mass parameter of the Voigtian fit ($M_{0}$) is left free within the fit range ( 1.48 \Gmass and 1.59 \Gmass). The overall invariant mass width of the Voigtian function is governed by 2 parameters: $\sigma$ and $\Gamma_{0}$. The $\sigma$ describes the broadening of the peak due to finite detector resolution while $\Gamma$ describes the intrinsic width of the resonance itself. The $\Gamma_{0}$ is fixed to the PDG value of 9.1 \mmom for the\xis. Due to lack of statistics in lowest $p_{\mathrm{T}}$(0.8-1.4 \gmom )and highest $p_{\mathrm{T}}$(5.8-8.0 \gmom) (specially in peripheral collision), the $\sigma$ can be over estimated. Therefore the $\sigma$ parameter is fixed to value derived from $\sigma$ in MB events which has largest statistics. The $\sigma$ as function of $p_{\mathrm{T}}$ distribution in MB events is shown in Figure. \ref{fig:pPb:sigma} and we also report invariant mass of $\Xi$(1530)$^{0}$ in Figure. \ref{fig:pPb:mass}.
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=10.0cm]{./Version1/FigChapter5/Extraction/WidthMB.eps}
+\caption{$\sigma$ fit parameters as a function of $p_{\mathrm{T}}$ in MB.} 
+ \label{fig:pPb:sigma}
+\end{center}
+\end{figure}
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=10.0cm]{./Version1/FigChapter5/Extraction/Mass.eps}
+\caption{\xis-mass obtained from fit of the Voigtian peak as a function of $p_{\mathrm{T}}$ in each multiplicity classes.} 
+ \label{fig:pPb:mass}
+\end{center}
+\end{figure}
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=10.0cm]{./Version1/FigChapter5/Extraction/RawYield.eps}
+\caption{\xis-raw spectra obtained from fit of the Voigtian peak and a polynomial residual background for different multiplicities. Only the statistical error is reported.} 
+ \label{fig:pPb:rawyield}
+\end{center}
+\end{figure}
+
+
+\newpage
+\subsection{Efficiency correction}\label{sec:pPb:MC} 
+The raw yields were corrected for the geometrical acceptance and the reconstruction efficiency
+(A $\times$ $\epsilon$) of the detector (Figure.~\ref{fig:pPb:efficiency}). By using the DPMJET 3.05 event generator~\cite{cite:DPMJET} and the GEANT~3.21 package~\cite{cite:GEANT}, a sample of about 100 million p--Pb events was simulated and reconstructed in order to compute the corrections. The distributions of $A\times\epsilon$ were obtained from the ratio between the number of reconstructed $\Xi^{*0}$ and the number of generated particle in the same \pt~and rapidity interval. Since the correction factors for different multiplicity classes are in agreement with those from MB events within statistical uncertainty, the latter were used for all multiplicity classes.
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=10.0cm]{./Version1/FigChapter5/MC/Efficiency.eps}
+\caption{\xis-raw spectra obtained from fit of the Voigtian peak and a polynomial residual background for different multiplicities. Only the statistical error is reported.} 
+ \label{fig:pPb:efficiency}
+\end{center}
+\end{figure}
+
+
+Because the generated $\Xi(1530)^{0}$ spectra have different shapes than the measured \xis spectra, it is necessary to weight the generated and reconstructed \xis spectra in these simulations. Fig. \ref{fig:pPb:datagenrec} shows the generated and reconstructed \xis spectra plotted with the (corrected) measured \xis spectrum for MB events and the Levy fit of that measured spectrum. The generated and measured \xis spectra have  different behaviours for the range 0.5 $<$ $p_{\mathrm{T}}$ $<$ 1 GeV/$c$. The generated \xis spectrum decreases with increasing \pt over this range, while the fit of the measured \xis spectrum reaches a local maximum in this range. The correction $\epsilon$ is observed to change rapidly over this \pt range. It is therefore necessary to weight the generated spectrum so that it has the shape of the measured  \xis  spectrum (and to apply corresponding weights to the reconstructed \xis spectrum). An iterative procedure is performed to determine the correct weighting (and therefore the correct $\epsilon$). 
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=10.0cm]{./Version1/FigChapter5/MC/Weighting.eps}
+\caption{Real corrected \xis spectrum (black) for the minimum bias with Levy fit (black curve). Also shown are the unweighted generated (blue) and reconstructed (red) \xis spectra.}
+\label{fig:pPb:datagenrec}
+\end{center}
+\end{figure}
+
+\begin{enumerate}
+\item The unweighted $\epsilon$ is calculated.
+\item This $\epsilon$ is used to correct the measured xis spectrum.
+\item The corrected \xis spectrum is fit.
+\item This fit is used to weight the simulated xis spectra. A \pt dependent weight is applied to the generated xis spectrum so that it follows the fit. The same weight is applied to the reconstructedxis spectrum.
+\item The (weighted) $\epsilon$ is calculated.
+\item Steps 2-5 are repeated (with the weighted $\epsilon$ from step 5 used as the input for step 2) until the $\epsilon$ values are observed to change by $<$ 0.1\% (relative) between iterations. It is observed that four iterations are sufficient for this procedure to converge.
+\end{enumerate}
+
+Finally, the re-weighted efficiency is obtained and the distribution as function of \pt is shown in Figure \ref{fig:pPp:mbefficiency}.
+
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=10.0cm]{./Version1/FigChapter5/MC/MBEfficiency.eps}
+\caption{\xis-raw spectra obtained from fit of the Voigtian peak and a polynomial residual background for different multiplicities. Only the statistical error is reported.} 
+ \label{fig:pPp:mbefficiency}
+\end{center}
+\end{figure}
+
+
+\newpage
+\subsection{Corrected \pt-spectra}\label{sec:pPb:spectra} 
+
+The $p_{\mathrm{T}}$ spectrum is by the number of produced particles of a given type in the desired interval of phase-space divided by the number of inelastic collisions. The spectrum is calculated as:
+
+\begin{equation}
+\frac{1}{N} \times \frac{d^{2}N}{dydp_{T}} = \frac{1}{N_{E,PhysSel}} \times \frac{N_{raw}}{dp_{T}dy}  \frac{1}{\epsilon} \frac{N_{total}^{MC}}{N_{post-PV cut}^{MC}}   ,
+\end{equation}
+
+where N$_{E}$ represent the number inelastic collisions, the $\frac{dN}{dydp_{T}}$ is the yield  per range of rapidity $y$, per range in \pt. On the right hand side N$_{E,PhysSel}$ is the number of events counted by the PhysSelection trigger which is equal to the number of kINT7 triggers. N$_{raw}$ is the raw extracted number of particle in the rapidity and \pt bin of width  $\Delta$y = 0.5 and $\Delta$p$_{T}$, respectively. $\epsilon$ is the reconstruction efficiency estimated from Monte Carlo simulations. $\frac{N_{total}^{MC}}{N_{post-PV cut}^{MC}}$ is the ratio of the total number of particle from MC divided by the number of particle from MC after the Primary-Vertex cut is imposed. It takes into account the fraction of particle lost after imposing the PV cut. For minimum-bias results we adopted a normalisation such that to provide result for p--Pb non-single diffrective(NSD) cross-section. The normalisation factor is 0.964 \cite{cite:KphipPb}. The obtained spectrum at MB and the spectrums from different multiplicity classes are shown in Fig. \ref{fig:pPb:rawspectra}.
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=12.0cm]{./Version1/FigChapter5/Spectra/StatSpectra.eps}
+\caption{Corrected \pt-spectra of \xis in NSD and different multiplicity classes.} 
+ \label{fig:pPb:rawspectra}
+\end{center}
+\end{figure}
+
+
+
+
+\newpage
+\subsection{Systematic uncertainties}\label{sec:pPb:sys} 
+
+The systematic uncertainties are calculated in seven principle groups. The procedure to obtain the systematic uncertainties is performed many times by varying the possible permutation of the analysis parameter such as fit region, combinatorial background, PID cuts, etc. The general strategy for evaluating systematic uncertainties is described as following:
+
+\begin{enumerate}
+\item Choose one set of parameters for the analysis as default
+\item Observe the deviation of yield when one parameter is changed
+\item The systematic uncertainty is calculated for a given source as the RMS deviation of the available sources.
+\item The total systematic uncertainty, taking into account all the different sources, is the sum in quadrature of each source.
+\end{enumerate}
+
+To study the systematic effect we repeat the measurement by varying one parameter at a time. 
+A Barlow \cite{cite:Barlow} check has been performed for each measurement to verify whether it is due to a systematic effect or a statistical fluctuation. Let each measurement be indicated by ($\it{y}_{i}$$\pm$$\sigma_{i}$) and the central value (default measurement) by ($\it{y}_{c}$$\pm$$\sigma_{c}$), one can define $\Delta\sigma_{i}$ (Eq. \ref{eq:barlow}).
+
+
+\begin{equation}
+ \Delta\sigma_{i} = \sqrt(|\sigma_{i}^{2} - \sigma_{c}^{2}|)
+ \label {eq:barlow}
+\end{equation}
+
+Then we calculate $\it{n}_{i}$ = $\Delta\it{y}_{i}$/ $\Delta\sigma_{i}$, where  $\Delta\it{y}_{i}$ = $|$$\it{y}_{c}$ - $\it{y}_{i}$$|$.
+If $\it{n}_{i}$ $\leq$ 1.0 then the effects are due to the statistical fluctuation and if $\it{n}_{i}$ $>$ 1.0 we apply consistency check. Since the alternate and default measurements are not statistically independent, an alternate measurement which is statistically consistent with the default measurement should not be used in calculating a systematic uncertainty. The difference between the two measurements is $\Delta$ = $\it{y}$$_{c}$ - $\it{y}$$_{i}$. The difference in quadrature of the uncertainties is calculated by Eq. \ref{eq:barlow}. 
+It could be possible to check if $\Delta$$<$ $\sigma$ and exclude such cases from the systematic uncertainties. However, there can be statistical fluctuations for which $\Delta$$>$ $\sigma$. If the variations between the default and alternate measurements are purely statistical, the distribution of $\Delta$$/$$\sigma$ should be a Gaussian with a mean value that is consistent with zero and a deviation $\sigma$ consistent with unity. In this analysis, if the mean value is less than 0.1 and $\sigma$ is less than 1, the variation passes the consistency check.
+
+Only the measurements which passed the Barlow check ($\it{n}_{i}$ $>$ 1) are used to determine the systematic uncertainty. For measurements N $>$ 2, the systematic uncertainty has been determined as the RMS (eqn. \ref{eq:rms}) of the available measurements. If N=2, the absolute difference is assigned as systematic uncertainty.
+
+\begin{equation}
+\delta y_{syst.}=\sqrt{\frac{1}{N}\sum_{i}(y_{i}-\overline{y})^{2}}
+\label{eq:rms}
+\end{equation}
+
+Here N is the total number of available measurements including $\it{y}_{c}$ and $\overline{\it{y}}$ is the average of value of the measurements. The measurement did not pass Barlow check, zero systematic uncertainty has been assigned to the value. \\
+
+\subsubsection{Subgroup of systematic uncertainties}\label{sec:pPb:subsys} 
+\textbf{A. Systematic study: Signal extraction}\\
+The systematic uncertainty of yield extraction is estimated using three alternative methods. Default method of yield extraction corresponds to the bold letters. 
+
+\begin{enumerate}
+\item Yield calculating method (U$_{YC}$) : \textbf{extract yield purely from a Voigtian fit } vs. bin-counting, \item Background estimate method (U$_{BE}$) : \textbf{event mixing background} vs like-sign background  vs. polynomial fit(5$^{th}$). 
+\item Normalisation range (U$_{NR}$) :  \textbf{1.49-1.51 , 1.56-1.58}  vs. 1.48-1.51 , 1.56-1.58 (left extended) vs 1.49-1.51 , 1.56-1.59 (right extended). \\
+ - The systematic uncertainty of the normalisation range is related to the invariant mass region where the mixed events distribution is scaled to subtract the combinatorial background. 
+ \end{enumerate}
+Total systematic uncertainty from signal extraction is the sum in quadrature of all the sources listed above.
+\begin{equation}
+U_{signal} = \sqrt{U_{YC}^{2} + U_{BE}^2 + U_{NR}^2}
+\end{equation}
+
+\textbf{B. Systematic study: Topological seletion}\\
+The analysis is performed by variations of the topological parameters with respect to the default values. The parameters are changed once at a time. Correlations between parameters are assumed to be negligible. The alternate sets of parameters are listed in Table \ref{table:topologylist}.
+
+\begin{table}[htp]
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+Name &  & Loose  &   Standard & Tight & Name\\
+\hline
+\hline
+
+DCA PV proton [cm]& $>$ & 0.05 & 0 .06 & 0.07 & U$_{T1}$\\
+\hline
+DCA PV last emitted $\pi$ [cm]& $>$& 0.05 & 0 .06 & 0.07& U$_{T2}$\\
+ \hline
+ DCA PV second emitted $\pi$ [cm]& $>$& 0.01 & 0 .0015 & 0.02& U$_{T3}$\\
+ \hline
+ DCA of $\Lambda$ [cm]& $>$ & 0.01 & 0.015 & 0.02& U$_{T4}$\\
+ \hline
+  DCAz PV first emitted $\pi$ [cm]& $ < $& 2.1 & 2.0 & 1.9& U$_{T5}$\\
+ \hline
+ DCA  proton-$\pi$ [cm]& $<$ & 1.5 & 1.4 & 1.3& U$_{T6}$\\
+ \hline
+ DCA  $\Lambda$-$\pi$ [cm]& $<$ & 2.0 & 1.9 & 1.8& U$_{T7}$\\
+ \hline
+ CPA  $\Lambda$& $>$ & 0.85 & 0.875 & 0.9& U$_{T8}$\\
+ \hline
+ CPA  $\Xi^{\pm}$& $>$ & 0.98 & 0.981 & 0.986& U$_{T9}$\\
+ \hline
+\end{tabular}
+\caption{Alternate sets of topological parameters in the analysis.}\label{table:topologylist}
+\end{center}
+\end{table}%
+
+
+Total systematic uncertainty from topological selection is calculated by same way which is done for systematic study of signal extraction.
+\begin{equation}
+U_{topological} = \sqrt{\sum_{i=1}^{9}{U_{T{\it{i}}}^{2}}}\label{eq:topo}
+\end{equation}
+
+\textbf{C. Systematic study: TPC N$_{cluster}$ selection }\\
+The selection performed for the daughter tracks of the cascade is that N$_{cluster}$ is larger than 70 and the value has been varied to 60 and 80 in order to estimate the systematic uncertainty (U$_{nCL}$) due to this selection. 
+
+\textbf{D. Systematic study: TPC $\mathrm{d}E/\mathrm{d}x$ selection}\\
+In order to evaluate any potential effect due to the TPC $\mathrm{d}E/\mathrm{d}x$ selection (U$_{PID}$), the N$_{\sigma}$ selection was varied with N = 2.5 and 3.5. 
+
+\textbf{F. Systematic study: Mass window range selection}\\
+In order to select $\Xi^{\pm}$ which is daughter particle of \xis, we apply the mass window $\pm$7 \mmass around \xis mass on $\Lambda$$\pi$ invariant mass distribution. The boundaries has been varied to $\pm$6 MeV/c$^{2}$and $\pm$8 MeV/c$^{2}$ to estimate systematic uncertainty (U$_{MW}$). 
+
+\textbf{G. Systematic study: Vertex range selection}\\
+The distribution of vertex-z is shown in Fig.\ref{fig:VzDistribution}.
+The cut on $|$Vz$|$ was varied from the nominal $\pm$10cm to $\pm$9cm, $\pm$11cm.
+
+\subsubsection{Summary of systematic uncertainties}\label{sec:pPb:sumsys} 
+Final statistical uncertainty from all sources is defined as sum in quadrature (Eq. \ref{eq:finalsyserror}).
+\begin{equation}
+U_{total} = \sqrt{U_{signal}^{2} + U_{topological}^{2} + U_{nCL}^{2} + U_{PID}^{2} + U_{MW}^{2} + U_{Vz}^{2} + U_{MB}^{2} + U_{TE}^{2}}
+\label{eq:finalsyserror}
+\end{equation}
+Fig.\ref{fig:syserrortot} and Fig.\ref{fig:syserrortotCent} show the total systematic uncertainty.
+
+In the eq. \ref{eq:finalsyserror}, U$_{MB}$ is uncertainty due to material budget which is 4\% from $\Xi^{\pm}$ and material budget from $\pi$ is negligible. The U$_{TE}$ is uncertainty due to tracking efficiency which amount is 3\%.  
+
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=12.0cm]{./Version1/FigChapter5/Systematic/SysTotalFinal.eps}
+\caption{Summary of the contributions to the systematic uncertainty after consistency check in MB. The dashed black line is the sum in quadrature of all the contributions.} 
+\label{fig:syserrortot}
+\end{center}
+\end{figure}
+
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=7.0cm]{./Version1/FigChapter5/Systematic/SysTotalFinal020.eps}
+\hspace{0.5cm}
+\includegraphics[width=7.0cm]{./Version1/FigChapter5/Systematic/SysTotalFinal2040.eps}
+\hspace{0.5cm}
+\includegraphics[width=7.0cm]{./Version1/FigChapter5/Systematic/SysTotalFinal4060.eps}
+\hspace{0.5cm}
+\includegraphics[width=7.0cm]{./Version1/FigChapter5/Systematic/SysTotalFinal60100.eps}
+\caption{Summary of the contributions to the systematic uncertainty after consistency check for each multiplicity class(0-20-40-60-100). The dashed black line is the sum in quadrature of all the contributions.} 
+ \label{fig:syserrortotCent}
+\end{center}
+\end{figure}
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=12.0cm]{./Version1/FigChapter5/Systematic/BeforeSmooth.eps}
+\caption{Fractional systematic uncertainties for each multiplicity classes.} 
+\label{fig:BSsyserrortot}
+\end{center}
+\end{figure}
+
+
+
+\textbf{Smoothing of systematic error}\\
+One should expect a smooth behaviour of the systematic uncertainties. But in data we observed some of the raw systematic uncertainties fluctuate from bin to bin. So we need to smooth the spikes and dips in the systematic uncertainties. We compare the systematic uncertainty of the problematic \pt bins to the values from the other centrality class systematic uncertainty which gives us an idea of the value for the bin. Average values considering all centrality classes are calculated for each \pt bins and the average value is written in Table \ref{fig:BSsyserrortot}. If the value of error is larger than  of average $\times$ 1.1, the average value is applied for the error. The smoothed systematic uncertainties for all centrality classes and minimum-bias are shown in Fig.\ref{fig:ASsyserrortot}. %and the value is presented in Table \ref{table:smoothing}. %But, we don't use smoothed systematic uncertainties in this analysis. The reason is described in subsection \ref{sec:spectrafit}.
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=12.0cm]{./Version1/FigChapter5/Systematic/AfterSmooth.eps}
+\caption{Fractional smoothed systematic uncertainties for each multiplicity classes.} 
+\label{fig:ASsyserrortot}
+\end{center}
+\end{figure}
+
+
+\newpage
+\subsection{\xis transverse momentum spectra}\label{sec:pPb:spectra} 
+The corrected yields per \pt interval per unit rapidity ($\frac{1}{N_{E}}\times \frac{d^2N}{dydp_{T}})$) are shown in Fig.\ref{fig:pPb:spectrasysstat}. Data points cover the $p_{\mathrm{T}}$ ranges 0.8$ < p_{T} <$ 8.0 \gmom. Statistical and systematical uncertainties are plotted separately. 
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=12.0cm]{./Version1/FigChapter5/Spectra/SpectraStatSys.eps}
+\caption{Corrected yields as function of \pt~in NSD events and multiplicity dependent event classes. Statistical uncertainties are presented as bar and systematical uncertainties are plotted as boxes.} 
+\label{fig:pPb:spectrasysstat}
+\end{center}
+\end{figure}
+
+
+
+
+

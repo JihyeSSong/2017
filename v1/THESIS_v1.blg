@@ -1,0 +1,63 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: THESIS_v1.aux
+The style file: utphys.bst
+Database file #1: Reference.bib
+You're missing a field name---line 212 of file Reference.bib
+ : 
+ : %      archivePrefix  = "arXiv",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 471 of file Reference.bib
+ : @article{Wheaton:2004qb
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 862 of file Reference.bib
+ : @article{Cleymans:2011pe
+ :                         ,
+I'm skipping whatever remains of this entry
+Warning--empty pages in cite:centralityPbPb
+Warning--empty pages in cite:GEANT
+Warning--empty pages in cite:trackingeffi
+You've used 17 entries,
+            2328 wiz_defined-function locations,
+            697 strings with 7110 characters,
+and the built_in function-call counts, 5326 in all, are:
+= -- 513
+> -- 156
+< -- 0
++ -- 58
+- -- 41
+* -- 571
+:= -- 617
+add.period$ -- 18
+call.type$ -- 17
+change.case$ -- 17
+chr.to.int$ -- 0
+cite$ -- 20
+duplicate$ -- 297
+empty$ -- 533
+format.name$ -- 41
+if$ -- 1385
+int.to.chr$ -- 0
+int.to.str$ -- 17
+missing$ -- 68
+newline$ -- 56
+num.names$ -- 17
+pop$ -- 70
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 222
+stack$ -- 0
+substring$ -- 229
+swap$ -- 158
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 3
+while$ -- 36
+width$ -- 19
+write$ -- 146
+(There were 3 error messages)

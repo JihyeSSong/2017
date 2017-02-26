@@ -1,0 +1,142 @@
+\documentclass[11pt, oneside]{article}   	% use "amsart" instead of "article" for AMSLaTeX format
+\usepackage{geometry}                		% See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   		% ... or a4paper or a5paper or ... 
+%\geometry{landscape}                		% Activate for rotated page geometry
+%\usepackage[parfill]{parskip}    		% Activate to begin paragraphs with an empty line rather than an indent
+%\usepackage{biblatex}
+%\usepackage[comma,square,numbers,sort&compress]{natbib}
+\usepackage{multirow}
+\usepackage{color}
+\usepackage{rotating}
+\usepackage{graphicx}				% Use pdf, png, jpg, or eps§ with pdflatex; use eps in DVI mode
+								% TeX will automatically convert eps --> pdf in pdflatex		
+\usepackage{amssymb}
+\usepackage{hyperref}
+\usepackage{bm}
+\usepackage{lineno}
+\usepackage[nottoc]{tocbibind}
+
+
+\newcommand{\xis}{$\Xi(1530)^{0}$ }
+\newcommand{\xisb}{$\overline{\Xi(1530)^{0}}$ }
+
+\newcommand{\xiss}{$\Xi^{*0}$ }
+
+\newcommand{\pt}{$\ensuremath{p_{\mathrm{T}}}$}
+\newcommand{\mpt}{\langle p_{\mathrm{T}}\rangle}
+\newcommand{\dedx}{d$E$/d$x$}
+\newcommand{\dndy}{d$N$/d$y$}
+
+\newcommand{\pbar}{$\rm\overline{p}$}
+\newcommand{\Bbar}{$\rm\overline{B}$}
+\newcommand{\Lbar}{$\rm\overline{\Lambda}$}
+\newcommand{\La}{$\Lambda$}
+\newcommand{\p}{\mbox{p}}
+\newcommand{\pip}{$\pi^{+}$}
+\newcommand{\pim}{$\pi^{-}$}
+\newcommand{\kap}{$K^{+}$}
+\newcommand{\kam}{$K^{-}$}
+\newcommand{\degree}{$^{\rm o}$}
+\newcommand{\s}{$\sqrt{s}$}
+\newcommand{\snn}{$\sqrt{s_{\rm NN}}$}
+\newcommand{\be}{\begin{equation}}
+\newcommand{\ee}{\end{equation}}
+\newcommand{\cL}{\textit{c}}
+\newcommand{\AGeV}[1][ ]{$A$~GeV{#1}}
+\newcommand{\mmass}{MeV/$\it{c}^2$ }
+\newcommand {\Gmass} {\mbox{\rm GeV$\kern-0.15em /\kern-0.12em c^2$} }
+\newcommand {\gmom}   {\mbox{\rm GeV$\kern-0.15em /\kern-0.12em c$} }
+\newcommand {\mmom}   {\mbox{\rm MeV$\kern-0.15em /\kern-0.12em c$} }
+
+\newcommand{\meandNdeta}{\ensuremath{\langle$d$N_{\mathrm{ch}}$/d$\eta_{\mathrm{lab}}\rangle}}
+\newcommand{\dndydpt}{${\rm d}^2N/({\rm d}p_{\rm T}{\rm d}y)$}
+
+
+
+\def\muB{$\mu_B$}
+\def\muS{$\mu_S$}
+
+
+
+
+%SetFonts
+
+%SetFonts
+
+
+\title{Study of the multi-strange resonance \xis production with ALICE at the LHC energies}
+\author{Jihye Song}
+\date{}							% Activate to display a given date or no date
+
+\linenumbers
+
+\begin{document}
+
+\maketitle
+\newpage
+
+\tableofcontents
+\newpage
+
+\listoffigures
+\newpage
+
+\listoftables
+\newpage
+
+
+\input{./Version1/Chapter1.tex}
+%\section{The physics of relativistic heavy-ion collisions}
+%\subsection{Standard model}
+%\subsection{Quantum Chromo-Dynamics}
+%\subsection{Heavy Ion Collisions}
+
+\input{./Version1/Chapter2.tex}
+%\section{Production of resonance with strangeness}
+%\subsection{Resonance with strangeness}
+
+\input{./Version1/Chapter3.tex}
+%\section{Theoretical models}
+%\subsection{Thermal statistical model}
+%\subsection{UrQMD}
+
+\input{./Version1/Chapter4.tex}
+%\section{The ALICE detector}
+%\subsection{The Large Hadron Collider}
+%\subsection{The ALICE project}
+%\subsubsection{ALICE detector}
+%\subsubsection{Data Acquisition (DAQ) and trigger system}
+%\subsubsection{ALICE offline software frame work}
+
+\input{./Version1/Chapter5.tex}
+%\section{Data analysis}
+%\subsection{Particle identification}
+%\subsection{Topological reconstruction}
+%\subsection{$\xis$(1530) analysis in p--Pb and Pb--Pb}
+%\subsubsection{Data sample and event selection}
+%\subsubsection{Topological selection}
+%\subsubsection{Efficiency correction}
+%\subsubsection{Systematic uncertainties}
+
+\input{./Version1/Chapter6.tex}
+%\section{Results}
+%\subsection{$\pt$-spectra}
+%\subsection{d$N$/d$y$ and $\mpt$}
+%\subsection{Particle yield ratios}
+%\subsubsection{Comparison with other resonances}
+%\subsubsection{Comparison with models}
+
+\bibliographystyle{utphys}
+\bibliography{Reference}{}
+%\bibliography{Ref}{}
+
+
+\newenvironment{acknowledgement}{\relax}{\relax}
+\begin{acknowledgement}
+\section*{Acknowledgements}
+%\input{acknowledgements_march2013.tex}    %%%%%%% get the lates version before submitting
+\end{acknowledgement}
+
+
+
+\end{document}  

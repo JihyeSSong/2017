@@ -1,0 +1,62 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: THESIS_v1.aux
+The style file: utphys.bst
+Database file #1: Reference.bib
+You're missing a field name---line 169 of file Reference.bib
+ : 
+ : %      archivePrefix  = "arXiv",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 428 of file Reference.bib
+ : @article{Wheaton:2004qb
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 819 of file Reference.bib
+ : @article{Cleymans:2011pe
+ :                         ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "cite:PhiNote"
+Warning--empty pages in cite:GEANT
+You've used 14 entries,
+            2328 wiz_defined-function locations,
+            681 strings with 6606 characters,
+and the built_in function-call counts, 4529 in all, are:
+= -- 442
+> -- 132
+< -- 0
++ -- 49
+- -- 35
+* -- 457
+:= -- 522
+add.period$ -- 15
+call.type$ -- 14
+change.case$ -- 14
+chr.to.int$ -- 0
+cite$ -- 15
+duplicate$ -- 259
+empty$ -- 445
+format.name$ -- 35
+if$ -- 1187
+int.to.chr$ -- 0
+int.to.str$ -- 14
+missing$ -- 56
+newline$ -- 47
+num.names$ -- 14
+pop$ -- 61
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 203
+stack$ -- 0
+substring$ -- 201
+swap$ -- 144
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 31
+width$ -- 16
+write$ -- 119
+(There were 3 error messages)

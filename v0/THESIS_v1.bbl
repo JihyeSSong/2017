@@ -1,0 +1,96 @@
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}
+
+\bibitem{Hahn:1986mb}
+D.~Hahn and H.~Stoecker, ``{THE QUANTUM STATISTICAL MODEL OF FRAGMENT
+  FORMATION: ENTROPY AND TEMPERATURE EXTRACTION IN HEAVY ION COLLISIONS},''
+  \href{http://dx.doi.org/10.1016/0375-9474(88)90332-6}{{\em Nucl. Phys.}
+  {\bfseries A476} (1988) 718--772}.
+
+\bibitem{Wheaton:2004qb}
+S.~Wheaton, J.~Cleymans, and M.~Hauer, ``{THERMUS: A Thermal model package for
+  ROOT},'' \href{http://dx.doi.org/10.1016/j.cpc.2008.08.001}{{\em Comput.
+  Phys. Commun.} {\bfseries 180} (2009) 84--106},
+  \href{http://arxiv.org/abs/hep-ph/0407174}{{\ttfamily hep-ph/0407174}}.
+
+\bibitem{Cleymans:2011pe}
+J.~Cleymans, S.~Kabana, I.~Kraus, H.~Oeschler, K.~Redlich, and N.~Sharma,
+  ``{Antimatter production in proton-proton and heavy-ion collisions at
+  ultrarelativistic energies},''
+  \href{http://dx.doi.org/10.1103/PhysRevC.84.054916}{{\em Phys. Rev.}
+  {\bfseries C84} (2011) 054916},
+\href{http://arxiv.org/abs/1105.3719}{{\ttfamily arXiv:1105.3719 [hep-ph]}}.
+%%CITATION = ARXIV:1105.3719;%%.
+
+\bibitem{cite:ALICE}
+{\bfseries ALICE} Collaboration, K.~Aamodt {\em et~al.}, ``{The ALICE
+  experiment at the CERN LHC},''
+  \href{http://dx.doi.org/10.1088/1748-0221/3/08/S08002}{{\em JINST} {\bfseries
+  3} (2008) S08002}.
+
+\bibitem{cite:ALICEPerformance}
+{\bfseries ALICE} Collaboration, B.~Abelev {\em et~al.}, ``{Performance of the
+  ALICE Experiment at the CERN LHC},''
+  \href{http://dx.doi.org/10.1142/S0217751X14300440}{{\em Int. J. Mod. Phys.}
+  {\bfseries A29} (2014) 1430044},
+  \href{http://arxiv.org/abs/1402.4476}{{\ttfamily arXiv:1402.4476 [nucl-ex]}}.
+
+\bibitem{cite:KphipPb}
+{\bfseries ALICE} Collaboration, J.~Adam {\em et~al.}, ``{Production of
+  K$^*(892)^0$ and $\phi$(1020) in p--Pb collisions at \snn = 5.02 TeV},''
+  \href{http://dx.doi.org/10.1140/epjc/s10052-016-4088-7}{{\em Eur. Phys. J.}
+  {\bfseries C76} (2016) 245}, \href{http://arxiv.org/abs/1601.7868}{{\ttfamily
+  arXiv:1601.7868 [nucl-ex]}}.
+
+\bibitem{cite:rapidity}
+{\bfseries ALICE} Collaboration, B.~Abelev {\em et~al.}, ``{Pseudorapidity
+  Density of Charged Particles in p--Pb Collisions at \snn = 5.02 TeV},''
+  \href{http://dx.doi.org/10.1103/PhysRevLett.110.032301}{{\em Phys. Rev.
+  Lett.} {\bfseries 110} (2013) 032301},
+  \href{http://arxiv.org/abs/1210.3615}{{\ttfamily arXiv:1210.3615 [nucl-ex]}}.
+
+\bibitem{cite:Xi_pp}
+{\bfseries ALICE} Collaboration, B.~Abelev {\em et~al.}, ``{Production of
+  $\Sigma$(1385)$^\pm$ and $\Xi$(1530)$^{0}$ in proton-proton collisions at \s
+  = 7 TeV},'' \href{http://dx.doi.org/10.1140/epjc/s10052-014-3191-x}{{\em Eur.
+  Phys. J.} {\bfseries C75} (2015) 1},
+  \href{http://arxiv.org/abs/1406.3206}{{\ttfamily arXiv:1406.3206 [nucl-ex]}}.
+
+\bibitem{cite:PDG}
+{\bfseries Particle Data Group} Collaboration, K.~Olive {\em et~al.}, ``{Review
+  of Particle Physics},''
+  \href{http://dx.doi.org/10.1088/1674-1137/38/9/090001}{{\em Chin. Phys.}
+  {\bfseries C38} (2014) 090001}.
+
+\bibitem{cite:Xi_pPb}
+{\bfseries ALICE} Collaboration, J.~Adam {\em et~al.}, ``{Multi-strange baryon
+  production in p--Pb collisions at \snn =5.02 TeV},''
+  \href{http://dx.doi.org/doi:10.1016/j.physletb.2016.05.027}{{\em Phys. Lett.}
+  {\bfseries B758} (2016) 389--401},
+  \href{http://arxiv.org/abs/1512.07227}{{\ttfamily arXiv:1512.07227
+  [nucl-ex]}}.
+
+\bibitem{cite:lambda_pp}
+{\bfseries ALICE} Collaboration, K.~Aamodt {\em et~al.}, ``{Strange particle
+  production in proton-proton collisions at \s = 0.9 TeV with ALICE at the
+  LHC},'' \href{http://dx.doi.org/10.1140/epjc/s10052-011-1594-5}{{\em Eur.
+  Phys. J.} {\bfseries C71} (2011) 1594},
+  \href{http://arxiv.org/abs/1012.3257}{{\ttfamily arXiv:1012.3257 [nucl-ex]}}.
+
+\bibitem{cite:DPMJET}
+S.~Roesler, R.~Engel, , and J.~Ranft, ``{The Monte Carlo Event Generator
+  DPMJET-III, Advanced Monte Carlo for Radiation Physics, Particle Transport
+  Simulation and Applications},''
+  \href{http://dx.doi.org/10.1007/978-3-642-18211-2_166}{{\em {Conference
+  Proceedings, MC2000, Lisbon, Portugal, October 23-26}} (2000) 1033--1038},
+  \href{http://arxiv.org/abs/hep-ph/0012252}{{\ttfamily hep-ph/0012252}}.
+
+\bibitem{cite:GEANT}
+R.~Brun, F.~Carminati, and S.~Giani, ``{GEANT detector description and
+  simulation tool},'' {\em CERN-W5013} (1994) .
+
+\bibitem{cite:Barlow}
+R.~Barlow, ``{Systematic Errors: Facts and Fictions},'' {\em {Presented at
+  Advanced Statistical Techniques in HEP, Durham, March 2002}} (2002) 333p,
+  \href{http://arxiv.org/abs/hep-ex/0207026v1}{{\ttfamily hep-ex/0207026v1}}.
+
+\end{thebibliography}\endgroup

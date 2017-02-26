@@ -1,0 +1,257 @@
+{
+//=========Macro generated from canvas: c1/c1
+//=========  (Fri Jan 13 17:53:12 2017) by ROOT version5.34/30
+   TCanvas *c1 = new TCanvas("c1", "c1",331,256,700,500);
+   c1->Range(-0.7500001,-9826.945,6.75,88442.5);
+   c1->SetFillColor(0);
+   c1->SetBorderMode(0);
+   c1->SetBorderSize(2);
+   c1->SetFrameBorderMode(0);
+   c1->SetFrameBorderMode(0);
+   Double_t xAxis1[9] = {0, 1.2, 2, 2.5, 3, 3.5, 4, 5, 6};
+    
+    TGaxis::SetMaxDigits(2);
+    c1->SetTickx(1);
+    c1->SetTicky(1);
+    gStyle->SetLineWidth(2);
+    c1->SetBottomMargin(0.12);
+    c1->SetLeftMargin(0.09);
+    c1->SetLogy();
+
+   
+   TH1D *RawYields = new TH1D("RawYields","",8, xAxis1);
+   RawYields->SetBinContent(2,64662.6);
+   RawYields->SetBinContent(3,70397.43);
+   RawYields->SetBinContent(4,74100.87);
+   RawYields->SetBinContent(5,49674.75);
+   RawYields->SetBinContent(6,25013.35);
+   RawYields->SetBinContent(7,19480.01);
+   RawYields->SetBinContent(8,4007.76);
+   RawYields->SetBinContent(9,2.121996e-314);
+   RawYields->SetBinError(2,869.909);
+   RawYields->SetBinError(3,813.7016);
+   RawYields->SetBinError(4,771.0934);
+   RawYields->SetBinError(5,584.3708);
+   RawYields->SetBinError(6,366.8118);
+   RawYields->SetBinError(7,317.6979);
+   RawYields->SetBinError(8,149.8813);
+   RawYields->SetEntries(10);
+    RawYields->SetMinimum(200.);
+    RawYields->SetMaximum(3e+5);
+
+   
+   TPaveStats *ptstats = new TPaveStats(0.920977,0.7167019,0.9798851,0.9365751,"brNDC");
+   ptstats->SetName("stats");
+   ptstats->SetBorderSize(1);
+   ptstats->SetFillColor(0);
+   ptstats->SetLineColor(0);
+   ptstats->SetTextAlign(12);
+   ptstats->SetTextColor(0);
+   ptstats->SetTextFont(42);
+   TText *text = ptstats->AddText("RawYields");
+   text->SetTextSize(0.05057082);
+   text = ptstats->AddText("Entries = 10     ");
+   text = ptstats->AddText("Mean  =  2.702");
+   text = ptstats->AddText("RMS   = 0.8647");
+   ptstats->SetOptStat(1111);
+   ptstats->SetOptFit(0);
+   ptstats->Draw();
+   RawYields->GetListOfFunctions()->Add(ptstats);
+   ptstats->SetParent(RawYields);
+   RawYields->SetMarkerStyle(20);
+   RawYields->GetXaxis()->SetLabelFont(42);
+   RawYields->GetXaxis()->SetLabelSize(0.05);
+   RawYields->GetXaxis()->SetTitleSize(0.05);
+   RawYields->GetXaxis()->SetTitleFont(42);
+   RawYields->GetYaxis()->SetLabelFont(42);
+   RawYields->GetYaxis()->SetLabelSize(0.05);
+   RawYields->GetYaxis()->SetTitleSize(0.05);
+    RawYields->GetXaxis()->SetTitle("#it{p}_{T} (GeV/#it{c})");
+    RawYields->GetYaxis()->SetTitle("d#it{N}_{raw}/d#it{p}_{T}");
+    RawYields->GetYaxis()->SetTitleOffset(0.8);
+    RawYields->SetLineColor(1);
+   RawYields->GetYaxis()->SetTitleFont(42);
+   RawYields->GetZaxis()->SetLabelFont(42);
+   RawYields->GetZaxis()->SetLabelSize(0.035);
+   RawYields->GetZaxis()->SetTitleSize(0.035);
+   RawYields->GetZaxis()->SetTitleFont(42);
+   RawYields->Draw("");
+   Double_t xAxis2[9] = {0, 1.2, 2, 2.5, 3, 3.5, 4, 5, 6}; 
+   
+   TH1D *RawYields = new TH1D("RawYields","",8, xAxis2);
+   RawYields->SetBinContent(2,18396.58);
+   RawYields->SetBinContent(3,16588.9);
+   RawYields->SetBinContent(4,19018.45);
+   RawYields->SetBinContent(5,14557.96);
+   RawYields->SetBinContent(6,7241.088);
+   RawYields->SetBinContent(7,5153.808);
+   RawYields->SetBinContent(8,1120.789);
+   RawYields->SetBinContent(9,2.121996e-314);
+   RawYields->SetBinError(2,316.7082);
+   RawYields->SetBinError(3,297.4017);
+   RawYields->SetBinError(4,42.93763);
+   RawYields->SetBinError(5,193.95);
+   RawYields->SetBinError(6,130.5079);
+   RawYields->SetBinError(7,101.3929);
+   RawYields->SetBinError(8,38.50317);
+   RawYields->SetEntries(10);
+   RawYields->SetLineColor(2);
+   RawYields->SetMarkerColor(2);
+   RawYields->SetMarkerStyle(20);
+   RawYields->GetXaxis()->SetLabelFont(42);
+   RawYields->GetXaxis()->SetLabelSize(0.035);
+   RawYields->GetXaxis()->SetTitleSize(0.035);
+   RawYields->GetXaxis()->SetTitleFont(42);
+   RawYields->GetYaxis()->SetLabelFont(42);
+   RawYields->GetYaxis()->SetLabelSize(0.035);
+   RawYields->GetYaxis()->SetTitleSize(0.035);
+   RawYields->GetYaxis()->SetTitleFont(42);
+   RawYields->GetZaxis()->SetLabelFont(42);
+   RawYields->GetZaxis()->SetLabelSize(0.035);
+   RawYields->GetZaxis()->SetTitleSize(0.035);
+   RawYields->GetZaxis()->SetTitleFont(42);
+   RawYields->Draw("same");
+   Double_t xAxis3[9] = {0, 1.2, 2, 2.5, 3, 3.5, 4, 5, 6}; 
+   
+   TH1D *RawYields = new TH1D("RawYields","",8, xAxis3);
+   RawYields->SetBinContent(2,37229.2);
+   RawYields->SetBinContent(3,41486.66);
+   RawYields->SetBinContent(4,37727.95);
+   RawYields->SetBinContent(5,28549.36);
+   RawYields->SetBinContent(6,14086.34);
+   RawYields->SetBinContent(7,10325.45);
+   RawYields->SetBinContent(8,1879.47);
+   RawYields->SetBinContent(9,2.121996e-314);
+   RawYields->SetBinError(2,786.3162);
+   RawYields->SetBinError(3,616.1956);
+   RawYields->SetBinError(4,531.6579);
+   RawYields->SetBinError(5,512.8753);
+   RawYields->SetBinError(6,317.9753);
+   RawYields->SetBinError(7,211.3975);
+   RawYields->SetBinError(8,84.28784);
+   RawYields->SetEntries(10);
+
+   Int_t ci;      // for color index setting
+   TColor *color; // for color definition with alpha
+   ci = TColor::GetColor("#009900");
+   RawYields->SetLineColor(ci);
+
+   ci = TColor::GetColor("#009900");
+   RawYields->SetMarkerColor(ci);
+   RawYields->SetMarkerStyle(20);
+   RawYields->GetXaxis()->SetLabelFont(42);
+   RawYields->GetXaxis()->SetLabelSize(0.035);
+   RawYields->GetXaxis()->SetTitleSize(0.035);
+   RawYields->GetXaxis()->SetTitleFont(42);
+   RawYields->GetYaxis()->SetLabelFont(42);
+   RawYields->GetYaxis()->SetLabelSize(0.035);
+   RawYields->GetYaxis()->SetTitleSize(0.035);
+   RawYields->GetYaxis()->SetTitleFont(42);
+   RawYields->GetZaxis()->SetLabelFont(42);
+   RawYields->GetZaxis()->SetLabelSize(0.035);
+   RawYields->GetZaxis()->SetTitleSize(0.035);
+   RawYields->GetZaxis()->SetTitleFont(42);
+   RawYields->Draw("same");
+   Double_t xAxis4[9] = {0, 1.2, 2, 2.5, 3, 3.5, 4, 5, 6}; 
+   
+   TH1D *RawYields = new TH1D("RawYields","",8, xAxis4);
+   RawYields->SetBinContent(2,10459.19);
+   RawYields->SetBinContent(3,10769.19);
+   RawYields->SetBinContent(4,8177.47);
+   RawYields->SetBinContent(5,4254.119);
+   RawYields->SetBinContent(6,2253.837);
+   RawYields->SetBinContent(7,2378.151);
+   RawYields->SetBinContent(8,688.5006);
+   RawYields->SetBinContent(9,2.121996e-314);
+   RawYields->SetBinError(2,229.8848);
+   RawYields->SetBinError(3,217.1091);
+   RawYields->SetBinError(4,154.0869);
+   RawYields->SetBinError(5,122.9745);
+   RawYields->SetBinError(6,89.91266);
+   RawYields->SetBinError(7,59.7005);
+   RawYields->SetBinError(8,35.92502);
+   RawYields->SetEntries(10);
+   RawYields->SetLineColor(4);
+   RawYields->SetMarkerColor(4);
+   RawYields->SetMarkerStyle(20);
+   RawYields->GetXaxis()->SetLabelFont(42);
+   RawYields->GetXaxis()->SetLabelSize(0.035);
+   RawYields->GetXaxis()->SetTitleSize(0.035);
+   RawYields->GetXaxis()->SetTitleFont(42);
+   RawYields->GetYaxis()->SetLabelFont(42);
+   RawYields->GetYaxis()->SetLabelSize(0.035);
+   RawYields->GetYaxis()->SetTitleSize(0.035);
+   RawYields->GetYaxis()->SetTitleFont(42);
+   RawYields->GetZaxis()->SetLabelFont(42);
+   RawYields->GetZaxis()->SetLabelSize(0.035);
+   RawYields->GetZaxis()->SetTitleSize(0.035);
+   RawYields->GetZaxis()->SetTitleFont(42);
+   RawYields->Draw("same");
+    
+    
+    TLegend *leg = new TLegend(0.15,0.15,0.5,0.5,NULL,"brNDC");
+    leg->SetBorderSize(1);
+    leg->SetTextSize(0.045);
+    leg->SetLineColor(0);
+    leg->SetLineStyle(1);
+    leg->SetLineWidth(1);
+    leg->SetFillColor(0);
+    leg->SetFillStyle(1001);
+    TLegendEntry *entry=leg->AddEntry("NULL","MB 0-80%","lp");
+    entry->SetLineColor(1);
+    entry->SetLineStyle(1);
+    entry->SetLineWidth(1);
+    entry->SetMarkerColor(1);
+    entry->SetMarkerStyle(20);
+    entry->SetMarkerSize(1);
+    entry->SetTextFont(42);
+    entry=leg->AddEntry("NULL","Central 0-10%","lp");
+    entry->SetLineColor(2);
+    entry->SetLineStyle(1);
+    entry->SetLineWidth(1);
+    entry->SetMarkerColor(2);
+    entry->SetMarkerStyle(20);
+    entry->SetMarkerSize(1);
+    entry->SetTextFont(42);
+    entry=leg->AddEntry("NULL","Semi-central 10-40%","lp");
+    
+    ci = TColor::GetColor("#009900");
+    entry->SetLineColor(ci);
+    entry->SetLineStyle(1);
+    entry->SetLineWidth(1);
+    
+    ci = TColor::GetColor("#009900");
+    entry->SetMarkerColor(ci);
+    entry->SetMarkerStyle(20);
+    entry->SetMarkerSize(1);
+    entry->SetTextFont(42);
+    entry=leg->AddEntry("NULL","Peripheral 40-80%","lp");
+    entry->SetLineColor(4);
+    entry->SetLineStyle(1);
+    entry->SetLineWidth(1);
+    entry->SetMarkerColor(4);
+    entry->SetMarkerStyle(20);
+    entry->SetMarkerSize(1);
+    entry->SetTextFont(42);
+    leg->Draw();
+    
+    tex = new TLatex(0.48,0.82,"ALICE, Pb-Pb, #sqrt{#it{s}_{NN}} = 2.76 TeV");
+    tex->SetNDC();
+    tex->SetTextFont(42);
+    tex->SetTextSize(0.045);
+    tex->SetLineWidth(2);
+    tex->Draw();
+    tex = new TLatex(0.76,0.76,"|#it{y}| < 0.5");
+    tex->SetNDC();
+    tex->SetTextAlign(12);
+    tex->SetTextFont(42);
+    tex->SetTextSize(0.045);
+    tex->SetLineWidth(2);
+    tex->Draw();
+
+    
+
+   c1->Modified();
+   c1->cd();
+   c1->SetSelected(c1);
+}

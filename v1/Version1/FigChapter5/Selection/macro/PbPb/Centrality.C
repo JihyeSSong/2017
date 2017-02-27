@@ -2,7 +2,7 @@ void Centrality()
 {
 //=========Macro generated from canvas: Canvas_1/Canvas_1
 //=========  (Wed Aug 17 11:16:36 2016) by ROOT version6.06/00
-   TCanvas *Canvas_1 = new TCanvas("Canvas_1", "Canvas_1",260,94,700,600);
+   TCanvas *Canvas_1 = new TCanvas("Canvas_1", "Canvas_1",260,94,700,500);
    Canvas_1->Range(-12.5,2.089047,112.5,7.175528);
    Canvas_1->SetFillColor(0);
    Canvas_1->SetBorderMode(0);
@@ -11,6 +11,13 @@ void Centrality()
    Canvas_1->SetFrameBorderMode(0);
    Canvas_1->SetFrameBorderMode(0);
    
+    Canvas_1->SetTickx(1);
+    Canvas_1->SetTicky(1);
+    gStyle->SetLineWidth(2);
+    Canvas_1->SetBottomMargin(0.11);
+    
+
+    
    TH1F *hCentralitySelectedCentral__1 = new TH1F("hCentralitySelectedCentral__1","hCentralitySelectedCentral",100,0,100);
    hCentralitySelectedCentral__1->SetBinContent(1,2325758);
    hCentralitySelectedCentral__1->SetBinContent(2,2392153);
@@ -27,6 +34,7 @@ void Centrality()
    hCentralitySelectedCentral__1->SetBinContent(13,38264);
    hCentralitySelectedCentral__1->SetBinContent(14,792);
    hCentralitySelectedCentral__1->SetEntries(2.480125e+07);
+    hCentralitySelectedCentral__1->SetMaximum(1.e+7);
    hCentralitySelectedCentral__1->SetDirectory(0);
    
    TPaveStats *ptstats = new TPaveStats(0.78,0.775,0.98,0.935,"brNDC");
@@ -46,16 +54,17 @@ void Centrality()
    hCentralitySelectedCentral__1->GetListOfFunctions()->Add(ptstats);
    ptstats->SetParent(hCentralitySelectedCentral__1);
    hCentralitySelectedCentral__1->SetFillColor(2);
-   hCentralitySelectedCentral__1->SetFillStyle(3004);
+   hCentralitySelectedCentral__1->SetFillStyle(3002);
    hCentralitySelectedCentral__1->SetLineColor(2);
-   hCentralitySelectedCentral__1->GetXaxis()->SetTitle("Centrality");
+   hCentralitySelectedCentral__1->GetXaxis()->SetTitle("Centrality(%)");
    hCentralitySelectedCentral__1->GetXaxis()->SetLabelFont(42);
-   hCentralitySelectedCentral__1->GetXaxis()->SetLabelSize(0.035);
-   hCentralitySelectedCentral__1->GetXaxis()->SetTitleSize(0.035);
+   hCentralitySelectedCentral__1->GetXaxis()->SetLabelSize(0.05);
+   hCentralitySelectedCentral__1->GetXaxis()->SetTitleSize(0.05);
    hCentralitySelectedCentral__1->GetXaxis()->SetTitleFont(42);
    hCentralitySelectedCentral__1->GetYaxis()->SetLabelFont(42);
-   hCentralitySelectedCentral__1->GetYaxis()->SetLabelSize(0.035);
-   hCentralitySelectedCentral__1->GetYaxis()->SetTitleSize(0.035);
+    hCentralitySelectedCentral__1->GetYaxis()->SetTitle("Accepted events");
+   hCentralitySelectedCentral__1->GetYaxis()->SetLabelSize(0.05);
+   hCentralitySelectedCentral__1->GetYaxis()->SetTitleSize(0.05);
    hCentralitySelectedCentral__1->GetYaxis()->SetTitleFont(42);
    hCentralitySelectedCentral__1->GetZaxis()->SetLabelFont(42);
    hCentralitySelectedCentral__1->GetZaxis()->SetLabelSize(0.035);
@@ -153,7 +162,7 @@ void Centrality()
    TColor *color; // for color definition with alpha
    ci = TColor::GetColor("#009900");
    hCentralitySelectedSemiCentral__2->SetFillColor(ci);
-   hCentralitySelectedSemiCentral__2->SetFillStyle(3005);
+   hCentralitySelectedSemiCentral__2->SetFillStyle(3002);
 
    ci = TColor::GetColor("#009900");
    hCentralitySelectedSemiCentral__2->SetLineColor(ci);
@@ -285,7 +294,7 @@ void Centrality()
    hCentralitySelectedMB__3->GetListOfFunctions()->Add(ptstats);
    ptstats->SetParent(hCentralitySelectedMB__3);
    hCentralitySelectedMB__3->SetFillColor(4);
-   hCentralitySelectedMB__3->SetFillStyle(3006);
+   hCentralitySelectedMB__3->SetFillStyle(3002);
    hCentralitySelectedMB__3->SetLineColor(4);
    hCentralitySelectedMB__3->GetXaxis()->SetTitle("Centrality");
    hCentralitySelectedMB__3->GetXaxis()->SetLabelFont(42);
@@ -302,7 +311,7 @@ void Centrality()
    hCentralitySelectedMB__3->GetZaxis()->SetTitleFont(42);
    hCentralitySelectedMB__3->Draw("same");
     
-    TLegend *leg = new TLegend(0.6,0.7,0.8,0.85,NULL,"brNDC");
+    TLegend *leg = new TLegend(0.6,0.6,0.8,0.85,NULL,"brNDC");
     leg->SetBorderSize(1);
     leg->SetTextSize(0.05);
     leg->SetLineColor(0);
@@ -321,7 +330,20 @@ void Centrality()
     entry->SetLineWidth(2);
     leg->Draw();
 
-    
+
+    tex = new TLatex(0.2,0.8,"ALICE, Pb-Pb, #sqrt{s_{NN}} = 2.76 TeV");
+    tex->SetNDC();
+    tex->SetTextFont(42);
+    tex->SetTextSize(0.045);
+    tex->SetLineWidth(2);
+    tex->Draw();
+    tex = new TLatex(0.2,0.73,"|#it{y}| < 0.5");
+    tex->SetNDC();
+    tex->SetTextAlign(12);
+    tex->SetTextFont(42);
+    tex->SetTextSize(0.045);
+    tex->SetLineWidth(2);
+    tex->Draw();
     
    Canvas_1->Modified();
    Canvas_1->cd();

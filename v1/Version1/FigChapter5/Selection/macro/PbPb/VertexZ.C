@@ -2,7 +2,7 @@ void VertexZ()
 {
 //=========Macro generated from canvas: Canvas_1/Canvas_1
 //=========  (Wed Aug 17 11:36:12 2016) by ROOT version6.06/00
-   TCanvas *Canvas_1 = new TCanvas("Canvas_1", "Canvas_1",271,100,700,600);
+   TCanvas *Canvas_1 = new TCanvas("Canvas_1", "Canvas_1",271,100,700,500);
    Canvas_1->Range(-37.5,-369326.1,37.5,3323935);
    Canvas_1->SetFillColor(0);
    Canvas_1->SetBorderMode(0);
@@ -11,8 +11,16 @@ void VertexZ()
    Canvas_1->SetPhi(88.8399);
    Canvas_1->SetFrameBorderMode(0);
    Canvas_1->SetFrameBorderMode(0);
+    
+    Canvas_1->SetTickx(1);
+    Canvas_1->SetTicky(1);
+    gStyle->SetLineWidth(2);
+    TGaxis::SetMaxDigits(3);
+
+    
+
    
-   TH1D *fVertexDistXYZ_z__5 = new TH1D("fVertexDistXYZ_z__5","Vertex Distribution z projection",60,-30,30);
+   TH1D *fVertexDistXYZ_z__5 = new TH1D("fVertexDistXYZ_z__5","",60,-30,30);
    fVertexDistXYZ_z__5->SetBinContent(0,264);
    fVertexDistXYZ_z__5->SetBinContent(1,102);
    fVertexDistXYZ_z__5->SetBinContent(2,178);
@@ -99,15 +107,17 @@ void VertexZ()
    Int_t ci;      // for color index setting
    TColor *color; // for color definition with alpha
    ci = TColor::GetColor("#000099");
-   fVertexDistXYZ_z__5->SetLineColor(ci);
+   fVertexDistXYZ_z__5->SetLineColor(kGreen+2);
+    fVertexDistXYZ_z__5->SetLineWidth(2);
    fVertexDistXYZ_z__5->GetXaxis()->SetTitle("Z Vertex (cm)");
    fVertexDistXYZ_z__5->GetXaxis()->SetLabelFont(42);
-   fVertexDistXYZ_z__5->GetXaxis()->SetLabelSize(0.035);
-   fVertexDistXYZ_z__5->GetXaxis()->SetTitleSize(0.035);
+   fVertexDistXYZ_z__5->GetXaxis()->SetLabelSize(0.05);
+   fVertexDistXYZ_z__5->GetXaxis()->SetTitleSize(0.05);
    fVertexDistXYZ_z__5->GetXaxis()->SetTitleFont(42);
    fVertexDistXYZ_z__5->GetYaxis()->SetLabelFont(42);
-   fVertexDistXYZ_z__5->GetYaxis()->SetLabelSize(0.035);
-   fVertexDistXYZ_z__5->GetYaxis()->SetTitleSize(0.035);
+    fVertexDistXYZ_z__5->GetYaxis()->SetTitle("Number of events");
+   fVertexDistXYZ_z__5->GetYaxis()->SetLabelSize(0.05);
+   fVertexDistXYZ_z__5->GetYaxis()->SetTitleSize(0.05);
    fVertexDistXYZ_z__5->GetYaxis()->SetTitleFont(42);
    fVertexDistXYZ_z__5->GetZaxis()->SetLabelFont(42);
    fVertexDistXYZ_z__5->GetZaxis()->SetLabelSize(0.035);
@@ -121,6 +131,7 @@ void VertexZ()
     //Cut->SetMaximum(812447.1);
     Cut->SetEntries(1);
     Cut->SetLineColor(2);
+    Cut->SetLineWidth(2);
     Cut->SetLineStyle(2);
     Cut->GetXaxis()->SetLabelFont(42);
     Cut->GetXaxis()->SetLabelSize(0.035);
@@ -135,6 +146,26 @@ void VertexZ()
     Cut->GetZaxis()->SetTitleSize(0.035);
     Cut->GetZaxis()->SetTitleFont(42);
     Cut->Draw("same");
+    
+    tex = new TLatex(0.15,0.8,"ALICE, Pb-Pb");
+    tex->SetNDC();
+    tex->SetTextFont(42);
+    tex->SetTextSize(0.045);
+    tex->SetLineWidth(2);
+    tex->Draw();
+    tex = new TLatex(0.15,0.73,"#sqrt{#it{s}_{NN}} = 2.76 TeV");
+    tex->SetNDC();
+    tex->SetTextFont(42);
+    tex->SetTextSize(0.045);
+    tex->SetLineWidth(2);
+    tex->Draw();
+    tex = new TLatex(0.15,0.66,"|#it{y}| < 0.5");
+    tex->SetNDC();
+    tex->SetTextFont(42);
+    tex->SetTextSize(0.045);
+    tex->SetLineWidth(2);
+    tex->Draw();
+
    
    TPaveText *pt = new TPaveText(0.2690262,0.9353727,0.7309738,0.995,"blNDC");
    pt->SetName("title");

@@ -1,0 +1,258 @@
+{
+//=========Macro generated from canvas: c/
+//=========  (Thu Mar  2 14:52:15 2017) by ROOT version5.34/30
+   TCanvas *c = new TCanvas("c", "",74,67,800,600);
+   gStyle->SetOptStat(0);
+   gStyle->SetOptTitle(0);
+   c->Range(0,0,1,1);
+   c->SetFillColor(0);
+   c->SetBorderMode(0);
+   c->SetBorderSize(2);
+   c->SetFrameBorderMode(0);
+  
+// ------------>Primitives in pad: p2
+   TPad *p2 = new TPad("p2", "",0,0,1,1);
+   p2->Draw();
+   p2->cd();
+   p2->Range(-8,-0.5666667,52,2.766667);
+   p2->SetFillColor(0);
+   p2->SetBorderMode(0);
+   p2->SetBorderSize(2);
+   p2->SetTickx(1);
+   p2->SetTicky(1);
+   p2->SetLeftMargin(0.15);
+   p2->SetRightMargin(0.05);
+   p2->SetTopMargin(0.08);
+   p2->SetBottomMargin(0.17);
+   p2->SetFrameBorderMode(0);
+   p2->SetFrameBorderMode(0);
+   
+   TH1F *frame = new TH1F("frame","",1,1,49);
+   frame->SetMinimum(0);
+   frame->SetMaximum(2.5);
+   frame->SetStats(0);
+
+   Int_t ci;      // for color index setting
+   TColor *color; // for color definition with alpha
+   ci = TColor::GetColor("#000099");
+   frame->SetLineColor(ci);
+   frame->GetXaxis()->SetTitle("#LTd#it{N}_{ch}/d#it{#eta}_{lab}#GT_{|#it{#eta_{lab}}| < 0.5}");
+   frame->GetXaxis()->SetNdivisions(508);
+   frame->GetXaxis()->SetLabelFont(42);
+   frame->GetXaxis()->SetLabelOffset(0.01);
+   frame->GetXaxis()->SetLabelSize(0.06);
+   frame->GetXaxis()->SetTitleSize(0.06);
+   frame->GetXaxis()->SetTickLength(0.02);
+   frame->GetXaxis()->SetTitleOffset(1.25);
+   frame->GetXaxis()->SetTitleFont(42);
+   frame->GetYaxis()->SetTitle("(h/#pi)_{pPb}/(h/#pi)_{pp}");
+   frame->GetYaxis()->SetNdivisions(508);
+   frame->GetYaxis()->SetLabelFont(42);
+   frame->GetYaxis()->SetLabelOffset(0.01);
+   frame->GetYaxis()->SetLabelSize(0.06);
+   frame->GetYaxis()->SetTitleSize(0.06);
+   frame->GetYaxis()->SetTickLength(0.02);
+   frame->GetYaxis()->SetTitleFont(42);
+   frame->GetZaxis()->SetLabelFont(42);
+   frame->GetZaxis()->SetLabelOffset(0.01);
+   frame->GetZaxis()->SetLabelSize(0.05);
+   frame->GetZaxis()->SetTitleSize(0.06);
+   frame->GetZaxis()->SetTitleFont(42);
+   frame->Draw("");
+   TBox *box = new TBox(34.8,1.20979,36.4,1.844682);
+
+   ci = TColor::GetColor("#99ccff");
+   box->SetFillColor(ci);
+   box->SetFillStyle(0);
+   box->SetLineColor(4);
+   box->SetLineWidth(2);
+   box->Draw();
+   box = new TBox(22.7,1.165385,23.7,1.794142);
+
+   ci = TColor::GetColor("#99ccff");
+   box->SetFillColor(ci);
+   box->SetFillStyle(0);
+   box->SetLineColor(4);
+   box->SetLineWidth(2);
+   box->Draw();
+   box = new TBox(15.7,0.9991048,16.5,1.545641);
+
+   ci = TColor::GetColor("#99ccff");
+   box->SetFillColor(ci);
+   box->SetFillStyle(0);
+   box->SetLineColor(4);
+   box->SetLineWidth(2);
+   box->Draw();
+   box = new TBox(6.9,0.7482617,7.3,1.153211);
+
+   ci = TColor::GetColor("#99ccff");
+   box->SetFillColor(ci);
+   box->SetFillStyle(0);
+   box->SetLineColor(4);
+   box->SetLineWidth(2);
+   box->Draw();
+   
+   TGraphErrors *gre = new TGraphErrors(4);
+   gre->SetName("GraphXiStarpPb");
+   gre->SetTitle("GraphXiStarpPb");
+   gre->SetFillColor(1);
+   gre->SetLineColor(4);
+   gre->SetLineWidth(2);
+   gre->SetMarkerColor(4);
+   gre->SetMarkerStyle(20);
+   gre->SetMarkerSize(1.52);
+   gre->SetPoint(0,35.6,1.527236);
+   gre->SetPointError(0,0.8,0.05349723);
+   gre->SetPoint(1,23.2,1.479764);
+   gre->SetPointError(1,0.5,0.05810555);
+   gre->SetPoint(2,16.1,1.272373);
+   gre->SetPointError(2,0.4,0.04976973);
+   gre->SetPoint(3,7.1,0.9507364);
+   gre->SetPointError(3,0.2,0.03701348);
+   
+   TH1F *Graph_GraphXiStarpPb1 = new TH1F("Graph_GraphXiStarpPb1","GraphXiStarpPb",100,1.435105,3.589767);
+   Graph_GraphXiStarpPb1->SetDirectory(0);
+   Graph_GraphXiStarpPb1->SetStats(0);
+   Graph_GraphXiStarpPb1->SetLineColor(4);
+   Graph_GraphXiStarpPb1->GetXaxis()->SetLabelFont(42);
+   Graph_GraphXiStarpPb1->GetXaxis()->SetLabelOffset(0.01);
+   Graph_GraphXiStarpPb1->GetXaxis()->SetLabelSize(0.05);
+   Graph_GraphXiStarpPb1->GetXaxis()->SetTitleSize(0.06);
+   Graph_GraphXiStarpPb1->GetXaxis()->SetTitleFont(42);
+   Graph_GraphXiStarpPb1->GetYaxis()->SetLabelFont(42);
+   Graph_GraphXiStarpPb1->GetYaxis()->SetLabelOffset(0.01);
+   Graph_GraphXiStarpPb1->GetYaxis()->SetLabelSize(0.05);
+   Graph_GraphXiStarpPb1->GetYaxis()->SetTitleSize(0.06);
+   Graph_GraphXiStarpPb1->GetYaxis()->SetTickLength(0.02);
+   Graph_GraphXiStarpPb1->GetYaxis()->SetTitleFont(42);
+   Graph_GraphXiStarpPb1->GetZaxis()->SetLabelFont(42);
+   Graph_GraphXiStarpPb1->GetZaxis()->SetLabelOffset(0.01);
+   Graph_GraphXiStarpPb1->GetZaxis()->SetLabelSize(0.05);
+   Graph_GraphXiStarpPb1->GetZaxis()->SetTitleSize(0.06);
+   Graph_GraphXiStarpPb1->GetZaxis()->SetTitleFont(42);
+   gre->SetHistogram(Graph_GraphXiStarpPb1);
+   
+   gre->Draw("pz");
+   TLatex *   tex = new TLatex(0.2,0.85,"ALICE, p-Pb #sqrt{s_{NN}}=5.02 TeV");
+tex->SetNDC();
+   tex->SetTextFont(42);
+   tex->SetTextSize(0.04);
+   tex->SetLineWidth(2);
+   tex->Draw();
+   
+   TLegend *leg = new TLegend(0.6,0.2,0.88,0.4,NULL,"brNDC");
+   leg->SetBorderSize(1);
+   leg->SetTextSize(0.038);
+   leg->SetLineColor(0);
+   leg->SetLineStyle(1);
+   leg->SetLineWidth(1);
+   leg->SetFillColor(0);
+   leg->SetFillStyle(1001);
+   TLegendEntry *entry=leg->AddEntry("NULL","#Sigma^{#pm}(1385)","p");
+   entry->SetLineColor(2);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+   entry->SetMarkerColor(2);
+   entry->SetMarkerStyle(20);
+   entry->SetMarkerSize(1.5);
+   entry->SetTextFont(42);
+   entry=leg->AddEntry("NULL","#Xi^{0}(1530)","p");
+   entry->SetLineColor(4);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+   entry->SetMarkerColor(4);
+   entry->SetMarkerStyle(20);
+   entry->SetMarkerSize(1.5);
+   entry->SetTextFont(42);
+   leg->Draw();
+   
+   gre = new TGraphErrors(3);
+   gre->SetName("RatioSigmaStarPionStat");
+   gre->SetTitle("Graph");
+   gre->SetFillColor(2);
+   gre->SetFillStyle(0);
+   gre->SetLineColor(2);
+   gre->SetLineWidth(2);
+   gre->SetMarkerColor(2);
+   gre->SetMarkerStyle(20);
+   gre->SetMarkerSize(1.5);
+   gre->SetPoint(0,35.6,1.272727);
+   gre->SetPointError(0,0.8,0.03678614);
+   gre->SetPoint(1,19.7,1.272727);
+   gre->SetPointError(1,0.5,0.03678614);
+   gre->SetPoint(2,7.1,1);
+   gre->SetPointError(2,0.2,0.03214122);
+   
+   TH1F *Graph_Graph_GraphXiStarpPb12 = new TH1F("Graph_Graph_GraphXiStarpPb12","GraphXiStarpPb",100,1.435105,3.589767);
+   Graph_Graph_GraphXiStarpPb12->SetDirectory(0);
+   Graph_Graph_GraphXiStarpPb12->SetStats(0);
+   Graph_Graph_GraphXiStarpPb12->SetLineColor(4);
+   Graph_Graph_GraphXiStarpPb12->GetXaxis()->SetLabelFont(42);
+   Graph_Graph_GraphXiStarpPb12->GetXaxis()->SetLabelOffset(0.01);
+   Graph_Graph_GraphXiStarpPb12->GetXaxis()->SetLabelSize(0.05);
+   Graph_Graph_GraphXiStarpPb12->GetXaxis()->SetTitleSize(0.06);
+   Graph_Graph_GraphXiStarpPb12->GetXaxis()->SetTitleFont(42);
+   Graph_Graph_GraphXiStarpPb12->GetYaxis()->SetLabelFont(42);
+   Graph_Graph_GraphXiStarpPb12->GetYaxis()->SetLabelOffset(0.01);
+   Graph_Graph_GraphXiStarpPb12->GetYaxis()->SetLabelSize(0.05);
+   Graph_Graph_GraphXiStarpPb12->GetYaxis()->SetTitleSize(0.06);
+   Graph_Graph_GraphXiStarpPb12->GetYaxis()->SetTickLength(0.02);
+   Graph_Graph_GraphXiStarpPb12->GetYaxis()->SetTitleFont(42);
+   Graph_Graph_GraphXiStarpPb12->GetZaxis()->SetLabelFont(42);
+   Graph_Graph_GraphXiStarpPb12->GetZaxis()->SetLabelOffset(0.01);
+   Graph_Graph_GraphXiStarpPb12->GetZaxis()->SetLabelSize(0.05);
+   Graph_Graph_GraphXiStarpPb12->GetZaxis()->SetTitleSize(0.06);
+   Graph_Graph_GraphXiStarpPb12->GetZaxis()->SetTitleFont(42);
+   gre->SetHistogram(Graph_Graph_GraphXiStarpPb12);
+   
+   gre->Draw("pz");
+   
+   gre = new TGraphErrors(3);
+   gre->SetName("Graph0");
+   gre->SetTitle("RatioSigmaStarPionSyst");
+   gre->SetFillColor(2);
+   gre->SetFillStyle(0);
+   gre->SetLineColor(2);
+   gre->SetLineWidth(2);
+   gre->SetMarkerColor(2);
+   gre->SetMarkerStyle(20);
+   gre->SetMarkerSize(1.5);
+   gre->SetPoint(0,35.6,1.272727);
+   gre->SetPointError(0,0.8,0.2080283);
+   gre->SetPoint(1,19.7,1.272727);
+   gre->SetPointError(1,0.5,0.2099961);
+   gre->SetPoint(2,7.1,1);
+   gre->SetPointError(2,0.2,0.1713462);
+   
+   TH1F *Graph_Graph_Graph_GraphXiStarpPb123 = new TH1F("Graph_Graph_Graph_GraphXiStarpPb123","GraphXiStarpPb",100,1.435105,3.589767);
+   Graph_Graph_Graph_GraphXiStarpPb123->SetDirectory(0);
+   Graph_Graph_Graph_GraphXiStarpPb123->SetStats(0);
+   Graph_Graph_Graph_GraphXiStarpPb123->SetLineColor(4);
+   Graph_Graph_Graph_GraphXiStarpPb123->GetXaxis()->SetLabelFont(42);
+   Graph_Graph_Graph_GraphXiStarpPb123->GetXaxis()->SetLabelOffset(0.01);
+   Graph_Graph_Graph_GraphXiStarpPb123->GetXaxis()->SetLabelSize(0.05);
+   Graph_Graph_Graph_GraphXiStarpPb123->GetXaxis()->SetTitleSize(0.06);
+   Graph_Graph_Graph_GraphXiStarpPb123->GetXaxis()->SetTitleFont(42);
+   Graph_Graph_Graph_GraphXiStarpPb123->GetYaxis()->SetLabelFont(42);
+   Graph_Graph_Graph_GraphXiStarpPb123->GetYaxis()->SetLabelOffset(0.01);
+   Graph_Graph_Graph_GraphXiStarpPb123->GetYaxis()->SetLabelSize(0.05);
+   Graph_Graph_Graph_GraphXiStarpPb123->GetYaxis()->SetTitleSize(0.06);
+   Graph_Graph_Graph_GraphXiStarpPb123->GetYaxis()->SetTickLength(0.02);
+   Graph_Graph_Graph_GraphXiStarpPb123->GetYaxis()->SetTitleFont(42);
+   Graph_Graph_Graph_GraphXiStarpPb123->GetZaxis()->SetLabelFont(42);
+   Graph_Graph_Graph_GraphXiStarpPb123->GetZaxis()->SetLabelOffset(0.01);
+   Graph_Graph_Graph_GraphXiStarpPb123->GetZaxis()->SetLabelSize(0.05);
+   Graph_Graph_Graph_GraphXiStarpPb123->GetZaxis()->SetTitleSize(0.06);
+   Graph_Graph_Graph_GraphXiStarpPb123->GetZaxis()->SetTitleFont(42);
+   gre->SetHistogram(Graph_Graph_Graph_GraphXiStarpPb123);
+   
+   gre->Draw("pe2");
+   TLine *line = new TLine(0,1,100,1);
+   line->SetLineStyle(2);
+   line->Draw();
+   p2->Modified();
+   c->cd();
+   c->Modified();
+   c->cd();
+   c->SetSelected(c);
+}

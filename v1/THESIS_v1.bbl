@@ -53,6 +53,14 @@
   (2015) 55}, \href{http://arxiv.org/abs/1503.07179}{{\ttfamily
   arXiv:1503.07179 [nucl-ex]}}.
 
+\bibitem{cite:pp7_piKp}
+{\bfseries ALICE} Collaboration, J.~Adam {\em et~al.}, ``{Measurement of pion,
+  kaon and proton production in proton-proton collisions at $\sqrt{s}$ = 7
+  TeV},'' \href{http://dx.doi.org/10.1140/epjc/s10052-015-3422-9}{{\em Eur.
+  Phys. J.} {\bfseries C75} (2015) 226},
+  \href{http://arxiv.org/abs/1504.00024}{{\ttfamily arXiv:1504.00024
+  [nucl-ex]}}.
+
 \bibitem{Hahn:1986mb}
 D.~Hahn and H.~Stoecker, ``{THE QUANTUM STATISTICAL MODEL OF FRAGMENT
   FORMATION: ENTROPY AND TEMPERATURE EXTRACTION IN HEAVY ION COLLISIONS},''
@@ -161,5 +169,18 @@ A.~Vel\'asquez, ``{Mean \pt scaling with ${\rm m/n_q }$ at the LHC: Absence of
   {\bfseries A943} (2015) 9--17},
   \href{http://arxiv.org/abs/1506.00584}{{\ttfamily arXiv:1506.00584
   [hep-ph]}}.
+
+\bibitem{cite:pp7_multistrange}
+{\bfseries ALICE} Collaboration, B.~Abelev {\em et~al.}, ``{Multi-strange
+  baryon production in pp collisions at \s = 7 TeV with ALICE},''
+  \href{http://dx.doi.org/10.1016/j.physletb.2012.05.011}{{\em Phys. Lett.}
+  {\bfseries B712} (2012) 309},
+  \href{http://arxiv.org/abs/1204.0282}{{\ttfamily arXiv:1204.0282 [nucl-ex]}}.
+
+\bibitem{cite:pythia8}
+T.~Sj{\"o}strand, S.~Mrenna, and P.~Skands, ``{A brief introduction to PYTHIA
+  8.1},'' \href{http://dx.doi.org/10.1016/j.cpc.2008.01.036}{{\em Comput. Phys.
+  Comm.} {\bfseries 178} (2008) 852--867},
+  \href{http://arxiv.org/abs/0710.3820}{{\ttfamily arXiv:0710.3820 [hep-ph]}}.
 
 \end{thebibliography}\endgroup

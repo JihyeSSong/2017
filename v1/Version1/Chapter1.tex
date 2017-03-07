@@ -19,40 +19,53 @@
 \textbf{Quantum Chromo-dynamics (QCD)} is the theory of the strong interaction (color force), describing the interactions between quarks and gluons which make up the hadrons. Starting from the classification of the large amount of particles discovered during the fifties, the original idea of the quark model by Gell-Mann (Nobel Prize in 1969) has been developed during the sixties until 1973, when David J. Gross, H. David Politzer and Frank Wilczek discovered the ?asymptotic freedom? property of the strong nuclear interaction (Nobel Prize in 2004).
 
 \subsection{QCD and Quark-Gloun plasma}
-The strong interaction is one of the four fundamental forces in nature, together with gravity, electromagnetism and the weak interaction. Its existence was postulated in the 1970s, to explain how the atomic nucleus was bound together despite the protons? mutual electromagnetic repulsion. This hypothesized force was called the strong force, which was believed to be a fundamental force that acted on the nucleons. It was later discovered that protons and neutrons were not fundamental particles, by means of deep inelastic experiments, but were made up of constituent particles (the quarks). The strong attraction between nucleons was the side-effect of a more fundamental force that bounds the quarks together in the protons and neutrons. Nowadays the strong inter- action is described through the formalism of a Quantum Field Theory. The particular theory describing this force is the Quantum Chromo-Dynamics (QCD), in analogy to the Quantum Electro-Dynamics (QED) that describes the electromagnetic interaction. In QED the electromagnetic force is mediated by photons, which carry no charge. Similarly, in QCD the gluons are the carriers of the strong force, but unlike the photon they carry color charge, meaning that they can interact with each other. In QED, the electrodynamic coupling constant is $\alpha$ = 1/137, whereas the QCD strong coupling constant, $\alpha_{s}$, can be 1 or larger. In quantum field theory when a coupling constant is much smaller than 1 the theory is said to be weakly coupled. When the coupling nears 1 the theory is strongly coupled, hence the name ?strong? force.In QCD the strong interaction between two quarks can be described using the following potential:
+%The strong interaction is one of the four fundamental forces in nature, together with gravity, electromagnetism and the weak interaction. Its existence was postulated in the 1970s, to explain how the atomic nucleus was bound together despite the protons? mutual electromagnetic repulsion. This hypothesized force was called the strong force, which was believed to be a fundamental force that acted on the nucleons. It was later discovered that protons and neutrons were not fundamental particles, by means of deep inelastic experiments, but were made up of constituent particles (the quarks). The strong attraction between nucleons was the side-effect of a more fundamental force that bounds the quarks together in the protons and neutrons. Nowadays the strong inter- action is described through the formalism of a Quantum Field Theory. The particular theory describing this force is the Quantum Chromo-Dynamics (QCD), in analogy to the Quantum Electro-Dynamics (QED) that describes the electromagnetic interaction. In QED the electromagnetic force is mediated by photons, which carry no charge. Similarly, in QCD the gluons are the carriers of the strong force, but unlike the photon they carry color charge, meaning that they can interact with each other. In QED, the electrodynamic coupling constant is $\alpha$ = 1/137, whereas the QCD strong coupling constant, $\alpha_{s}$, can be 1 or larger. In quantum field theory when a coupling constant is much smaller than 1 the theory is said to be weakly coupled. When the coupling nears 1 the theory is strongly coupled, hence the name ?strong? force. In QCD the strong interaction between two quarks can be described using the following potential:
+            When, starting in 1950s, the number of known particle species became large, the idea that these could be the elementary constituents of matter was replaced by the notion that these species could in fact be composite objects made up of fewer, more elementary particles, in a similar way to what had already happened to the elements of Mendeleev?s Periodic Table. The original idea by Gell-Mann (1964) was that the hadrons could be obtained as combination of the fundamental representation of an SU$_{f}$(3) group, where three different flavors of quark (q = u, d, s) combine to build mesons (q$\bar{q}$) and hadrons (qqq).However, when cataloging hadrons using the SUf(3) group, there are anomalous states, such as the $\Omega^{-}$(sss) and the  $\Delta^{++}$(uuu), that are combinations of three quarks of the same flavor, in clear contrast with the Pauli exclusion principle for fermions. A solution was proposed in 1965 by Moo-Young Han with Yoichiro Nambu and Oscar W. Greenberg, who independently solved the problem by proposing that quarks possess an additional SU(3) gauge quantum number, later called color charge.This new quantum number may assume three states, represented by the three primary colors: red, green and blue (denoted symbolically by R, G and B, respectively). The introduction of this new quantum number also provides an explanation to other empirical evidence, such as the fact that no qq, $\bar{qq}$ or the single quark have never been observed directly. On the other hand, the existence of color charge gives rise to the possible existence of differently colored states for each particle; thus, we could have many states for the proton, such as u$_{R}$u$_{G}$d$_{B}$, u$_{R}$u$_{G}$d$_{G}$, u$_{B}$u$_{R}$d$_{R}$, and so on. The fundamental rule that solves such contradictions is that all the particle states observed in nature are "colorless" or "white" (or, to be more precise, unchanged under SU$_{c}$(3) rotations).The dynamics of the quarks and gluons are controlled by the gauge invariant QCD Lagrangian:
+
+
+\begin{equation}\label{label:L}
+\mathcal{L}_{QCD} = \underbrace{i\delta_{ij}\bar{\Psi}^{i}_{q}\gamma^{\mu}\partial_{\mu}\Psi^{j}_{q}}_{\mathcal{L}_{1}}+ \underbrace{g_{s}\bar{\Psi}^{i}_{q}\gamma^{\mu}t_{ij}^{a}A_{\mu}^{a}\Psi^{j}_{q}}_{\mathcal{L}_{2}}+ \underbrace{m_{q}\bar{\Psi}^{i}_{q}\Psi^{j}_{q}}_{\mathcal{L}_{3}}+ \underbrace{\frac{1}{4}F_{\mu\nu}^{a}F^{a \mu\nu}}_{\mathcal{L}_{4}}
+\end{equation}
+
+where the coloured gluon field tensor, $F_{\mu\nu}^{a}$ (with color index $a$) and the squared gauge coupling parameter, $g_{s}^{2}$ (associated to the strong coupling constant $\alpha_{s}$) aredefined as:
+
+\begin{equation}\label{label:F}
+F_{\mu\nu}^{a} = \partial_{mu}A_{\nu}^{a} - \partial_{\nu}A_{\mu}^{a} + g_{s}f^{abc}A_{\mu}^{b}A_{\nu}^{c} \end{equation}
+
+and
+
+\begin{equation}\label{label:g}
+g_{s}^{2} = 4\pi\alpha_{s}
+\end{equation}
+
+where:
+
+\begin{itemize}
+\item $\Psi_{q}^{i}$: the quark field with flavor q and color index i $\in$ [1;3], such as $\Psi_{q}$ = ($\Psi_{qR}$, $\Psi_{qG}$, $\Psi_{qB}$)$^{T}$ and $A_{\mu}^{a}$ is the gluon field with color index a (adjoint representation)
+\item $\gamma^{\mu}$: Dirac matrices that express the vector nature of the strong interaction, with $\mu$ being the Lorentz vector associated index
+\item $m_{q}$: quark mass, a priori not equal to zero (resulting from the Higgs mechanism or equivalent)
+\item $t_{ij}^{a}$: generator matrices of the group SU$_{c}$(3), proportional to the Gell-Mann matrices, that perform revolutions in color space, representing interaction of quarks and gluons
+\item $f^{abc}$: structure constant of QCD
+\end{itemize}
+
+Each of the four terms of the QCD Lagrangian expresses and aspect of the interaction, specifically:
+
+\begin{itemize}
+\item $\mathcal{L}_{1}$: gives the kinetic energy of the quark field $\Psi_{q}^{i}$
+\item $\mathcal{L}_{2}$: gives the interaction between quarks (fermions) and gluons (the bosons of the interaction)
+\item $\mathcal{L}_{3}$: gives the mass of the quarks
+\item $\mathcal{L}_{4}$: gives the kinetic energy of the gluons
+\end{itemize}
+
+The terms of this equation, together with the fundamental parameters $\alpha_{s}$ and $m_{q}$, summarize in just one expression all the features of the strong interaction. 
+The first three terms describe the free propagation of quarks and gluons and the quark-gluon interaction. The remaining two terms show the presence of three and four gluon vertices in QCD and reflect the fact that gluons themselves carry color charge. This is a consequence of the non-abelian4 character of the gauge group.This peculiarity of the QCD interaction imposes the evolution of the strong coupling constant, $\alpha_{s}$. The corresponding trend has been measured experimentally, and compared in Figure \ref{fig:alpha} with predictions. A practical consequence of this behavior is that the corresponding potential has a completely different shape than the other fundamental interactions and can be expressed by the following equation:
+
 
 \begin{equation}\label{label:potential}
 V(r) = -4\frac{\alpha_{s}}{3r} + kr
 \end{equation}
 
-where r is the separation distance between the two quarks, $\alpha_{s}$ is the strong coupling constant, and $k$ is also a constant that is approximately 1 GeV/fm. The renormalization scale dependence of the effective QCD coupling $\alpha_{s}$ = $g^{2}_{s}$/4$\pi$ is controlled by the $\beta$-function:
-
- \begin{equation}\label{label:betaftn}
-\mu \frac{\partial \alpha_{s}}{\partial \mu} = 2\beta(\alpha_{s}) = - \frac{\beta_{0}}{2\pi}\alpha_{s}^{2} - \frac{\beta_{1}}{4\pi^{2}}\alpha_{s}^{3} - \frac{\beta_{2}}{64\pi^{3}}\alpha_{s}^{4} - ...
-\end{equation}
-where
- \begin{equation}\label{label:b0}
-\beta_{0} = 11 - \frac{2}{3}n_{f}
-\end{equation}
- \begin{equation}\label{label:b1}
-\beta_{1} = 51 - \frac{19}{3}n_{f}
-\end{equation}
- \begin{equation}\label{label:b2}
-\beta_{2} = 2857 - \frac{5033}{9}n_{f} + \frac{325}{27}n_{f}^{2}
-\end{equation}
-
-Here $n_{f}$ is the number of quarks with mass less than the energy scale $\mu$. In solving the differential equation \ref{label:betaftn} for $\alpha_{s}$,  a constant of integration is introduced. This constant is the fundamental constant of QCD that must de determined from experiment in addition to the quark masses. The most sensible choice for this constant is the value of $\alpha_{s}$ at a fixed-reference scale $\mu_{0}$. It has become standard to choose  $\mu_{0}$ = $M_{Z}$. At differentvalues of $\mu$, $\alpha_{s}$ can be obtained from 
-
- \begin{equation}\label{label:cal}
-log(\frac{\mu^{2}}{\mu_{0}^{2}}) = \int_{\alpha_{s}(\mu_{0})}^{\alpha_{s}(\mu)} \frac{d\alpha}{\beta(\alpha)}
-\end{equation}
-
-It is also convenient to introduce the dimensional parameter $\Lambda $[MeV$^{-1}$], since it provides a parameterization of the $\mu$ dependence of $\alpha_{s}$. The definition of $\Lambda$ is arbitrary. One way to define it is to write the solution of Equation \ref{label:betaftn} as an expansion in inverse power of ln$(\mu^{2})$:
- 
- \begin{equation}\label{label:expansions}
-\alpha_{s} = \frac{4\pi}{\beta_{0}ln(\mu^{2}/\Lambda^{2})}[1 - \frac{2\beta_{1}}{\beta_{0}^{2}} \frac{ln[ln(\mu^{2}/\Lambda^{2})]}{ln(\mu^{2}/\Lambda^{2})} + \frac{4\beta_{1}^{2}}{\beta_{0}^{4}ln^{2}(\mu^{2}/\Lambda^{2})} \times ((ln[ln(\mu^{2}/\Lambda^{2})] - \frac{1}{2})^{2} + \frac{\beta_{2}\beta_{0}}{8\beta_{1}} - \frac{5}{4})]
-\end{equation}
-
+where r is the separation distance between the two quarks and $k$ is a constant that is approximately 1 GeV/fm. %The renormalization scale dependence of the effective QCD coupling $\alpha_{s}$ = $g^{2}_{s}$/4$\pi$ is controlled by the $\beta$-function:
 
 \begin{figure}[htbp]
 \begin{center}
@@ -62,8 +75,18 @@ It is also convenient to introduce the dimensional parameter $\Lambda $[MeV$^{-1
 \end{center}
 \end{figure}
 
-Experimentally, $\alpha_{s}$ has been measured at different scales ($\mu$). Figure \ref{fig:alpha} shows the measurement of $\alpha_{s}$ as a function of the respective energy scale $Q$ compared to the lattice QCD calculation.
-Three very important properties of QCD arise from the running constant $\alpha_{s}$. They are confinement, asymptotic freedom, and (hidden) chiral symmetry. For large distance scales the second term in the potential equation (Equation \ref{label:expansions}) dominates. This means that the coupling between the two quarks is large, making it so that no free quarks are observed in nature, i.e. a quark never exists on its own for longer than 1/$\Lambda$QCD, where $\Lambda$QCD = 217 MeV. The up, down, strange, charm, and bottom quarks all hadronize on the time-scale 1/$\Lambda$QCD, the top quark decays before it has time to hadronize. Therefore, all but the top quark will be confined inside hadrons. Experimentally, no single quark in a color- triplet state has ever been observed.Asymptotic freedom arises when the quarks are at a small distance from one another or with a large enough momentum transfer $Q$ ($\alpha_{s}$ $\rightarrow$ 0 as $\mu$ $\rightarrow$ $\infty$). The potential will go like 1/r and the effective coupling between the quarks decreases, allowing for a quasi-free quark. The third property is called chiral symmetry, also not observed in nature. It is a symmetry of QCD in the limit of vanishing quark masses. In this limit quarks are either left of right handed, such that the QCD Lagrangian is symmetric. However, when quarks are confined inside hadrons they have large dynamical masses, called constituent or QCD masses. Here the chiral symmetry is said to be ?broken? (or hidden). In the small ?s limit some quarks will have small mass, called current mass. In this limit, chiral symmetry is said to be (partially) restored.In our world, quarks and gluons are confined inside hadrons. By significantly increasing the temperature and energy density the strong force holding the quarks and gluons together may be reduced, unbinding them from the hadrons. This phenomenon is known as "de-confinement". De-confinement implies that there exists a phase transition from a gas of hadrons to a new form of matter of free quarks and gluons, called the Quark-Gluon Plasma (QGP).
+Three are main properties of the QCD interaction: \\
+
+\textbf{Confinement}
+At large distances between quarks and gluons (i.e. small values of transferred momentum $Q$ in Figure \ref{fig:alpha}) the coupling constant is large and the associated force is strong enough to keep these elementary con- stituents (usually called partons) confined in bounded states. As expressed in the Equation \ref{label:potential}, the attractive potential increases with the increasing of the relative distance between the two partons preventing the separation of an individual quark or gluon. This explains the meaning of the term "confinement" adopted to describe this energy regime. From the theoretical point of view, the large value of $\alpha_{s}$ make impossible any perturbative approach in the solution of the Hamilton equation of the system. A successful solution is to perform the study of the system on a discrete space. Such techniques are known as lattice QCD and are based on numerical Monte Carlo simulations. The challenge for the calculations is to reduce the lattice spacing in order to approach the continuum.\\
+
+\textbf{Asymptotic freedom}
+Reducing the distance between quarks and gluons (i.e. increasing $Q$ in Figure \ref{fig:alpha}) the coupling constant $\alpha_{s}$ becomes smaller. As anticipated, this is a unique feature among the forces and comes from the non-abelian nature of the QCD gauge symmetry. Such a phenomenon is also depicted by the weakening of the anti-screening effect of the surround- ing virtual gluons with decreasing distance. In this way two quarks closer and closer in space show each other a smaller and smaller color charge.
+\textbf{Chiral symmetry}
+One further property of interest is connected to the chirality of the quark. It can be verified that the QCD lagrangian for massless quarks is invariant under a chiral rotation (SU$_{L}$(N$_{f}$) $\times$ SU$_{R}$(N$_{f}$)), while the operator $\bar{q}$q = $\bar{q}_{L}$q$_{R}$ + $\bar{q}_{R}$q$_{L}$ is not invariant (in the axial part), meaning that the mesons (state $\bar{q}$q) should have the same mass. Experimentally this is clearly not true, and it could be shown that the axial current is conserved (PCAC and the Goldberger-Treiman relation). The solution to this puzzle is that the chiral (axial-vector) symmetry is spontaneously broken; this means that the symmetry of the Hamiltonian is not a symmetry of the corresponding ground state. It has also been shown, by G. t?Hooft, that the confinement implies a dynamical breaking of the chiral symmetry [7]; this means that the breaking comes from the interaction between the objects in the system. From this follows that the masses of the quarks are strongly increased because of the interaction with the constituents of the system. This mechanism, known as dynamical chiral symmetry breaking justifies the mass of the hadrons, reducing the role of the Higgs mechanism in the mass explanation at least for the light hadrons.
+
+
+%Experimentally, $\alpha_{s}$ has been measured at different scales ($\mu$). Figure \ref{fig:alpha} shows the measurement of $\alpha_{s}$ as a function of the respective energy scale $Q$ compared to the lattice QCD calculation. Three very important properties of QCD arise from the running constant $\alpha_{s}$. They are confinement, asymptotic freedom, and (hidden) chiral symmetry. For large distance scales the second term in the potential equation (Equation \ref{label:expansions}) dominates. This means that the coupling between the two quarks is large, making it so that no free quarks are observed in nature, i.e. a quark never exists on its own for longer than 1/$\Lambda$QCD, where $\Lambda$QCD = 217 MeV. The up, down, strange, charm, and bottom quarks all hadronize on the time-scale 1/$\Lambda$QCD, the top quark decays before it has time to hadronize. Therefore, all but the top quark will be confined inside hadrons. Experimentally, no single quark in a color- triplet state has ever been observed. Asymptotic freedom arises when the quarks are at a small distance from one another or with a large enough momentum transfer $Q$ ($\alpha_{s}$ $\rightarrow$ 0 as $\mu$ $\rightarrow$ $\infty$). The potential will go like 1/r and the effective coupling between the quarks decreases, allowing for a quasi-free quark. The third property is called chiral symmetry, also not observed in nature. It is a symmetry of QCD in the limit of vanishing quark masses. In this limit quarks are either left of right handed, such that the QCD Lagrangian is symmetric. However, when quarks are confined inside hadrons they have large dynamical masses, called constituent or QCD masses. Here the chiral symmetry is said to be ?broken? (or hidden). In the small ?s limit some quarks will have small mass, called current mass. In this limit, chiral symmetry is said to be (partially) restored. In our world, quarks and gluons are confined inside hadrons. By significantly increasing the temperature and energy density the strong force holding the quarks and gluons together may be reduced, unbinding them from the hadrons. This phenomenon is known as "de-confinement". De-confinement implies that there exists a phase transition from a gas of hadrons to a new form of matter of free quarks and gluons, called the Quark-Gluon Plasma (QGP).
 
 \newpage
 \subsection{Heavy Ion Collisions}
@@ -76,5 +99,7 @@ In the case a QGP is formed, it will eventually expand because of its internal p
 \label{fig:freezeout}
 \end{center}
 \end{figure}
+A practical way to reach a critical condition in which a nuclear system should undergo a phase transition to the QGP, at high temperature and/or matter density, is to collide two nuclei at sufficiently high energy. Therefore, relativistic and ultra-relativistic heavy-ion collisions are a unique tool to study nuclear matter under extreme conditions.
+
 
 \newpage

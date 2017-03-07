@@ -1,5 +1,20 @@
 \providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}
 
+\bibitem{cite:PDG}
+{\bfseries Particle Data Group} Collaboration, K.~Olive {\em et~al.}, ``{Review
+  of Particle Physics},''
+  \href{http://dx.doi.org/10.1088/1674-1137/38/9/090001}{{\em Chin. Phys.}
+  {\bfseries C38} (2014) 090001}.
+
+\bibitem{cite:LHCfig}
+
+
+\bibitem{cite:ITS}
+{\bfseries ALICE} Collaboration, K.~e.~a. Aamodt, ``{Alignment of the ALICE
+  Inner Tracking System with cosmic-ray tracks},''
+  \href{http://dx.doi.org/10.1088/1748-0221/5/03/P03003}{{\em JINST} {\bfseries
+  5} (2010) P03003}.
+
 \bibitem{cite:lambda_pPb}
 {\bfseries ALICE} Collaboration, J.~Adam {\em et~al.}, ``{Multiplicity
   dependence of pion, kaon, proton and lambda production in p--Pb collisions at
@@ -61,11 +76,8 @@
   \href{http://arxiv.org/abs/1504.00024}{{\ttfamily arXiv:1504.00024
   [nucl-ex]}}.
 
-\bibitem{Hahn:1986mb}
-D.~Hahn and H.~Stoecker, ``{THE QUANTUM STATISTICAL MODEL OF FRAGMENT
-  FORMATION: ENTROPY AND TEMPERATURE EXTRACTION IN HEAVY ION COLLISIONS},''
-  \href{http://dx.doi.org/10.1016/0375-9474(88)90332-6}{{\em Nucl. Phys.}
-  {\bfseries A476} (1988) 718--772}.
+\bibitem{cite:sm}
+F.~Halzen and A.~Martin.
 
 \bibitem{Wheaton:2004qb}
 S.~Wheaton, J.~Cleymans, and M.~Hauer, ``{THERMUS: A Thermal model package for
@@ -85,11 +97,76 @@ J.~Cleymans, S.~Kabana, I.~Kraus, H.~Oeschler, K.~Redlich, and N.~Sharma,
 \bibitem{cite:LHC}
 L.~Evans and P.~Bryant.
 
+\bibitem{cite:proposalALICE}
+
+
+\bibitem{cite:proposalATLAS}
+
+
+\bibitem{cite:proposalCMS}
+
+
+\bibitem{cite:proposalLHCb}
+
+
+\bibitem{cite:proposalLHCf}
+
+
+\bibitem{cite:proposalTOTEM}
+
+
 \bibitem{cite:ALICE}
 {\bfseries ALICE} Collaboration, K.~Aamodt {\em et~al.}, ``{The ALICE
   experiment at the CERN LHC},''
   \href{http://dx.doi.org/10.1088/1748-0221/3/08/S08002}{{\em JINST} {\bfseries
   3} (2008) S08002}.
+
+\bibitem{cite:ALICEcoord}
+{\bfseries ALICE} Collaboration, L.~B. et~al, ``{Definition of the ALICE
+  coordinate system and basic rules for sub-detector components numbering},''
+  {\em In Internal Note ALICE-INT-2003-038} .
+
+\bibitem{cite:TPC}
+{\bfseries ALICE} Collaboration, J.~e.~a. Alme, ``{The ALICE TPC, a large
+  3-dimensional tracking device with fast readout for ultra-high multiplicity
+  events},'' \href{http://dx.doi.org/DOI: 10.1016/j.nima.2010.04.042}{{\em In
+  Nuclear Instruments and Method in Physics Research} {\bfseries A622} (2010)
+  316--367}.
+
+\bibitem{cite:V0}
+
+
+\bibitem{cite:glauber}
+R.~Glauber.
+
+\bibitem{cite:glauber1}
+A.~S. K.C.~Chung, C.S.~Whang and G.~Pech.
+
+\bibitem{cite:centralitypPb}
+{\bfseries ALICE} Collaboration, J.~Adam {\em et~al.}, ``{Centrality dependence
+  of particle production in p--Pb collisions at \snn= 5.02 TeV},''
+  \href{http://dx.doi.org/10.1103/PhysRevC.91.064905}{{\em Phys. Rev.}
+  {\bfseries C91} (2015) 064905},
+  \href{http://arxiv.org/abs/1412.6828}{{\ttfamily arXiv:1412.6828 [nucl-ex]}}.
+
+\bibitem{cite:centralityPbPb}
+{\bfseries ALICE} Collaboration, B.~Abelev {\em et~al.}, ``{Centrality
+  determination of Pb--Pb collisions at \snn = 2.76 TeV with ALICE},''
+  \href{http://dx.doi.org/https://doi.org/10.1103/PhysRevC.88.044910}{{\em
+  Phys. Rev.} {\bfseries C88} (2013) },
+  \href{http://arxiv.org/abs/1303.0737}{{\ttfamily arXiv:1303.0737 [nucl-ex]}}.
+
+\bibitem{cite:daq}
+
+
+\bibitem{cite:grid}
+
+
+\bibitem{cite:alien}
+e.~a. Bagnasco.~S.
+
+\bibitem{cite:aliroot}
+R.~Brun and F.~Rademakers.
 
 \bibitem{cite:ALICEPerformance}
 {\bfseries ALICE} Collaboration, B.~Abelev {\em et~al.}, ``{Performance of the
@@ -104,19 +181,6 @@ L.~Evans and P.~Bryant.
   \href{http://dx.doi.org/10.1103/PhysRevLett.110.032301}{{\em Phys. Rev.
   Lett.} {\bfseries 110} (2013) 032301},
   \href{http://arxiv.org/abs/1210.3615}{{\ttfamily arXiv:1210.3615 [nucl-ex]}}.
-
-\bibitem{cite:centralityPbPb}
-{\bfseries ALICE} Collaboration, B.~Abelev {\em et~al.}, ``{Centrality
-  determination of Pb--Pb collisions at \snn = 2.76 TeV with ALICE},''
-  \href{http://dx.doi.org/https://doi.org/10.1103/PhysRevC.88.044910}{{\em
-  Phys. Rev.} {\bfseries C88} (2013) },
-  \href{http://arxiv.org/abs/1303.0737}{{\ttfamily arXiv:1303.0737 [nucl-ex]}}.
-
-\bibitem{cite:PDG}
-{\bfseries Particle Data Group} Collaboration, K.~Olive {\em et~al.}, ``{Review
-  of Particle Physics},''
-  \href{http://dx.doi.org/10.1088/1674-1137/38/9/090001}{{\em Chin. Phys.}
-  {\bfseries C38} (2014) 090001}.
 
 \bibitem{cite:lambda_pp}
 {\bfseries ALICE} Collaboration, K.~Aamodt {\em et~al.}, ``{Strange particle

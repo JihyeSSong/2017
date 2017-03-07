@@ -3,71 +3,177 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: THESIS_v1.aux
 The style file: utphys.bst
 Database file #1: Reference.bib
-You're missing a field name---line 24 of file Reference.bib
+You're missing a field name---line 22 of file Reference.bib
+ : 
+ : %collaboration = "ALICE",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 34 of file Reference.bib
  : 
  : %collaboration = "Particle Data Group",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 357 of file Reference.bib
+You're missing a field name---line 44 of file Reference.bib
+ : 
+ : %author = "L. Evans and P. Bryant",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 56 of file Reference.bib
+ : 
+ : %author = "Aamodt, K.  and others",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 67 of file Reference.bib
+ : 
+ : %author = "Aamodt, K.  and others",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 78 of file Reference.bib
+ : 
+ : %author = "Aamodt, K.  and others",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 89 of file Reference.bib
+ : 
+ : %author = "Aamodt, K.  and others",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 100 of file Reference.bib
+ : 
+ : %author = "Aamodt, K.  and others",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 111 of file Reference.bib
+ : 
+ : %author = "Aamodt, K.  and others",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 139 of file Reference.bib
+ : 
+ : %volume  = "3",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 169 of file Reference.bib
+ : 
+ : %author = "Alme, J. et al",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 181 of file Reference.bib
+ : 
+ : %collaboration = "ALICE",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 195 of file Reference.bib
+ : 
+ : %collaboration = "ALICE",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 237 of file Reference.bib
+ : 
+ : %author = "Abelev, B.  and others",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 250 of file Reference.bib
+ : 
+ : %author = "Abelev, B.  and others",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 264 of file Reference.bib
+ : 
+ : %collaboration = "ALICE  ",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 278 of file Reference.bib
+ : 
+ : %collaboration = "ALICE  ",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 591 of file Reference.bib
  : @article{cite:DPMJET
  :                     ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 378 of file Reference.bib
+You're missing a field name---line 612 of file Reference.bib
  : 
  : %      archivePrefix  = "arXiv",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 637 of file Reference.bib
+Repeated entry---line 871 of file Reference.bib
  : @article{Wheaton:2004qb
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1028 of file Reference.bib
+Repeated entry---line 1262 of file Reference.bib
  : @article{Cleymans:2011pe
  :                         ,
 I'm skipping whatever remains of this entry
+Warning--empty author in cite:LHCfig
+Warning--empty title in cite:LHCfig
+Warning--empty title in cite:sm
 Warning--empty title in cite:LHC
+Warning--empty author in cite:proposalALICE
+Warning--empty title in cite:proposalALICE
+Warning--empty author in cite:proposalATLAS
+Warning--empty title in cite:proposalATLAS
+Warning--empty author in cite:proposalCMS
+Warning--empty title in cite:proposalCMS
+Warning--empty author in cite:proposalLHCb
+Warning--empty title in cite:proposalLHCb
+Warning--empty author in cite:proposalLHCf
+Warning--empty title in cite:proposalLHCf
+Warning--empty author in cite:proposalTOTEM
+Warning--empty title in cite:proposalTOTEM
+Warning--empty pages in cite:ALICEcoord
+Warning--empty author in cite:V0
+Warning--empty title in cite:V0
+Warning--empty title in cite:glauber
+Warning--empty title in cite:glauber1
 Warning--empty pages in cite:centralityPbPb
+Warning--empty author in cite:daq
+Warning--empty title in cite:daq
+Warning--empty author in cite:grid
+Warning--empty title in cite:grid
+Warning--empty title in cite:alien
+Warning--empty title in cite:aliroot
 Warning--empty pages in cite:GEANT
 Warning--empty pages in cite:trackingeffi
-You've used 27 entries,
+You've used 45 entries,
             2328 wiz_defined-function locations,
-            768 strings with 8768 characters,
-and the built_in function-call counts, 8314 in all, are:
-= -- 801
-> -- 235
+            816 strings with 9737 characters,
+and the built_in function-call counts, 10698 in all, are:
+= -- 1012
+> -- 289
 < -- 0
-+ -- 88
-- -- 61
-* -- 909
-:= -- 957
-add.period$ -- 28
-call.type$ -- 27
-change.case$ -- 26
++ -- 117
+- -- 72
+* -- 1066
+:= -- 1233
+add.period$ -- 46
+call.type$ -- 45
+change.case$ -- 29
 chr.to.int$ -- 0
-cite$ -- 31
-duplicate$ -- 460
-empty$ -- 840
-format.name$ -- 61
-if$ -- 2165
+cite$ -- 75
+duplicate$ -- 619
+empty$ -- 1118
+format.name$ -- 72
+if$ -- 2776
 int.to.chr$ -- 0
-int.to.str$ -- 27
-missing$ -- 107
-newline$ -- 86
-num.names$ -- 27
-pop$ -- 110
+int.to.str$ -- 45
+missing$ -- 164
+newline$ -- 140
+num.names$ -- 35
+pop$ -- 222
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 343
+skip$ -- 400
 stack$ -- 0
-substring$ -- 360
-swap$ -- 242
+substring$ -- 384
+swap$ -- 271
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 4
-while$ -- 59
-width$ -- 29
-write$ -- 230
-(There were 5 error messages)
+warning$ -- 30
+while$ -- 69
+width$ -- 47
+write$ -- 321
+(There were 21 error messages)

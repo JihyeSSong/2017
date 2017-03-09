@@ -8,106 +8,118 @@ You're missing a field name---line 22 of file Reference.bib
  : %collaboration = "ALICE",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 34 of file Reference.bib
+You're missing a field name---line 33 of file Reference.bib
  : 
- : %collaboration = "Particle Data Group",
+ : %collaboration = "ALICE",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 You're missing a field name---line 44 of file Reference.bib
  : 
+ : %collaboration = "ALICE",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 58 of file Reference.bib
+ : 
+ : %collaboration = "Particle Data Group",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 68 of file Reference.bib
+ : 
  : %author = "L. Evans and P. Bryant",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 56 of file Reference.bib
+You're missing a field name---line 80 of file Reference.bib
  : 
  : %author = "Aamodt, K.  and others",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 67 of file Reference.bib
+You're missing a field name---line 91 of file Reference.bib
  : 
  : %author = "Aamodt, K.  and others",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 78 of file Reference.bib
+You're missing a field name---line 102 of file Reference.bib
  : 
  : %author = "Aamodt, K.  and others",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 89 of file Reference.bib
+You're missing a field name---line 113 of file Reference.bib
  : 
  : %author = "Aamodt, K.  and others",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 100 of file Reference.bib
+You're missing a field name---line 124 of file Reference.bib
  : 
  : %author = "Aamodt, K.  and others",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 111 of file Reference.bib
+You're missing a field name---line 135 of file Reference.bib
  : 
  : %author = "Aamodt, K.  and others",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 139 of file Reference.bib
+You're missing a field name---line 163 of file Reference.bib
  : 
  : %volume  = "3",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 169 of file Reference.bib
+You're missing a field name---line 193 of file Reference.bib
  : 
  : %author = "Alme, J. et al",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 181 of file Reference.bib
+You're missing a field name---line 205 of file Reference.bib
  : 
  : %collaboration = "ALICE",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 195 of file Reference.bib
+You're missing a field name---line 219 of file Reference.bib
  : 
  : %collaboration = "ALICE",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 237 of file Reference.bib
+You're missing a field name---line 261 of file Reference.bib
  : 
  : %author = "Abelev, B.  and others",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 250 of file Reference.bib
+You're missing a field name---line 274 of file Reference.bib
  : 
  : %author = "Abelev, B.  and others",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 264 of file Reference.bib
+You're missing a field name---line 288 of file Reference.bib
  : 
  : %collaboration = "ALICE  ",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 278 of file Reference.bib
+You're missing a field name---line 302 of file Reference.bib
  : 
  : %collaboration = "ALICE  ",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 591 of file Reference.bib
+Repeated entry---line 615 of file Reference.bib
  : @article{cite:DPMJET
  :                     ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 612 of file Reference.bib
+You're missing a field name---line 636 of file Reference.bib
  : 
  : %      archivePrefix  = "arXiv",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 871 of file Reference.bib
+Repeated entry---line 895 of file Reference.bib
  : @article{Wheaton:2004qb
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1262 of file Reference.bib
+Repeated entry---line 1286 of file Reference.bib
  : @article{Cleymans:2011pe
  :                         ,
 I'm skipping whatever remains of this entry
 Warning--empty author in cite:LHCfig
 Warning--empty title in cite:LHCfig
 Warning--empty title in cite:sm
+Warning--empty title in cite:gellmann
+Warning--empty title in cite:strangeness
 Warning--empty title in cite:LHC
 Warning--empty author in cite:proposalALICE
 Warning--empty title in cite:proposalALICE
@@ -135,36 +147,36 @@ Warning--empty title in cite:alien
 Warning--empty title in cite:aliroot
 Warning--empty pages in cite:GEANT
 Warning--empty pages in cite:trackingeffi
-You've used 45 entries,
+You've used 47 entries,
             2328 wiz_defined-function locations,
-            816 strings with 9737 characters,
-and the built_in function-call counts, 10698 in all, are:
-= -- 1012
-> -- 289
+            820 strings with 9818 characters,
+and the built_in function-call counts, 10966 in all, are:
+= -- 1036
+> -- 305
 < -- 0
-+ -- 117
-- -- 72
-* -- 1066
-:= -- 1233
-add.period$ -- 46
-call.type$ -- 45
++ -- 123
+- -- 76
+* -- 1076
+:= -- 1275
+add.period$ -- 48
+call.type$ -- 47
 change.case$ -- 29
 chr.to.int$ -- 0
-cite$ -- 75
-duplicate$ -- 619
-empty$ -- 1118
-format.name$ -- 72
-if$ -- 2776
+cite$ -- 79
+duplicate$ -- 633
+empty$ -- 1144
+format.name$ -- 76
+if$ -- 2842
 int.to.chr$ -- 0
-int.to.str$ -- 45
-missing$ -- 164
-newline$ -- 140
-num.names$ -- 35
-pop$ -- 222
+int.to.str$ -- 47
+missing$ -- 170
+newline$ -- 146
+num.names$ -- 37
+pop$ -- 234
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 400
+skip$ -- 404
 stack$ -- 0
 substring$ -- 384
 swap$ -- 271
@@ -172,8 +184,8 @@ text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 30
-while$ -- 69
-width$ -- 47
-write$ -- 321
-(There were 21 error messages)
+warning$ -- 32
+while$ -- 71
+width$ -- 49
+write$ -- 331
+(There were 23 error messages)

@@ -1,138 +1,130 @@
-\section{Theoretical models}\label{sec:model}
-\subsection{Thermal statistical model}
+\section{Production of resonance with strangeness}
 
-The statistical-thermal model has proved extremely successful in applications to relativistic collisions of both heavy ions and elementary particles. In light of this success, THERMUS, a thermal model analysis package, has been developed for incorporation into the object-oriented ROOT framework \cite{Wheaton:2004qb}.\\ \\
-There are three types of statistical-thermal models in explaining data in high energy nuclear physics and THERMUS treats the system quantum numbers B (baryon number), S (strangeness) and Q (charge) within three distinct formalisms: 
+The Quark Model, proposed independently by Murray Gell-Mann and Yuval Ne?eman in 1964 \cite{cite:gellmann}, enables the classification of hadrons in terms of their constituent quarks. In this model, the lighter mesons and baryons are representations of an SU$_{f}$(3) group, whose fundamental representation is the three dimensional vector (u, d, s). These are the three lighter quarks whose characteristics are reported in Table ref{table:quark}. 
 
-\begin{enumerate}
-\item \textbf{Grand-Canonical Ensemble:} Because the hot dense matter produced in nucleus-nucleus collisions is large enough, this ensemble is the most widely used in applications to heavy-ion collisions, in which the quantum numbers are conserved on average. 
-\item \textbf{Fully-Canonical Ensemble:} In which B, S and Q are each exactly conserved and this ensemble used in high-energy elementary collisions such as pp, p\pbar{} and e$^{-}$e$^{+}$ collisions.
-\item \textbf{Strangeness-Canonical Ensemble:}  In small systems or at low temperatures, a canonical treatment leads to a suppression of hadrons carrying non-zero quantum numbers, since these particles have to be created in pairs and the resulting low production of strange particles requires a canonical treatment of strangeness.  
- \end{enumerate}
- In order to calculate the thermal properties of a system, one starts with an evaluation of its partition function. The form of the partition function obviously depends on the choice of ensemble. In the present analysis the strangeness-canonical ensemble used and the statistical-thermal model requires six parameters as input: the chemical freeze-out temperature $T$, baryon and charge chemical potentials $\mu_{B}$ and $\mu_{Q}$ respectively, canonical or correlation radius, $R_{C}$; the radius inside which strangeness is exactly conserved and the fireball radius $R$. An additional strangeness saturation factor $\gamma_{S}$ has been used as indicator of a possible departure from equilibrium and $\gamma_{S}=1.0$ corresponds to complete strangeness equilibration.
- 
-
-The volume dependence cancels out when studying the particle ratios as well as strangeness canonical equivalent to grand canonical formalism if $\Delta S=0$ in the ratios and $\gamma_{S}$ also cancels out. Parameters used in the analysis listed in Table~\ref{jfonts}. The $\mu_{B}$ parameter taken from the Ref.~\cite{Cleymans:2011pe}.
- 
- \begin{center}
-\begin{table}[h]
+\begin{table}[h!]
 \centering
-\caption{\label{jfonts} Parameters used in the thermal-model calculations.} 
-%\begin{tabular}{@{}l*{15}{l}}
- \begin{tabular}{@{}*{2}{cc}}
+\begin{tabular}{lclclc|c|}
 \hline
-Parameter&Value\\
-\hline
-$T$ (MeV)&varied (see text)\\
-$\mu_{B}$ (MeV)&$9.2\times10^{-2}$????\\ 
-$\mu_{Q}$ (MeV)&$0.0$\\ 
-$\gamma_{S}$&$1.0$\\ 
-%$R_{C}$ (fm)&$1.5$\\ 
-%$R$ (fm)&$4.0$\\ 
-\hline
+Light flavor &   d  & u  & s \\
+\hline \noalign{\smallskip}
+Baryon number (B) &  +1/3     & +1/3  &  +1/3\\
+Electric charge (Q) &   -1/3     &  +2/3 &   -1/3 \\
+Isospin (I)               &   -1/2     &  +1/2 &     0\\
+Strangeness (S)     &     0   & 0 & -1\\
+mass (\mmass)   &    2.3$_{-0.5}^{+0.7}$    & 4.8$_{-0.3}^{+0.5}$  &  95$\pm$5\\
+\hline\noalign{\smallskip}
+\noalign{\smallskip}
 \end{tabular}
+\caption{Quantum numbers and masses associated to the three lighter quarks: u, d and s}\label{table:quark}
 \end{table}
-\end{center}
-\newpage
-\subsubsection{Calculations}
-\textit{Concept:} \\In order to calculate the particle ratios within strangeness canonical formalism of THERMUS, temperature varied between 60 MeV to 180 MeV and particle yields extracted for each temperature value and then primary particle ratios calculated for each case. \\ \\
-\textit{Feed-Down Correction:} \\Since the particle yields measured by the detectors in collision experiments include feed-down from heavier hadrons and hadronic resonances, the primordial hadrons are allowed to decay to particles considered stable by the experiment before model predictions are compared with experimental data. In the analysis only  $\Lambda$ particles counted as stable (do not allowed to decay) so there is no feed-down contribution from these particles to the other ratios.  \\ \\
 
-Properties of studied particles and their particle ratios listed in Table~\ref{opt} and Table~\ref{diff}, respectively. 
-%\begin{landscape}
+The hadronic state are obtained from the decomposition of the following scalar products of the fundamental representations of the group: \\
 
-%\begin{center}
-%\begin{table}[h]
-\hspace*{-1cm}
-\begin{table}[!htb] 
-\hspace*{-1cm}
-%\vspace{1.5 cm}
-\caption{\label{opt} Properties of particles used in the ratio calculations.}
-%
-\hspace*{-1cm}
-%
-%\addtolength{\tabcolsep}{-2.7pt}
- \begin{tabular}{lcccccccccccc}
-\hline
-\hline
-Particle&$\Delta^{++}$ &  p & K$^{*0}$ &K$^{0} $ &K$^{+} $ & $\Lambda^{*}$ & $\Lambda$& $\Sigma^{*+}$  & $\Sigma^{+}$ & $\Sigma^{0}$ & $\Xi^{*0}$ & $\Xi^{-}$\\
-\hline
-Mass (MeV/$c^{2}$)&1232&938.27&895.92&497.61&493.67&1519.5&1115.68&1382.8&1189.37&1192.64&1531.80&1321.31\\
-%\hline 
-Width (MeV/$c^{2}$)&120&--&50.7&--&--&15.6&--&37.6&--&--&9.1&--\\
-%\hline
-$c\tau$ (fm)&1.6&--&3.9&--&--&12.6&--&5.51&--&--&$21.6$&--\\
-%\hline
-Ang. Momentum ($J$)&3/2&1/2&1&1&0&3/2&1/2&3/2&1/2&1/2&3/2&1/2\\
-%\hline
-Isospin ($I$)&3/2&1/2&1/2&1/2&1/2&0&0&1&1&1&1/2&1/2\\
-%\hline
-Parity ($P$)&+1&+1&-1&-1&0&-1&+1&+1&+1&+1&+1&+1\\
-%\hline
-Strangeness ($S$)&0&0&1&1&1&-1&-1&-1&-1&-1&-2&-2\\
-%\hline
-Baryon Number ($B$)&1&1&0&0&0&1&1&1&1&1&1&1\\
-%\hline
-Decay Channel&p$\pi^{+}$&--&$\pi^{-}$&--&$\mu^{+}\nu_{\mu}$&pK$^{-}$&$p\pi^{-}$&$\Lambda\pi^{+}$&p$\pi^{0}$&$\Lambda\gamma$&$\Xi^{-}\pi^{+}$&$\Lambda\pi^{-}$\\
-%\hline
-Branching Ratio (\%)&$\sim100$&--&$\sim66.7$&--&$\sim63.54$&$\sim45$&$\sim63.9$&$\sim87$&$\sim51.6$&$\sim100$&$\sim64$&$\sim99.9$\\
-Q-Value(MeV/$c^{2}$)&154.16&--&262.68&--&--&87.55&37.84&127.55&111.53&76.96&70.92&70.66\\
- \hline
- \hline
-\end{tabular}
-\end{table}
-%\end{center}
+Meson (q$\bar{q}$) 3 $\bigotimes$ $\bar{3}$ =  1 $\bigoplus$ 8 \\
 
-\vspace{6pt}
- \begin{center}
-\begin{table}[!htb] 
-\caption{\label{diff} Difference of mass ($\Delta M$), baryon number ($\Delta B$), strangeness ($\Delta S$) and charge ($\Delta Q$) of the ratios. The values of the slopes needs to be checked!!!!}
-\centering
- \begin{tabular}{lcccccccc}
- 	 		\hline
-\hline
-Particle&$\Delta^{++}$/p & K$^{*}$/K$^{+}$& $\Lambda^{*}/\Lambda$&$\Sigma^{*+}/\Lambda$  &$\Sigma^{*+}/\Sigma^{0}$ &$\Sigma^{0}/\Lambda$ & $\Sigma^{*+}/\Sigma^{+}$ & $\Xi^{*0}/\Xi^{-}$\\
-\hline
-\textit{$\Delta M$ ({\rm MeV}/$c^{2}$)}&293.8&402.25&403.82&267.12&190.16&76.96&193.43&210.49\\
-\textit{$\Delta B$}&0&0&0&0&0&0&0&0\\
-\textit{$\Delta S$}&0&0&0&0&0&0&0&0\\
-\textit{$\Delta Q$}&+1&-1&0&+1&0&+1&0&-1\\
-%\textit{Q-Value ($MeV/c^{2}$)}&154.16&262.68&87.55&87.55&127.55&127.55&76.96&127.55&70.92\\
-\hline
-Slope (\%) per MeV ??????& 0.19 &0.76& 0.98& 0.25 & - & -0.08 &0.37 &0.42\\
- \hline
-\end{tabular}
-\end{table}
-\end{center}
-%\end{landscape}
+Baryon (qqq) 3 $\bigotimes$ 3 $\bigotimes$ 3  =  10$_{S}$ $\bigoplus$ 8$_{M}$ $\bigoplus$ 8$_{M}$ $\bigoplus$ 1$_{A}$ \\
 
-%\newpage	
-\subsubsection{Results}
-\begin{figure}[!htbp]
+For the baryons without $c$ or $b$ qaurk, flavor and spin may be combined in an approximate flavor-spin SU(6), in which the six basic states are d $\uparrow$, d $\downarrow$, $\cdot$ $\cdot$ $\cdot$, s $\downarrow$ ($\uparrow$, $\downarrow$ = spin up, down). Then the baryons belong to the multiplets on the right side of \\
+
+6 $\bigotimes$ 6 $\bigotimes$ 6  =  56$_{S}$ $\bigoplus$ 70$_{M}$ $\bigoplus$ 70$_{M}$ $\bigoplus$ 20$_{A}$ \\
+
+Here, the 56 representation can be decompose in an octet ($J^{P}$ = 1/2$^{+}$) and a decuplet ($J^{P}$ = 3/2$^{+}$), as can be seen in Figure \ref{fig:octet} and Figure \ref{fig:decuplet}.
+
+\begin{figure}[htbp]
 \begin{center}
-        \includegraphics[width=200px]{./Version1/FigChapter3/KStarToK}
-       \includegraphics[width=200px]{./Version1/FigChapter3/RhoToPion}
-        \includegraphics[width=200px]{./Version1/FigChapter3/DeltaToProton}
-		\includegraphics[width=200px]{./Version1/FigChapter3/LambdaStarToLambda}
-		\includegraphics[width=200px]{./Version1/FigChapter3/SigmaRatio}
-		\includegraphics[width=200px]{./Version1/FigChapter3/SigmaStarRatio}
-		\includegraphics[width=200px]{./Version1/FigChapter3/XiStarToXi}
-		\caption{\label{result1} Ratio of baryonic and mesonic resonances over their stable partner as a function of temperature.}
-	\end{center}\hspace{2pc}%
+\includegraphics[width=10.cm]{./Version1/FigChapter3/Octet}
+\caption{ The $J^{P}$ = 1/2$^{+}$ ground state baryon octet}
+\label{fig:octet}
+\end{center}
 \end{figure}
 
-\newpage
-
-\subsubsection{Comparison with data}
-
-\begin{figure}[!htbp]
+\begin{figure}[htbp]
 \begin{center}
-	\includegraphics[width=200px]{./Version1/FigChapter3/Kstar_sqrt_s.pdf}
-	\includegraphics[width=200px]{./Version1/FigChapter3/RhoToPion_sqrt_s.pdf}
-	\caption{\label{result2} Ratio of resonances over their stable partner as a function of $\sqrt{(s)}$.}
-\end{center}\hspace{2pc}%
+\includegraphics[width=10.cm]{./Version1/FigChapter3/Decuplet}
+\caption{ The $J^{P}$ = 3/2$^{+}$ baryon decuplet}
+\label{fig:decuplet}
+\end{center}
+\end{figure}
+
+Among the hadrons, the special family of particles that contain at least one strange quark but not heavier quarks (like charm or bottom), are called hyperons. These are: the $\Lambda$(uds), the triplet $\Sigma^{+}$(uus), $\Sigma^{0}$(uds), $\Sigma^{-}$(dds), the doublet $\Xi^{-}$(dss), $\Xi^{0}$(uss) and the $\Omega$(sss) and the corresponding antiparticles. $\Xi$ and $\Omega$ are the only hyperons containing more than one strange quark, hence they are called multi-strange baryons. 
+Resonances shown in Figure ref{fig:decuplet} having * with its name (e.g. X*$^{\pm}$) are particles with higher mass than the corresponding ground state particle with the same quark content. 
+Different resonances with different lifetimes can probe different stages of the fireball expansion. The lifetime of some short-lived resonances is reported in Table \ref{table:rsnptl}. The ratios between resonances and stable hadrons can be compared for resonances with different lifetimes and provide insights on the role of the re-scattering effect between the two freeze-out phases.
+
+
+\begin{table}[h!]
+%\centering
+\begin{center}
+
+\begin{tabular}{|c|c|c|c|c|c|c|clc|c|c|}
+\hline
+Particle & $\rho$(770) & $\Delta$(1232) &K*(892) & $\Sigma$(1385) &$\Lambda$(1520) & $\Xi$(1530)& $\Phi$(1020)\\
+\hline
+Lifetime[c$\tau$] &  1.3 fm &1.7 fm & 4.0 fm& 5.5 fm& 10.3 fm & 22 fm& 46 fm\\
+\hline
+\end{tabular}
+\caption{Lifetime of hadronic resonances}\label{table:rsnptl}
+\end{center}
+\end{table}
+
+
+
+In the following, a general overview of the role of the strange quark within the QGP studies with heavy-ion collisions is given.
+%First of all, no net strangeness is present in the colliding objects before collision. Indeed, both the nucleons, proton and neutron, contain only u and d quarks among their valence quarks. All the net strangeness present in the final states (particles) is then created during the collision, and therefore the s quark plays an interesting role in the study of particle production.
+And  importance of the measurement of resonance is explained as probe of properties in hadronic phase between the chemical($T_{ch}$) and the kinetic freeze-out($T_{kin}$). 
+
+
+
+\subsection{Strange quark and hyperons}
+  
+The original interest in the strangeness in the context of the QGP comes from an idea by Johann Rafelski and Berndt M$\ddot{u}$ller. In 1982, they suggested a possible signature for the formation of a QGP in a heavy-ion collision \cite{cite:strangeness}. The key argument, at a fixed collision energy, rests on the different production mechanism of the s quark within two different systems:
+\begin{description}
+\item[1. Hadron Gas (HG)], where the degrees of freedom are the hadronic ones, as quark and gluons are confined
+\item[2. QGP], where the degrees of freedom are partonic ones, with quarks and gluons free with respect to each other
+\end{description}
+
+
+The mass of the hadrons is only partly due to the mass of the constituent valence quarks.
+
+ Naively speaking, the quarks ?dress up? due to the strong interaction that keeps them confined. Once they are free, as in a QGP, the quarks recover their bare masses. It was predicted that, if the QGP is formed, an enhancement of the strange quarks should occur, because the production of $s\bar{s}$ pairs becomes easier due to the lower energy needed. When the QGP cools down, these strange quarks eventually recombine into hadrons favoring also an enhancement of the number of strange hadrons. This effect is larger for hadrons with higher strangeness, with the following scaling for the number type: \\
+
+$N_{\Omega} >  N_{\Xi} > N_{\Lambda}$
+
+where $N_{\Omega}$, $N_{\Xi}$, $N_{\Lambda}$ are the number of produced $\Omega$, $\Xi$ and $\Lambda$. A certain enhancement of strange hadrons can occur also in a hadron gas system, but the processes of hadronisation in this case are relatively easy for K and  $\Lambda$. and progressively harder for hadrons with higher strangeness, hence the relation would be: \\
+
+$N_{\Omega} <  N_{\Xi} < N_{\Lambda}$.
+
+The production of multi-strange hadrons with respect to pp - like collisions is considered to be a signature of the formation of the QGP and it was observed at SPS, RHIC and LHC. \cite{cite:strangePbPb}
+
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=12.cm]{./Version1/FigChapter3/MultdNdy}
+\caption{Enhancements in the rapidity range  $\arrowvert y \arrowvert<$0.5 as a function of the mean number of participants  $\langle N_{part}\rangle$, showing LHC (ALICE, full symbols), RHIC and SPS (open symbols) data. Boxes on the dashed line at unity indicate statistical and systematic uncertainties on the pp or p-Be reference. Error bars on the data points represent the corresponding uncertainties for all the heavy-ion measurements and those for p--Pb at the SPS. }
+\label{fig:dNdy}
+\end{center}
 \end{figure}
 
 
+The measured enhancement factors of baryons with increasing strangeness content are reported in Figure \ref{fig:dNdy} as a function of the number of participant nucleons, $\langle N_{part}\rangle$, in comparison with similar measurements at SPS and RHIC. For p--Pb collisions there is no evidence of enhancement. For Pb--Pb collisions the enhancement increases with centrality and the effect is larger for particles with higher strangeness content, up to a factor ?20 for ?s. No hadronic model has reproduced these observations and they can be interpreted as clear signal of QGP state formation. The comparison with results from the previous experiments shows that the relative enhancements decrease with increasing collision energy. An explanation of this behavior is given in terms of a statistical model, with canonical strangeness conservation. In a small system, with small particles multiplicities, quantum numbers conservation laws (such as strangeness) must be applied locally, event-by-event, whereas in a large system, with many degrees of freedom, they can be applied in average, by means of the corresponding chemical potential. The conservation of quantum numbers is known to reduce the phase space available for particle production. This canonical suppression factor decreases with lower energy in the centre of mass of the collisions and could explain the larger enhancement for lower energy systems.
 
-\subsection{UrQMD}
+
+
+
+
+\subsection{Resonance production}
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=12.cm]{./Version1/FigChapter3/Hadronic}
+\caption{Hadronic phase }
+\label{fig:hadronic}
+\end{center}
+\end{figure}
+
+
+Resonances are particles with higher mass than the corresponding ground state particle with the same quark content. Hadronic resonances decay strongly, thus with a short lifetime, $\tau \sim$ few tenths of fm/c. The resonance natural width is given by $\Gamma = \bar{h}$/$\tau$, that is inversely proportional to the lifetime. Broad states with finite $\Gamma$ decay very shortly after being produced and can be measured only by reconstruction of their decay products (or "daughters") in a detector. In heavy-ion collisions, hadronic resonances are produced within the bulk of the expanding medium, where they can decay while still traversing its volume. Decay products may interact with the other particles of the medium (mostly pions at the LHC), resulting in the impossibility of reconstructing the resonance, because the invariant mass of the daughters does not match that of the parent particle. Conversely, resonances may be regenerated as a consequence of pseudo-elastic collisions in the time lapse between the chemical ($T_{ch}$) and the kinetic freeze-out ($T_{kin}$). Re-scattering and regeneration depend on the individual cross section, hence lifetime, of the resonances and affect the measurement of their yield and momentum spectrum. The yield is decreased if the re-scattering dominates, vice versa the regeneration feeds the system with more particles. The two effects may even compensate.
+Different resonances with different lifetimes can probe different stages of the fireball expansion. The ratios between resonances and stable hadrons can be compared for resonances with different lifetimes and provide insights on the role of the re-scattering effect between the two freeze-out phases.
+
+
+\newpage

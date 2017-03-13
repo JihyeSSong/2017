@@ -79,12 +79,6 @@
 \bibitem{cite:sm}
 F.~Halzen and A.~Martin.
 
-\bibitem{cite:gellmann}
-M.~Gell-Mann and Y.~Ne'eman.
-
-\bibitem{cite:strangeness}
-J.~Rafelski and B.~Müller.
-
 \bibitem{Wheaton:2004qb}
 S.~Wheaton, J.~Cleymans, and M.~Hauer, ``{THERMUS: A Thermal model package for
   ROOT},'' \href{http://dx.doi.org/10.1016/j.cpc.2008.08.001}{{\em Comput.
@@ -99,6 +93,37 @@ J.~Cleymans, S.~Kabana, I.~Kraus, H.~Oeschler, K.~Redlich, and N.~Sharma,
   {\bfseries C84} (2011) 054916},
 \href{http://arxiv.org/abs/1105.3719}{{\ttfamily arXiv:1105.3719 [hep-ph]}}.
 %%CITATION = ARXIV:1105.3719;%%.
+
+\bibitem{cite:EPOSa}
+S.~O. T. P. K.~W. H.J.~Drescher, M.~Hladik.
+
+\bibitem{cite:EPOSb}
+T.~P. M. B. K.~M. K.~Werner, Iu.~Karpenko.
+
+\bibitem{cite:EPOSc}
+I.~K. T.~P. K.~Werner, B.~Guiot.
+
+\bibitem{cite:EPOSd}
+K.~Werner.
+
+\bibitem{cite:URQMDa}
+S.~B. et~al.
+
+\bibitem{cite:URQMDb}
+M.~B. et~al.
+
+\bibitem{cite:gellmann}
+M.~Gell-Mann and Y.~Ne'eman.
+
+\bibitem{cite:strangeness}
+J.~Rafelski and B.~Müller.
+
+\bibitem{cite:strangePbPb}
+{\bfseries ALICE} Collaboration, B.~Abelev {\em et~al.}, ``{Multi-strange
+  baryon production at mid-rapidity in Pb--Pb collisions at \snn = 2.76 TeV},''
+  \href{http://dx.doi.org/10.1016/j.physletb.2013.11.048}{{\em Phys. Lett.}
+  {\bfseries B728} (2014) 216--227},
+  \href{http://arxiv.org/abs/1307.5543}{{\ttfamily arXiv:1307.5543 [nucl-ex]}}.
 
 \bibitem{cite:LHC}
 L.~Evans and P.~Bryant.
@@ -211,13 +236,6 @@ R.~Brun, F.~Carminati, and S.~Giani, ``{GEANT detector description and
 R.~Barlow, ``{Systematic Errors: Facts and Fictions},'' {\em {Presented at
   Advanced Statistical Techniques in HEP, Durham, March 2002}} (2002) 333p,
   \href{http://arxiv.org/abs/hep-ex/0207026v1}{{\ttfamily hep-ex/0207026v1}}.
-
-\bibitem{cite:strangePbPb}
-{\bfseries ALICE} Collaboration, B.~Abelev {\em et~al.}, ``{Multi-strange
-  baryon production at mid-rapidity in Pb--Pb collisions at \snn = 2.76 TeV},''
-  \href{http://dx.doi.org/10.1016/j.physletb.2013.11.048}{{\em Phys. Lett.}
-  {\bfseries B728} (2014) 216--227},
-  \href{http://arxiv.org/abs/1307.5543}{{\ttfamily arXiv:1307.5543 [nucl-ex]}}.
 
 \bibitem{cite:trackingeffi}
 {\bfseries ALICE} Collaboration, B.~Abelev {\em et~al.}, ``{Centrality

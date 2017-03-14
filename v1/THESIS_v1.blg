@@ -3,240 +3,80 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: THESIS_v1.aux
 The style file: utphys.bst
 Database file #1: Reference.bib
-You're missing a field name---line 22 of file Reference.bib
- : 
- : %collaboration = "ALICE",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 33 of file Reference.bib
- : 
- : %collaboration = "ALICE",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 44 of file Reference.bib
- : 
- : %collaboration = "ALICE",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 56 of file Reference.bib
- : 
- : %collaboration = "ALICE",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 68 of file Reference.bib
- : 
- : %collaboration = "ALICE",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 80 of file Reference.bib
- : 
- : %collaboration = "ALICE",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 92 of file Reference.bib
- : 
- : %collaboration = "ALICE",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 105 of file Reference.bib
- : 
- : %collaboration = "ALICE",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 116 of file Reference.bib
- : 
- : %collaboration = "ALICE",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 129 of file Reference.bib
- : 
- : %collaboration = "ALICE",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 146 of file Reference.bib
- : 
- : %collaboration = "Particle Data Group",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 156 of file Reference.bib
- : 
- : %author = "L. Evans and P. Bryant",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 168 of file Reference.bib
- : 
- : %author = "Aamodt, K.  and others",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 179 of file Reference.bib
- : 
- : %author = "Aamodt, K.  and others",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 190 of file Reference.bib
- : 
- : %author = "Aamodt, K.  and others",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 201 of file Reference.bib
- : 
- : %author = "Aamodt, K.  and others",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 212 of file Reference.bib
- : 
- : %author = "Aamodt, K.  and others",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 223 of file Reference.bib
- : 
- : %author = "Aamodt, K.  and others",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 251 of file Reference.bib
- : 
- : %volume  = "3",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 281 of file Reference.bib
- : 
- : %author = "Alme, J. et al",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 293 of file Reference.bib
- : 
- : %collaboration = "ALICE",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 307 of file Reference.bib
- : 
- : %collaboration = "ALICE",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 349 of file Reference.bib
- : 
- : %author = "Abelev, B.  and others",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 362 of file Reference.bib
- : 
- : %author = "Abelev, B.  and others",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 376 of file Reference.bib
- : 
- : %collaboration = "ALICE  ",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 390 of file Reference.bib
- : 
- : %collaboration = "ALICE  ",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-Repeated entry---line 703 of file Reference.bib
- : @article{cite:DPMJET
- :                     ,
-I'm skipping whatever remains of this entry
-You're missing a field name---line 724 of file Reference.bib
- : 
- : %      archivePrefix  = "arXiv",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-Repeated entry---line 983 of file Reference.bib
- : @article{Wheaton:2004qb
- :                        ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1374 of file Reference.bib
- : @article{Cleymans:2011pe
- :                         ,
-I'm skipping whatever remains of this entry
 Warning--empty author in cite:LHCfig
-Warning--empty title in cite:LHCfig
-Warning--empty title in cite:sm
+Warning--empty pages in cite:sm
 Too many commas in name 1 of "H.J. Drescher, M. Hladik, S. Ostapchenko, T. Pierog, K. Wener" for entry cite:EPOSa
 while executing---line 2493 of file utphys.bst
 Too many commas in name 1 of "H.J. Drescher, M. Hladik, S. Ostapchenko, T. Pierog, K. Wener" for entry cite:EPOSa
 while executing---line 2493 of file utphys.bst
-Warning--empty title in cite:EPOSa
 Too many commas in name 1 of "K. Werner, Iu. Karpenko, T. Pierog, M. Bleicher, K. Mikhailov." for entry cite:EPOSb
 while executing---line 2493 of file utphys.bst
 Too many commas in name 1 of "K. Werner, Iu. Karpenko, T. Pierog, M. Bleicher, K. Mikhailov." for entry cite:EPOSb
 while executing---line 2493 of file utphys.bst
-Warning--empty title in cite:EPOSb
 Too many commas in name 1 of "K. Werner, B. Guiot, Iu. Karpenko, T. Pierog." for entry cite:EPOSc
 while executing---line 2493 of file utphys.bst
-Warning--empty title in cite:EPOSc
-Warning--empty title in cite:EPOSd
-Warning--empty title in cite:URQMDa
-Warning--empty title in cite:URQMDb
-Warning--empty title in cite:gellmann
-Warning--empty title in cite:strangeness
-Warning--empty title in cite:LHC
+Warning--empty pages in cite:gellmann
 Warning--empty author in cite:proposalALICE
-Warning--empty title in cite:proposalALICE
+Warning--empty pages in cite:proposalALICE
 Warning--empty author in cite:proposalATLAS
-Warning--empty title in cite:proposalATLAS
+Warning--empty pages in cite:proposalATLAS
 Warning--empty author in cite:proposalCMS
-Warning--empty title in cite:proposalCMS
+Warning--empty pages in cite:proposalCMS
 Warning--empty author in cite:proposalLHCb
-Warning--empty title in cite:proposalLHCb
+Warning--empty pages in cite:proposalLHCb
 Warning--empty author in cite:proposalLHCf
-Warning--empty title in cite:proposalLHCf
+Warning--empty pages in cite:proposalLHCf
 Warning--empty author in cite:proposalTOTEM
-Warning--empty title in cite:proposalTOTEM
+Warning--empty pages in cite:proposalTOTEM
 Warning--empty pages in cite:ALICEcoord
 Warning--empty author in cite:V0
-Warning--empty title in cite:V0
-Warning--empty title in cite:glauber
-Warning--empty title in cite:glauber1
+Warning--empty pages in cite:V0
 Warning--empty pages in cite:centralityPbPb
 Warning--empty author in cite:daq
-Warning--empty title in cite:daq
+Warning--empty pages in cite:daq
 Warning--empty author in cite:grid
-Warning--empty title in cite:grid
-Warning--empty title in cite:alien
-Warning--empty title in cite:aliroot
+Warning--empty pages in cite:grid
 Warning--empty pages in cite:GEANT
 Warning--empty pages in cite:trackingeffi
 You've used 53 entries,
             2328 wiz_defined-function locations,
-            838 strings with 10157 characters,
-and the built_in function-call counts, 11662 in all, are:
-= -- 1102
+            935 strings with 12582 characters,
+and the built_in function-call counts, 14543 in all, are:
+= -- 1423
 > -- 329
 < -- 0
 + -- 135
 - -- 82
-* -- 1094
-:= -- 1383
-add.period$ -- 54
+* -- 1473
+:= -- 1612
+add.period$ -- 55
 call.type$ -- 53
-change.case$ -- 29
+change.case$ -- 53
 chr.to.int$ -- 0
-cite$ -- 91
-duplicate$ -- 675
-empty$ -- 1222
+cite$ -- 78
+duplicate$ -- 860
+empty$ -- 1543
 format.name$ -- 82
-if$ -- 3016
+if$ -- 3838
 int.to.chr$ -- 0
 int.to.str$ -- 53
-missing$ -- 188
+missing$ -- 211
 newline$ -- 164
 num.names$ -- 43
-pop$ -- 270
+pop$ -- 251
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 410
+skip$ -- 589
 stack$ -- 0
-substring$ -- 384
-swap$ -- 271
+substring$ -- 603
+swap$ -- 428
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 38
-while$ -- 77
+warning$ -- 25
+while$ -- 94
 width$ -- 55
-write$ -- 361
-(There were 35 error messages)
+write$ -- 410
+(There were 5 error messages)

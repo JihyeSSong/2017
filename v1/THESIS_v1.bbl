@@ -7,7 +7,8 @@
   {\bfseries C38} (2014) 090001}.
 
 \bibitem{cite:LHCfig}
-
+``{TE-EPC-LPC LHC units},''.
+  \url{http://te-epc-lpc.web.cern.ch/te-epc-lpc/machines/lhc/general.stm}.
 
 \bibitem{cite:ITS}
 {\bfseries ALICE} Collaboration, K.~e.~a. Aamodt, ``{Alignment of the ALICE
@@ -77,13 +78,16 @@
   [nucl-ex]}}.
 
 \bibitem{cite:sm}
-F.~Halzen and A.~Martin.
+F.~Halzen and A.~Martin, ``{Quarks and Leptons: an introductory course in
+  modern particle physics},'' \href{http://dx.doi.org/ISBN: 0471887412}{{\em By
+  John Wiley and Sons} (1984) }.
 
 \bibitem{Wheaton:2004qb}
 S.~Wheaton, J.~Cleymans, and M.~Hauer, ``{THERMUS: A Thermal model package for
   ROOT},'' \href{http://dx.doi.org/10.1016/j.cpc.2008.08.001}{{\em Comput.
   Phys. Commun.} {\bfseries 180} (2009) 84--106},
-  \href{http://arxiv.org/abs/hep-ph/0407174}{{\ttfamily hep-ph/0407174}}.
+  \href{http://arxiv.org/abs/hep-ph/0407174}{{\ttfamily arXiv:hep-ph/0407174
+  [hep-ph]}}.
 
 \bibitem{Cleymans:2011pe}
 J.~Cleymans, S.~Kabana, I.~Kraus, H.~Oeschler, K.~Redlich, and N.~Sharma,
@@ -95,28 +99,50 @@ J.~Cleymans, S.~Kabana, I.~Kraus, H.~Oeschler, K.~Redlich, and N.~Sharma,
 %%CITATION = ARXIV:1105.3719;%%.
 
 \bibitem{cite:EPOSa}
-S.~O. T. P. K.~W. H.J.~Drescher, M.~Hladik.
+S.~O. T. P. K.~W. H.J.~Drescher, M.~Hladik, ``{Parton-Based Gribov-Regge
+  Theory},'' {\em Phys. Rept.} {\bfseries 350} (2001) 93--289,
+  \href{http://arxiv.org/abs/hep-ph/0007198}{{\ttfamily hep-ph/0007198}}.
 
 \bibitem{cite:EPOSb}
-T.~P. M. B. K.~M. K.~Werner, Iu.~Karpenko.
+T.~P. M. B. K.~M. K.~Werner, Iu.~Karpenko, ``{Event-by-event simulation of the
+  three-dimensional hydrodynamic evolution from flux tube initial conditions in
+  ultrarelativistic heavy ion collisions},''
+  \href{http://dx.doi.org/10.1103/PhysRevC.82.044904}{{\em Phys. Rev.}
+  {\bfseries C82} (2010) 044904}.
 
 \bibitem{cite:EPOSc}
-I.~K. T.~P. K.~Werner, B.~Guiot.
+I.~K. T.~P. K.~Werner, B.~Guiot, ``{Analyzing radial flow features in p-Pb and
+  p-p collisions at several TeV by studying identified-particle production with
+  the event generator EPOS3},''
+  \href{http://dx.doi.org/10.1103/PhysRevC.89.064903}{{\em Phys. Rev.}
+  {\bfseries C89} (2014) 064903}.
 
 \bibitem{cite:EPOSd}
-K.~Werner.
+K.~Werner., ``{Analyzing radial flow features in p-Pb and p-p collisions at
+  several TeV by studying identified-particle production with the event
+  generator EPOS3},''
+  \href{http://dx.doi.org/10.1103/PhysRevLett.98.152301}{{\em Phys. Rev. Lett.}
+  {\bfseries 98} (2007) 152301}.
 
 \bibitem{cite:URQMDa}
-S.~B. et~al.
+S.~B. et~al., ``{Microscopic Models for Ultrarelativistic Heavy Ion
+  Collisions},'' \href{http://dx.doi.org/10.1016/S0146-6410(98)00058-1}{{\em
+  Prog. Part. Nucl. Phys.} {\bfseries 41} (1998) 255}.
 
 \bibitem{cite:URQMDb}
-M.~B. et~al.
+M.~B. et~al., ``{Relativistic Hadron-Hadron Collisions in the
+  Ultra-Relativistic Quantum Molecular Dynamics Model},''
+  \href{http://dx.doi.org/10.1088/0954-3899/25/9/308}{{\em J. Phys.} {\bfseries
+  G25} (1999) 1859--1896}.
 
 \bibitem{cite:gellmann}
-M.~Gell-Mann and Y.~Ne'eman.
+M.~Gell-Mann and Y.~Ne'eman, ``{The Eightfold Way},''
+  \href{http://dx.doi.org/OCoLC: 593984056}{{\em By W.A. Benjamin} (1964) }.
 
 \bibitem{cite:strangeness}
-J.~Rafelski and B.~Müller.
+J.~Rafelski and B.~Müller, ``{Strangeness Production in the Quark-Gluon
+  Plasma},'' \href{http://dx.doi.org/10.1103/PhysRevLett.48.1066}{{\em Phys.
+  Rev. Lett} {\bfseries 48} (1982) 1066--1069}.
 
 \bibitem{cite:strangePbPb}
 {\bfseries ALICE} Collaboration, B.~Abelev {\em et~al.}, ``{Multi-strange
@@ -126,25 +152,33 @@ J.~Rafelski and B.~Müller.
   \href{http://arxiv.org/abs/1307.5543}{{\ttfamily arXiv:1307.5543 [nucl-ex]}}.
 
 \bibitem{cite:LHC}
-L.~Evans and P.~Bryant.
+L.~Evans and P.~Bryant, ``{LHC Machine},''
+  \href{http://dx.doi.org/10.1088/1748-0221/3/08/S08001}{{\em JINST} {\bfseries
+  3} (2008) S08001}.
 
 \bibitem{cite:proposalALICE}
-
+``{ALICE Technical Proposal},'' \href{http://dx.doi.org/ISBN:
+  9789290830771}{{\em In CERN-LHCC-95-71} (1995) }.
 
 \bibitem{cite:proposalATLAS}
-
+``{ATLAS Technical Proposal},'' \href{http://dx.doi.org/ISBN:
+  9789290830672}{{\em In CERN-LHCC-94-43} (1994) }.
 
 \bibitem{cite:proposalCMS}
-
+``{CMS Technical Proposal},'' \href{http://dx.doi.org/ISBN: 9789290830689}{{\em
+  In CERN-LHCC-94-38} (1994) }.
 
 \bibitem{cite:proposalLHCb}
-
+``{LHCb Technical Proposal},'' \href{http://dx.doi.org/ISBN:
+  9789290831235}{{\em In CERN-LHCC-98-004} (1998) }.
 
 \bibitem{cite:proposalLHCf}
-
+``{Technical Proposal for CERN LHCf Experiment},'' {\em In CERN-LHCC-05-032}
+  (2005) .
 
 \bibitem{cite:proposalTOTEM}
-
+``{Total Cross Section, Elastic Scattering and Diffraction Dissociation at the
+  LHC},'' {\em In CERN-LHCC-99-007} (1999) .
 
 \bibitem{cite:ALICE}
 {\bfseries ALICE} Collaboration, K.~Aamodt {\em et~al.}, ``{The ALICE
@@ -155,7 +189,7 @@ L.~Evans and P.~Bryant.
 \bibitem{cite:ALICEcoord}
 {\bfseries ALICE} Collaboration, L.~B. et~al, ``{Definition of the ALICE
   coordinate system and basic rules for sub-detector components numbering},''
-  {\em In Internal Note ALICE-INT-2003-038} .
+  {\em In Internal Note ALICE-INT-2003-038} (2003) .
 
 \bibitem{cite:TPC}
 {\bfseries ALICE} Collaboration, J.~e.~a. Alme, ``{The ALICE TPC, a large
@@ -165,13 +199,18 @@ L.~Evans and P.~Bryant.
   316--367}.
 
 \bibitem{cite:V0}
-
+``{Technical Design Report on Forward Detectors: FMD, T0 and VZERO},'' {\em In
+  CERN-LHCC-2004-025} (2004) .
 
 \bibitem{cite:glauber}
-R.~Glauber.
+R.~Glauber, ``{Lectures in Theoretical Physics},'' {\em By Interscience
+  Publishers.} {\bfseries 1} (1959) 315.
 
 \bibitem{cite:glauber1}
-A.~S. K.C.~Chung, C.S.~Whang and G.~Pech.
+A.~S. K.C.~Chung, C.S.~Whang and G.~Pech, ``{Transverse and forward energy
+  distributions in untra-relativistic heavy-ion collisions by an absorption
+  model},'' \href{http://dx.doi.org/10.1103/PhysRevC.57.847}{{\em Physics
+  Review} {\bfseries C57} (1998) 847--856}.
 
 \bibitem{cite:centralitypPb}
 {\bfseries ALICE} Collaboration, J.~Adam {\em et~al.}, ``{Centrality dependence
@@ -188,16 +227,25 @@ A.~S. K.C.~Chung, C.S.~Whang and G.~Pech.
   \href{http://arxiv.org/abs/1303.0737}{{\ttfamily arXiv:1303.0737 [nucl-ex]}}.
 
 \bibitem{cite:daq}
-
+``{ALICE Technical Design Report of the Trigger, Data Acquisition, High-Level
+  Trigger, Control system},'' \href{http://dx.doi.org/ISBN: 9789290832171}{{\em
+  In CERN-LHCC-2003-062.} (2003) }.
 
 \bibitem{cite:grid}
-
+``{The Grid - Blueprint for a New Computing Infrastructure},''
+  \href{http://dx.doi.org/ISBN: 1-55860-475-8}{{\em By Morgan Kaufmann
+  Publishers.} (1999) }.
 
 \bibitem{cite:alien}
-e.~a. Bagnasco.~S.
+e.~a. Bagnasco.~S, ``{AliEn: ALICE Environment on the GRID},''
+  \href{http://dx.doi.org/10.1088/1742-6596/119/6/062012}{{\em In Jounal of
+  Physics: Conference Series} {\bfseries 119} (2008) n.062012}.
 
 \bibitem{cite:aliroot}
-R.~Brun and F.~Rademakers.
+R.~Brun and F.~Rademakers, ``{ROOT - An object oriented data analysis
+  framework},'' \href{http://dx.doi.org/10.1016/S0168-9002(97)00048-X}{{\em In
+  Nuclear Instrument and Methods in Physics Research Section} {\bfseries A 389}
+  (1997) 81--86}.
 
 \bibitem{cite:ALICEPerformance}
 {\bfseries ALICE} Collaboration, B.~Abelev {\em et~al.}, ``{Performance of the

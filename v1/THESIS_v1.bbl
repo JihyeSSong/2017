@@ -6,6 +6,11 @@
   \href{http://dx.doi.org/10.1088/1674-1137/38/9/090001}{{\em Chin. Phys.}
   {\bfseries C38} (2014) 090001}.
 
+\bibitem{cite:HI}
+P.~Braun-Munziger, ``{Chemical equilibration and the Hadron-QGP phase
+  transition},'' \href{http://dx.doi.org/10.1016/S0375-9474(00)00492-9}{{\em In
+  Nuclear Physics} {\bfseries A 681} (2001) 119--123}.
+
 \bibitem{cite:LHCfig}
 ``{TE-EPC-LPC LHC units},''.
   \url{http://te-epc-lpc.web.cern.ch/te-epc-lpc/machines/lhc/general.stm}.
@@ -82,21 +87,17 @@ F.~Halzen and A.~Martin, ``{Quarks and Leptons: an introductory course in
   modern particle physics},'' \href{http://dx.doi.org/ISBN: 0471887412}{{\em By
   John Wiley and Sons} (1984) }.
 
+\bibitem{cite:thermal_pbm}
+T.~K. Nayak, ``{Heavy Ions: Results from the Large Hadron Collider},''
+  \href{http://dx.doi.org/10.1007/s12043-012-0373-7}{{\em Pramana} {\bfseries
+  79} (2012) 719--735}.
+
 \bibitem{Wheaton:2004qb}
 S.~Wheaton, J.~Cleymans, and M.~Hauer, ``{THERMUS: A Thermal model package for
   ROOT},'' \href{http://dx.doi.org/10.1016/j.cpc.2008.08.001}{{\em Comput.
   Phys. Commun.} {\bfseries 180} (2009) 84--106},
   \href{http://arxiv.org/abs/hep-ph/0407174}{{\ttfamily arXiv:hep-ph/0407174
   [hep-ph]}}.
-
-\bibitem{Cleymans:2011pe}
-J.~Cleymans, S.~Kabana, I.~Kraus, H.~Oeschler, K.~Redlich, and N.~Sharma,
-  ``{Antimatter production in proton-proton and heavy-ion collisions at
-  ultrarelativistic energies},''
-  \href{http://dx.doi.org/10.1103/PhysRevC.84.054916}{{\em Phys. Rev.}
-  {\bfseries C84} (2011) 054916},
-\href{http://arxiv.org/abs/1105.3719}{{\ttfamily arXiv:1105.3719 [hep-ph]}}.
-%%CITATION = ARXIV:1105.3719;%%.
 
 \bibitem{cite:EPOSa}
 S.~O. T. P. K.~W. H.J.~Drescher, M.~Hladik, ``{Parton-Based Gribov-Regge

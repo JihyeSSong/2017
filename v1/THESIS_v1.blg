@@ -38,45 +38,45 @@ Warning--empty author in cite:grid
 Warning--empty pages in cite:grid
 Warning--empty pages in cite:GEANT
 Warning--empty pages in cite:trackingeffi
-You've used 53 entries,
+You've used 54 entries,
             2328 wiz_defined-function locations,
-            935 strings with 12582 characters,
-and the built_in function-call counts, 14543 in all, are:
-= -- 1423
-> -- 329
+            941 strings with 12566 characters,
+and the built_in function-call counts, 14787 in all, are:
+= -- 1452
+> -- 317
 < -- 0
-+ -- 135
-- -- 82
-* -- 1473
-:= -- 1612
++ -- 132
+- -- 78
+* -- 1483
+:= -- 1636
 add.period$ -- 55
-call.type$ -- 53
-change.case$ -- 53
+call.type$ -- 54
+change.case$ -- 54
 chr.to.int$ -- 0
-cite$ -- 78
-duplicate$ -- 860
-empty$ -- 1543
-format.name$ -- 82
-if$ -- 3838
+cite$ -- 79
+duplicate$ -- 873
+empty$ -- 1580
+format.name$ -- 78
+if$ -- 3908
 int.to.chr$ -- 0
-int.to.str$ -- 53
-missing$ -- 211
-newline$ -- 164
-num.names$ -- 43
-pop$ -- 251
+int.to.str$ -- 54
+missing$ -- 215
+newline$ -- 165
+num.names$ -- 44
+pop$ -- 256
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 589
+skip$ -- 598
 stack$ -- 0
-substring$ -- 603
-swap$ -- 428
+substring$ -- 647
+swap$ -- 434
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 25
-while$ -- 94
-width$ -- 55
-write$ -- 410
+while$ -- 98
+width$ -- 56
+write$ -- 415
 (There were 5 error messages)

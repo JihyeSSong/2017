@@ -3,6 +3,11 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: THESIS_v1.aux
 The style file: utphys.bst
 Database file #1: Reference.bib
+Unbalanced braces---line 35 of file Reference.bib
+ : 
+ : }
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--empty author in cite:LHCfig
 Warning--empty pages in cite:sm
 Too many commas in name 1 of "H.J. Drescher, M. Hladik, S. Ostapchenko, T. Pierog, K. Wener" for entry cite:EPOSa
@@ -38,36 +43,36 @@ Warning--empty author in cite:grid
 Warning--empty pages in cite:grid
 Warning--empty pages in cite:GEANT
 Warning--empty pages in cite:trackingeffi
-You've used 54 entries,
+You've used 55 entries,
             2328 wiz_defined-function locations,
-            941 strings with 12566 characters,
-and the built_in function-call counts, 14787 in all, are:
-= -- 1452
-> -- 317
+            944 strings with 12664 characters,
+and the built_in function-call counts, 14905 in all, are:
+= -- 1464
+> -- 321
 < -- 0
-+ -- 132
-- -- 78
-* -- 1483
-:= -- 1636
-add.period$ -- 55
-call.type$ -- 54
-change.case$ -- 54
++ -- 134
+- -- 79
+* -- 1486
+:= -- 1655
+add.period$ -- 56
+call.type$ -- 55
+change.case$ -- 55
 chr.to.int$ -- 0
-cite$ -- 79
-duplicate$ -- 873
-empty$ -- 1580
-format.name$ -- 78
-if$ -- 3908
+cite$ -- 80
+duplicate$ -- 880
+empty$ -- 1593
+format.name$ -- 79
+if$ -- 3938
 int.to.chr$ -- 0
-int.to.str$ -- 54
-missing$ -- 215
-newline$ -- 165
-num.names$ -- 44
-pop$ -- 256
+int.to.str$ -- 55
+missing$ -- 218
+newline$ -- 168
+num.names$ -- 45
+pop$ -- 261
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 598
+skip$ -- 599
 stack$ -- 0
 substring$ -- 647
 swap$ -- 434
@@ -76,7 +81,7 @@ text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 25
-while$ -- 98
-width$ -- 56
-write$ -- 415
-(There were 5 error messages)
+while$ -- 99
+width$ -- 57
+write$ -- 421
+(There were 6 error messages)

@@ -9,7 +9,7 @@
 \contentsline {subsubsection}{\numberline {2.1.1}Calculations}{21}{subsubsection.2.1.1}
 \contentsline {subsubsection}{\numberline {2.1.2}Results and comparison with data}{23}{subsubsection.2.1.2}
 \contentsline {subsection}{\numberline {2.2}EPOS, UrQMD}{25}{subsection.2.2}
-\contentsline {section}{\numberline {3}Production of resonance with strangeness}{27}{section.3}
+\contentsline {section}{\numberline {3}Production of hyperon resonance}{27}{section.3}
 \contentsline {subsection}{\numberline {3.1}Strange quark and hyperons}{29}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Resonance production}{31}{subsection.3.2}
 \contentsline {section}{\numberline {4}A Large Ion Collider Experiment at the LHC}{33}{section.4}

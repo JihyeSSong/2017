@@ -7,9 +7,9 @@
   {\bfseries C38} (2014) 090001}.
 
 \bibitem{cite:HI}
-P.~Braun-Munziger, ``{Chemical equilibration and the Hadron-QGP phase
-  transition},'' \href{http://dx.doi.org/10.1016/S0375-9474(00)00492-9}{{\em In
-  Nuclear Physics} {\bfseries A 681} (2001) 119--123}.
+K.~R. Ahmed~Tounsi, ``{Strangeness Enhancement and Canonical Suppression},''
+  \href{http://dx.doi.org/10.1016/S0375-9474(00)00492-9}{{\em High Energy
+  Physis} {\bfseries A 681} (2001) 119--123}.
 
 \bibitem{cite:LHCfig}
 ``{TE-EPC-LPC LHC units},''.
@@ -151,6 +151,10 @@ J.~Rafelski and B.~Müller, ``{Strangeness Production in the Quark-Gluon
   \href{http://dx.doi.org/10.1016/j.physletb.2013.11.048}{{\em Phys. Lett.}
   {\bfseries B728} (2014) 216--227},
   \href{http://arxiv.org/abs/1307.5543}{{\ttfamily arXiv:1307.5543 [nucl-ex]}}.
+
+\bibitem{cite:suppression}
+P.~Braun-Munziger, ``{Chemical equilibration and the Hadron-QGP phase
+  transition},''.
 
 \bibitem{cite:LHC}
 L.~Evans and P.~Bryant, ``{LHC Machine},''

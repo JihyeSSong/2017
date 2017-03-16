@@ -15,7 +15,7 @@
 \contentsline {figure}{\numberline {15}{\ignorespaces Track impact parameter resolution in the transverse plane (r$\phi $) vs $\ensuremath {p_{\mathrm {T}}}$for charged particle}}{40}{figure.15}
 \contentsline {figure}{\numberline {16}{\ignorespaces Schematic view of the TPC}}{41}{figure.16}
 \contentsline {figure}{\numberline {17}{\ignorespaces Specific energy loss (d$E$/d$x$) in the TPC vs. particle momentum in Pb--Pb collisions at $\sqrt {s_{\rm NN}}$= 2.76 TeV. The lines show the parametrisations of the expected mean energy loss.}}{42}{figure.17}
-\contentsline {figure}{\numberline {18}{\ignorespaces Correlation between the sum and difference of signal times in V0A and V0C. Three classes of events collisions at (8.3 ns, 14.3 ns), background from Beam 1 at (-14.3 ns, -8.3 ns), and background from Beam 2 at (14.3 ns, 8.3 ns) can be clearly distinguished.}}{44}{figure.18}
+\contentsline {figure}{\numberline {18}{\ignorespaces Correlation between the sum and difference of signal times in V0A and V0C. Three classes of events collisions at (8.3 ns, 14.3 ns), background from Beam 1 at (-14.3 ns, -8.3 ns), and background from Beam 2 at (14.3 ns, 8.3 ns) can be clearly distinguished.}}{43}{figure.18}
 \contentsline {figure}{\numberline {19}{\ignorespaces Distribution of the V0 amplitude (sum of V0A and V0C in top, V0A in bottom). The inset shows a magnified version of the most peripheral region.}}{45}{figure.19}
 \contentsline {figure}{\numberline {20}{\ignorespaces The overall architecture of the ALICE DAQ and the interface to the HLT system.}}{46}{figure.20}
 \contentsline {figure}{\numberline {21}{\ignorespaces Schematic view of the AliRoot framework}}{49}{figure.21}

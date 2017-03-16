@@ -156,6 +156,13 @@ J.~Rafelski and B.~Müller, ``{Strangeness Production in the Quark-Gluon
 P.~Braun-Munziger, ``{Chemical equilibration and the Hadron-QGP phase
   transition},''.
 
+\bibitem{cite:ALICEPerformance}
+{\bfseries ALICE} Collaboration, B.~Abelev {\em et~al.}, ``{Performance of the
+  ALICE Experiment at the CERN LHC},''
+  \href{http://dx.doi.org/10.1142/S0217751X14300440}{{\em Int. J. Mod. Phys.}
+  {\bfseries A29} (2014) 1430044},
+  \href{http://arxiv.org/abs/1402.4476}{{\ttfamily arXiv:1402.4476 [nucl-ex]}}.
+
 \bibitem{cite:LHC}
 L.~Evans and P.~Bryant, ``{LHC Machine},''
   \href{http://dx.doi.org/10.1088/1748-0221/3/08/S08001}{{\em JINST} {\bfseries
@@ -251,13 +258,6 @@ R.~Brun and F.~Rademakers, ``{ROOT - An object oriented data analysis
   framework},'' \href{http://dx.doi.org/10.1016/S0168-9002(97)00048-X}{{\em In
   Nuclear Instrument and Methods in Physics Research Section} {\bfseries A 389}
   (1997) 81--86}.
-
-\bibitem{cite:ALICEPerformance}
-{\bfseries ALICE} Collaboration, B.~Abelev {\em et~al.}, ``{Performance of the
-  ALICE Experiment at the CERN LHC},''
-  \href{http://dx.doi.org/10.1142/S0217751X14300440}{{\em Int. J. Mod. Phys.}
-  {\bfseries A29} (2014) 1430044},
-  \href{http://arxiv.org/abs/1402.4476}{{\ttfamily arXiv:1402.4476 [nucl-ex]}}.
 
 \bibitem{cite:rapidity}
 {\bfseries ALICE} Collaboration, B.~Abelev {\em et~al.}, ``{Pseudorapidity

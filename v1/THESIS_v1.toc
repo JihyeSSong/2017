@@ -16,21 +16,21 @@
 \contentsline {subsection}{\numberline {4.1}The Large Hadron Collider}{33}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}The ALICE project}{36}{subsection.4.2}
 \contentsline {subsubsection}{\numberline {4.2.1}ALICE detector}{36}{subsubsection.4.2.1}
-\contentsline {subsubsection}{\numberline {4.2.2}Data Acquisition (DAQ) and trigger system}{46}{subsubsection.4.2.2}
-\contentsline {subsubsection}{\numberline {4.2.3}ALICE offline software frame work}{48}{subsubsection.4.2.3}
-\contentsline {section}{\numberline {5}Measurement of $\Xi (1530)^{0}$ production in p--Pb and Pb-Pb}{50}{section.5}
-\contentsline {subsection}{\numberline {5.1}$\Xi (1530)^{0}$ -reconstruction}{50}{subsection.5.1}
-\contentsline {subsubsection}{\numberline {5.1.1}Data sample and event selection}{50}{subsubsection.5.1.1}
-\contentsline {subsubsection}{\numberline {5.1.2}Track and topological selection}{54}{subsubsection.5.1.2}
-\contentsline {subsubsection}{\numberline {5.1.3}Particle identification}{57}{subsubsection.5.1.3}
-\contentsline {subsubsection}{\numberline {5.1.4}Signal extraction}{60}{subsubsection.5.1.4}
-\contentsline {subsection}{\numberline {5.2}Efficiency correction}{69}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Corrected $\ensuremath {p_{\mathrm {T}}}$-spectra}{72}{subsection.5.3}
-\contentsline {subsection}{\numberline {5.4}Systematic uncertainties}{74}{subsection.5.4}
-\contentsline {subsection}{\numberline {5.5}$\Xi (1530)^{0}$ \nobreakspace {}transverse momentum spectra}{79}{subsection.5.5}
-\contentsline {section}{\numberline {6}Further results and discussion}{82}{section.6}
-\contentsline {subsection}{\numberline {6.1}Mean transverse momentum}{82}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Particle yield ratios}{86}{subsection.6.2}
-\contentsline {subsubsection}{\numberline {6.2.1}Integrated yield ratios of excited to ground-state hadrons}{86}{subsubsection.6.2.1}
-\contentsline {subsection}{\numberline {6.3}Integrated yield ratios to pion}{89}{subsection.6.3}
-\contentsline {section}{References}{93}{section*.4}
+\contentsline {subsubsection}{\numberline {4.2.2}Data Acquisition (DAQ) and trigger system}{47}{subsubsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.3}ALICE offline software frame work}{49}{subsubsection.4.2.3}
+\contentsline {section}{\numberline {5}Measurement of $\Xi (1530)^{0}$ production in p--Pb and Pb-Pb}{51}{section.5}
+\contentsline {subsection}{\numberline {5.1}$\Xi (1530)^{0}$ -reconstruction}{51}{subsection.5.1}
+\contentsline {subsubsection}{\numberline {5.1.1}Data sample and event selection}{51}{subsubsection.5.1.1}
+\contentsline {subsubsection}{\numberline {5.1.2}Track and topological selection}{55}{subsubsection.5.1.2}
+\contentsline {subsubsection}{\numberline {5.1.3}Particle identification}{58}{subsubsection.5.1.3}
+\contentsline {subsubsection}{\numberline {5.1.4}Signal extraction}{61}{subsubsection.5.1.4}
+\contentsline {subsection}{\numberline {5.2}Efficiency correction}{70}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Corrected $\ensuremath {p_{\mathrm {T}}}$-spectra}{73}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Systematic uncertainties}{75}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.5}$\Xi (1530)^{0}$ \nobreakspace {}transverse momentum spectra}{80}{subsection.5.5}
+\contentsline {section}{\numberline {6}Further results and discussion}{83}{section.6}
+\contentsline {subsection}{\numberline {6.1}Mean transverse momentum}{83}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Particle yield ratios}{87}{subsection.6.2}
+\contentsline {subsubsection}{\numberline {6.2.1}Integrated yield ratios of excited to ground-state hadrons}{87}{subsubsection.6.2.1}
+\contentsline {subsection}{\numberline {6.3}Integrated yield ratios to pion}{90}{subsection.6.3}
+\contentsline {section}{References}{94}{section*.4}

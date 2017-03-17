@@ -27,7 +27,7 @@
 \contentsline {subsection}{\numberline {5.2}Efficiency correction}{70}{subsection.5.2}
 \contentsline {subsection}{\numberline {5.3}Corrected $\ensuremath {p_{\mathrm {T}}}$-spectra}{73}{subsection.5.3}
 \contentsline {subsection}{\numberline {5.4}Systematic uncertainties}{75}{subsection.5.4}
-\contentsline {subsection}{\numberline {5.5}$\Xi (1530)^{0}$ \nobreakspace {}transverse momentum spectra}{80}{subsection.5.5}
+\contentsline {subsection}{\numberline {5.5}$\Xi (1530)^{0}$ transverse momentum spectra}{80}{subsection.5.5}
 \contentsline {section}{\numberline {6}Further results and discussion}{83}{section.6}
 \contentsline {subsection}{\numberline {6.1}Mean transverse momentum}{83}{subsection.6.1}
 \contentsline {subsection}{\numberline {6.2}Particle yield ratios}{87}{subsection.6.2}

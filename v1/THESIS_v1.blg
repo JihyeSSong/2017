@@ -8,6 +8,11 @@ Unbalanced braces---line 35 of file Reference.bib
  : }
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+You're missing a field name---line 200 of file Reference.bib
+ : 
+ : %title = "{Technical Proposal for CERN LHCf Experiment}",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--empty author in cite:LHCfig
 Warning--empty pages in cite:sm
 Too many commas in name 1 of "H.J. Drescher, M. Hladik, S. Ostapchenko, T. Pierog, K. Wener" for entry cite:EPOSa
@@ -21,6 +26,7 @@ while executing---line 2493 of file utphys.bst
 Too many commas in name 1 of "K. Werner, B. Guiot, Iu. Karpenko, T. Pierog." for entry cite:EPOSc
 while executing---line 2493 of file utphys.bst
 Warning--empty pages in cite:gellmann
+Warning--empty pages in cite:LHCinfo
 Warning--empty author in cite:proposalALICE
 Warning--empty pages in cite:proposalALICE
 Warning--empty author in cite:proposalATLAS
@@ -29,8 +35,6 @@ Warning--empty author in cite:proposalCMS
 Warning--empty pages in cite:proposalCMS
 Warning--empty author in cite:proposalLHCb
 Warning--empty pages in cite:proposalLHCb
-Warning--empty author in cite:proposalLHCf
-Warning--empty pages in cite:proposalLHCf
 Warning--empty author in cite:proposalTOTEM
 Warning--empty pages in cite:proposalTOTEM
 Warning--empty pages in cite:ALICEcoord
@@ -45,30 +49,30 @@ Warning--empty pages in cite:GEANT
 Warning--empty pages in cite:trackingeffi
 You've used 55 entries,
             2328 wiz_defined-function locations,
-            944 strings with 12664 characters,
-and the built_in function-call counts, 14905 in all, are:
-= -- 1464
-> -- 321
+            944 strings with 12686 characters,
+and the built_in function-call counts, 14920 in all, are:
+= -- 1465
+> -- 324
 < -- 0
-+ -- 134
-- -- 79
-* -- 1486
-:= -- 1655
++ -- 135
+- -- 80
+* -- 1484
+:= -- 1663
 add.period$ -- 56
 call.type$ -- 55
 change.case$ -- 55
 chr.to.int$ -- 0
-cite$ -- 80
+cite$ -- 79
 duplicate$ -- 880
 empty$ -- 1593
-format.name$ -- 79
-if$ -- 3938
+format.name$ -- 80
+if$ -- 3940
 int.to.chr$ -- 0
 int.to.str$ -- 55
 missing$ -- 218
 newline$ -- 168
-num.names$ -- 45
-pop$ -- 261
+num.names$ -- 46
+pop$ -- 260
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
@@ -80,8 +84,8 @@ text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 25
-while$ -- 99
+warning$ -- 24
+while$ -- 100
 width$ -- 57
-write$ -- 421
-(There were 6 error messages)
+write$ -- 422
+(There were 7 error messages)

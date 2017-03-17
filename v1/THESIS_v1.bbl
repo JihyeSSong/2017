@@ -168,6 +168,10 @@ L.~Evans and P.~Bryant, ``{LHC Machine},''
   \href{http://dx.doi.org/10.1088/1748-0221/3/08/S08001}{{\em JINST} {\bfseries
   3} (2008) S08001}.
 
+\bibitem{cite:LHCinfo}
+C.~S.~I. Service, ``{LHC Design Report Volume I+II+III.},'' {\em In
+  CERN-2004-003-V1(-V2)(-V3)} (2004) .
+
 \bibitem{cite:proposalALICE}
 ``{ALICE Technical Proposal},'' \href{http://dx.doi.org/ISBN:
   9789290830771}{{\em In CERN-LHCC-95-71} (1995) }.
@@ -183,10 +187,6 @@ L.~Evans and P.~Bryant, ``{LHC Machine},''
 \bibitem{cite:proposalLHCb}
 ``{LHCb Technical Proposal},'' \href{http://dx.doi.org/ISBN:
   9789290831235}{{\em In CERN-LHCC-98-004} (1998) }.
-
-\bibitem{cite:proposalLHCf}
-``{Technical Proposal for CERN LHCf Experiment},'' {\em In CERN-LHCC-05-032}
-  (2005) .
 
 \bibitem{cite:proposalTOTEM}
 ``{Total Cross Section, Elastic Scattering and Diffraction Dissociation at the

@@ -33,4 +33,4 @@
 \contentsline {subsection}{\numberline {6.2}Particle yield ratios}{87}{subsection.6.2}
 \contentsline {subsubsection}{\numberline {6.2.1}Integrated yield ratios of excited to ground-state hadrons}{87}{subsubsection.6.2.1}
 \contentsline {subsection}{\numberline {6.3}Integrated yield ratios to pion}{90}{subsection.6.3}
-\contentsline {section}{References}{94}{section*.4}
+\contentsline {section}{References}{93}{section*.4}
